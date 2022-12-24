@@ -1,0 +1,10 @@
+# Shared objects (inc. Windows DLLs)
+*.dll
+
+# Executables
+*.exe
+*.paf.exe
+
+# Portable App Directory
+*Portable/
+PortableApps/
