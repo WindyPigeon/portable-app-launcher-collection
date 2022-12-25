@@ -30,12 +30,18 @@
  ![](https://img.shields.io/badge/-opensource-brightgreen)
  ![](https://img.shields.io/badge/license-GPL_v2_|_GPL_v3-informational)
 
-### Platform
+### Identifier
+ - net.sourceforge.mscore (deprecated after Musescore v2.0)
+ - org.musescore.MuseScore
 
-- Windows 32-bit (discontinued after MuseScore v3.0)
-- Windows 64-bit (MuseScore v3.0 and higher)
-- Linux
-- MacOS
+### Publisher
+ Originally developed by **Werner Schweer** from the Muse Sequencer development team, **and other** developers. Later, MuseScore company (**MuseScore BVBA**) was established to continue the development.
+
+### Platform
+ - Windows 32-bit (discontinued after MuseScore v3.0)
+ - Windows 64-bit (MuseScore v3.0 and higher)
+ - Linux
+ - MacOS
 
 ### Category
  ![](https://img.shields.io/badge/-AudioVideo-informational)
@@ -51,11 +57,12 @@
  ![](https://img.shields.io/badge/-Music-informational)
  ![](https://img.shields.io/badge/-Qt-informational)
 
-
-
 ### License
  - GNU General Public License, version 2 (been used until MuseScore v4.0)
  - GNU General Public License, version 3 (MuseScore v4.0 and higher)
+
+### Website
+ https://musescore.org/
 
 ### Repository
 
