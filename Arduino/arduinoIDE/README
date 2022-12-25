@@ -14,16 +14,10 @@
  ![](https://img.shields.io/badge/version-2.0.0-informational)
  ![](https://img.shields.io/badge/build-passed-success)
 
-## About Arduino (1.X)
- ![](https://img.shields.io/badge/-opensource-brightgreen)
- [![](https://img.shields.io/badge/license-GPL--2.0_license-informational)](https://github.com/arduino/Arduino/blob/master/license.txt)
- ![](https://img.shields.io/badge/platform-linux_|_macos_|_win--32_|_win--64-informational)
+## About Arduino
 
-### Identifier
- cc.arduino.Arduino
-
-### Developer
- Name: **Arduino LLC**
+### Developers
+ Arduino Company (**Arduino LLC** or **Arduino SA**)
 
 ### Categories
  ![](https://img.shields.io/badge/-Development-informational)
@@ -42,7 +36,22 @@
  > Included is an integrated development environment that can be used
  > to develop and upload code to compatible microcontrollers.
 
-### Repository
+### Trademark
+ The word Arduino and all official Arduino logos are trademarks of Arduino.[^1]
+
+ [^1]: https://www.arduino.cc/trademark
+
+## About Arduino (1.X)
+ ![](https://img.shields.io/badge/-opensource-brightgreen)
+ [![](https://img.shields.io/badge/license-GPL--2.0_license-informational)](https://github.com/arduino/Arduino/blob/master/license.txt)
+ ![](https://img.shields.io/badge/platform-linux_|_macos_|_win--32_|_win--64-informational)
+
+### Identifier
+ cc.arduino.Arduino
+
+### Repositories
+ Google Code (change to GitHub after Arduino v1.5): https://code.google.com/archive/p/arduino/
+
  GitHub: https://github.com/arduino/arduino
 
 ## About Arduino IDE (2.X)
@@ -53,8 +62,5 @@
 ### Identifier
  cc.arduino.IDE2
 
-### Developer
- Name: **Arduino SA**
-
-### Repository
-GitHub: https://github.com/arduino/arduino-ide
+### Repositories
+ GitHub: https://github.com/arduino/arduino-ide
