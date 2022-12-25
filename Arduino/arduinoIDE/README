@@ -22,6 +22,7 @@
 ### Categories
  ![](https://img.shields.io/badge/-Development-informational)
  ![](https://img.shields.io/badge/-IDE-informational)
+ ![](https://img.shields.io/badge/-Engineering-informational)
  ![](https://img.shields.io/badge/-Electronics-informational)
 
 ### Summary
@@ -40,6 +41,9 @@
  The word Arduino and all official Arduino logos are trademarks of Arduino.[^1]
 
  [^1]: https://www.arduino.cc/trademark
+
+### Website
+ https://www.arduino.cc/
 
 ## About Arduino (1.X)
  ![](https://img.shields.io/badge/-opensource-brightgreen)
