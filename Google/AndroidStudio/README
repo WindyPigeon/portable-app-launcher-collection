@@ -1,0 +1,23 @@
+# Android Studio Portable
+
+ ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
+
+## About Android Studio
+ ![](https://img.shields.io/badge/-freeware-yellow)
+
+### Identifier
+ - *com.google.android.studio*
+ - Android Studio Preview
+   : *com.google.android.studio-EAP*
+
+### Platform
+ - Linux
+ - Mac
+ - Windows 32-bit and 64-bit
+ - Chrome OS (supported since *Android Studio 3.5 Beta 1*)
+
+### Developers
+ **Google Inc.** and **JetBrains s.r.o**.
+
+### Website
+ https://developer.android.com/studio/
