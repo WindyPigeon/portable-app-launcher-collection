@@ -10,6 +10,12 @@
  - Android Studio Preview
    : *com.google.android.studio-EAP*
 
+### Summary
+ > Integrated development environment for Google's Android platform
+
+### Description
+ > Official Integrated Development Environment (IDE) for developing Android applications. The IDE is based on IntelliJ IDEA, and provides additional features on top of its powerful code editor and developer tools designed to enhance the productivity of the Android application developers.
+
 ### Platform
  - Linux
  - Mac
