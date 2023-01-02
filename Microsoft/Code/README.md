@@ -24,7 +24,7 @@
  - Windows (64-bit and 32-bit)
  - Linux (64-bit and 32-bit)
 
-## Developers
+### Developers
  Microsoft Corporation.
 
 ### Website
