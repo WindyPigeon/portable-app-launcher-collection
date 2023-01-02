@@ -31,19 +31,25 @@
  ![](https://img.shields.io/badge/license-GPL_v2_|_GPL_v3-informational)
 
 ### Identifier
- - net.sourceforge.mscore (deprecated after Musescore v2.0)
- - org.musescore.MuseScore
+ - `net.sourceforge.mscore` (deprecated after Musescore v2.0)
+ - `org.musescore.MuseScore`
 
-### Publisher
+### Sumary
+ > Create, play and print beautiful sheet music
+
+### Description
+ > MuseScore is cross-platform, multi-lingual, open source music notation software. It features an easy to use WYSIWYG editor with audio score playback for results that look and sound beautiful. It supports unlimited staves with up to four voices each, dynamics, articulations, lyrics, chords, lead sheet notation, import/export of MIDI and MusicXML, export to PDF and WAV, plus online score sharing.
+
+### Developers
  Originally developed by **Werner Schweer** from the Muse Sequencer development team, **and other** developers. Later, MuseScore company (**MuseScore BVBA**) was established to continue the development.
 
 ### Platform
- - Windows 32-bit (discontinued after MuseScore v3.0)
+ - Windows 32-bit (discontinued after MuseScore v4.0)
  - Windows 64-bit (MuseScore v3.0 and higher)
  - Linux
  - MacOS
 
-### Category
+### Categories
  ![](https://img.shields.io/badge/-AudioVideo-informational)
  ![](https://img.shields.io/badge/-Audio-informational)
  ![](https://img.shields.io/badge/-Graphics-informational)
@@ -56,6 +62,8 @@
  ![](https://img.shields.io/badge/-Sequencer-informational)
  ![](https://img.shields.io/badge/-Music-informational)
  ![](https://img.shields.io/badge/-Qt-informational)
+
+ ![](https://img.shields.io/badge/-public.app--category.music-informational)
 
 ### License
  - GNU General Public License, version 2 (been used until MuseScore v4.0)
