@@ -114,7 +114,7 @@
  See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to join our development.
 
 ## Welcome to the original app developers and PortableApps.com developers
- Original developers of applications are welcome to use our work to distribute portable versions of their applications.
+ All original developers of applications are welcome to use our work to distribute portable versions of their applications.
 
  PortableApps.com is also very welcome to add our work to your PortableApps.com Directory or Marketplace.
 
