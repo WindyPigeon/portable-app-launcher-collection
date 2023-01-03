@@ -89,6 +89,13 @@
 
  In root of the portable app folder create a ***App*** directory and put the binaries of the app in the ***App*** directory.
 
+> Note
+> ----
+> Some launchers may depend on certain plugins (e.g. *nsJSON* etc.).
+> This information is documented in the application's corresponding *README* file.
+> To build such a portable launcher, place the plugins in the appropriate directory.
+> The default plugins directory for the launcher is located in *Other\Source\Plugins*
+
 ## Contributing
  There are many ways in which you can participate in this project, for example:
 
@@ -111,5 +118,7 @@
 
  PortableApps.com is also very welcome to add our work to your PortableApps.com Directory or Marketplace.
 
+ As a reminder, our coding style and coding conventions are different from PortableApps.com (for example, we use NSIS scripts to generate default files instead of *DefaultData* directory, *Data* directory is managed in Mac folder structure style instead of Windows style). If you care about this, You can customize it yourself. Some information in the *CHANGELOG* and *README* may be useful to you.
+
 ## License
- Not yet decided.
+ [MIT License](LICENSE) (not including icon resources).
