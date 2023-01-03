@@ -42,6 +42,10 @@
 
       In general, we don't need to restore the *Logs* file before the software is executed, because most software will not open the previous logs. We only need to back up the logs for the user to the *Data* directory.
 
+  - The default storage directory for files created by users such as project files should be in `PortableApps.comDocuments`.
+    - The *Data* directories should not be used to store user project files.
+      This can cause users to delete their project files by mistake when they meant to delete their user data.
+
 ### Registry key
  - Name the saved registry key with the application's *BundleIdentifier* on the Mac.
    - Each saved Registration Entries file should correspond to a Property list file in the Mac *Preference* directory.
