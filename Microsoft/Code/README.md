@@ -17,7 +17,14 @@
  ![](https://img.shields.io/badge/-Text_Editor-informational)
  ![](https://img.shields.io/badge/-Development-informational)
  ![](https://img.shields.io/badge/-IDE-informational)
+
  ![](https://img.shields.io/badge/-public.app--category.developer--tools-informational)
+
+### Summary
+ > Visual Studio Code. Code editing. Redefined.
+
+### Description
+ > Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
 
 ### Platform
  - Mac
@@ -28,7 +35,7 @@
  Microsoft Corporation.
 
 ### Website
- https://code.visualstudio.com/
+ Homepage: https://code.visualstudio.com/
 
 ### Repositories
- GitHub: https://github.com/microsoft/vscode
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/microsoft/vscode)
