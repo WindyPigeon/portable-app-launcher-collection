@@ -1,6 +1,6 @@
-# Important changes of Visual Studio Code
+#  Visual Studio Code NEWS
 
-## Earliest version
+## Earlier version
 
 ![](IconFiles/AppIcon/0.1/appicon_32.png)
 
@@ -23,36 +23,38 @@
     ***xslt***,
     ***yaml*** (YAML document).
 
-## 0.4
+## Noteworthy changes in **version 0.4**
 
 - Append new file extension associations:
   - *ascx*, *asp*, *aspx*, *bash*, *bash_login*, *bash_logout*, *bash_profile*, *bashrc*, *bowerrc*, *cc*, *clj*, *cljs*, *cljx*, *clojure*, *cmd*, *coffee*, *config*, *cpp*, *cshtml*, *csproj*, *csx*, *ctp*, *cxx*, *dockerfile*, *dot*, *dtd*, *editorconfig*, *edn*, *eyaml*, *eyml*, *fs*, *fsi*, *fsscript*, *gemspec*, *gitattribute*, *gitconfig*, *gitignore*, *go*, *h*, *handlebars*, *hbs*, *hh*, *hpp*, *hxx*, *ini*, *jade*, *jav*, *java*, *jscsrc*, *jshintrc*, *jshtm*, *json*, *less*, *lua*, *m*, *makefile*, *markdown*, *mdoc*, *mdown*, *mdtext*, *mdtxt*, *mdwn*, *mkd*, *mkdn*, *ml*, *mli*, *nqp*, *p6*, *php*, *phtml*, *pl*, *pl6*, *pm*, *pm6*, *pod*, *pp*, *profile*, *properties*, *ps1*, *psd1*, *psgi*, *psm1*, *py*, *r*, *rs*, *rb*, *rhistory*, *rprofile*, *rt*, *scss*, *sh*, *sql*, *svgz*, *t*, *vb*, *wxi*, *wxl*, *wxs*, *xaml*, *yml*, *zsh*
 
-## 0.6
+## Noteworthy changes in **version 0.6**
 
 - New application icon.
 
   ![](IconFiles/AppIcon/0.6/appicon_32.png)
 
-## 0.8
+## Noteworthy changes in **version 0.8**
 
 - New document icons.
 
   ![](IconFiles/FileTypeIcons/0.8/AllOtherIcons_32.png)
 
-## 0.9
+## Noteworthy changes in **version 0.9**
 
 - New directory:
   - *extensions* directory:
     - Mac: `~\.vscode\extensions`
     - Windows: `%USERPROFILE%\.vscode\extensions`
 
-## 0.10
+## Noteworthy changes in **version 0.10**
 
 - Support extensions (plug-ins).
 
-## [1.0](https://code.visualstudio.com/updates/vMarch)
- ![](https://img.shields.io/badge/-march_2016-informational)
+## Noteworthy changes in **version 1.0**
+ ![](https://img.shields.io/badge/release_date-march_2016-informational)
+
+  See the [release note](https://code.visualstudio.com/updates/vMarch).
 
 - New application icon.
 
@@ -75,38 +77,49 @@
 
 - With [EULA](EULA/1/EULA.txt).
 
-## [1.1](https://code.visualstudio.com/updates/vApril)
- ![](https://img.shields.io/badge/-april_2016-informational)
+
+## Noteworthy changes in **version 1.1**
+ ![](https://img.shields.io/badge/release_date-april_2016-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/vApril).
 
 - Append new file extension associations:
   - *zlogin*, *zlogout*, *zprofile*, *zshenv*, *zshrc*
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.1.0/build/gulpfile.vscode.js). (Line 109)
 
-## [1.4](https://code.visualstudio.com/updates/July_2016)
- ![](https://img.shields.io/badge/-july_2016-informational)
+## Noteworthy changes in **version 1.4**
+ ![](https://img.shields.io/badge/release_date-july_2016-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/July_2016).
 
 - The *nqp* and *p6* file extensions are no longer associated.
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.4.0/build/gulpfile.vscode.js#L108).
 
-## [1.13](https://code.visualstudio.com/updates/v1_13)
- ![](https://img.shields.io/badge/-may_2017-informational)
+## Noteworthy changes in **version 1.13**
+ ![](https://img.shields.io/badge/release_date-may_2017-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_13)
 
 - Append new file extension associations:
   - *code-workspace*, *xcodeproj*, *xcworkspace*
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.13.0/build/gulpfile.vscode.js#L130).
 
-## [1.15](https://code.visualstudio.com/updates/v1_15)
- ![](https://img.shields.io/badge/-July_2017-informational)
+## Noteworthy changes in **version 1.15**
+ ![](https://img.shields.io/badge/release_date-july_2017-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_15)
 
 - First 64-bit Windows build. [^2]
 
 [^2]: https://code.visualstudio.com/updates/v1_15#_windows-64-bit
 
-## [1.17](https://code.visualstudio.com/updates/v1_17)
- ![](https://img.shields.io/badge/-september_2017-informational)
+## Noteworthy changes in **version 1.17**
+ ![](https://img.shields.io/badge/release_date-september_2017-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_17)
 
 - New application icon.
 
@@ -116,8 +129,10 @@
 
   ![](IconFiles/FileTypeIcons/1.17/AllOtherIcons_32.png)
 
-## [1.18](https://code.visualstudio.com/updates/v1_18)
- ![](https://img.shields.io/badge/-october_2017-informational)
+## Noteworthy changes in **version 1.18**
+ ![](https://img.shields.io/badge/release_date-october_2017-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_18)
 
 - New application icon.
 
@@ -127,16 +142,20 @@
 
   ![](IconFiles/FileTypeIcons/1.18/AllOtherIcons_32.png)
 
-## [1.24](https://code.visualstudio.com/updates/v1_24)
- ![](https://img.shields.io/badge/-may_2018-informational)
+## Noteworthy changes in **version 1.24**
+ ![](https://img.shields.io/badge/release_date-may_2018-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_24)
 
 - Append new file extension associations.
   - *pug*
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.24.0/build/gulpfile.vscode.js#L144).
 
-## [1.25](https://code.visualstudio.com/updates/v1_25)
- ![](https://img.shields.io/badge/-june_2018-informational)
+## Noteworthy changes in **version 1.25**
+ ![](https://img.shields.io/badge/release_date-june_2018-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_25)
 
 - The application can run in portable mode.
   - To run the application in portable mode, create a *data* directory within the VSCode's folder.
@@ -147,8 +166,10 @@
 
 [^3]:https://code.visualstudio.com/updates/v1_25#_language-packs
 
-## [1.28](https://code.visualstudio.com/updates/v1_28)
- ![](https://img.shields.io/badge/-september_2018-informational)
+## Noteworthy changes in **version 1.28**
+ ![](https://img.shields.io/badge/release_date-september_2018-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_28).
 
 - Append new file extension associations.
   - *mjs*
@@ -188,13 +209,17 @@
     ![](IconFiles/FileTypeIcons/1.28/yaml_32.png)
     ![](IconFiles/FileTypeIcons/1.28/AllOtherIcons_32.png)
 
-## [1.32](https://code.visualstudio.com/updates/v1_32)
- ![](https://img.shields.io/badge/-february_2019-informational)
+## Noteworthy changes in **version 1.32**
+ ![](https://img.shields.io/badge/release_date-february_2019-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_32).
 
 - New [EULA](EULA/2/EULA.txt)
 
-## [1.35](https://code.visualstudio.com/updates/v1_35)
- ![](https://img.shields.io/badge/-may_2019-informational)
+## Noteworthy changes in **version 1.35**
+ ![](https://img.shields.io/badge/release_date-may_2019-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_35).
 
 - New application icon.
 
@@ -229,8 +254,10 @@
   ![](IconFiles/FileTypeIcons/1.35/yaml_32.png)
   ![](IconFiles/FileTypeIcons/1.35/AllOtherIcons_32.png)
 
-## [1.40](https://code.visualstudio.com/updates/v1_40)
- ![](https://img.shields.io/badge/-october_2019-informational)
+## Noteworthy changes in **version 1.40**
+ ![](https://img.shields.io/badge/release_date-october_2019-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_40)
 
 - New file:
   - *argv.json*
@@ -243,24 +270,30 @@
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.40.0/src/main.js#L58).
 
-## [1.41](https://code.visualstudio.com/updates/v1_41)
- ![](https://img.shields.io/badge/-november_2019-informational)
+## Noteworthy changes in **version 1.41**
+ ![](https://img.shields.io/badge/release_date-november_2019-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_41)
 
 - Append new file extension associations.
   - Javascript file: *cjs*
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.41.0/build/lib/electron.js#L56).
 
-## [1.46](https://code.visualstudio.com/updates/v1_46)
- ![](https://img.shields.io/badge/-may_2020-informational)
+## Noteworthy changes in **version 1.46**
+ ![](https://img.shields.io/badge/release_date-may_2020-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_46)
 
 - Append new file extension associations.
   - *containerfile*
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.46.0/build/lib/electron.ts#L72)
 
-## [1.50](https://code.visualstudio.com/updates/v1_50)
- ![](https://img.shields.io/badge/-september_2020-informational)
+## Noteworthy changes in **version 1.50**
+ ![](https://img.shields.io/badge/release_date-september_2020-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_50)
 
 - Append new file extension associations.
   - C++ source code: *c++*
@@ -268,16 +301,20 @@
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.50.0/build/lib/electron.ts#L49).
 
-## [1.59](https://code.visualstudio.com/updates/v1_59)
- ![](https://img.shields.io/badge/-july_2021-informational)
+## Noteworthy changes in **version 1.59**
+ ![](https://img.shields.io/badge/release_date-july_2021-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_59).
 
 - Append new file extension associations.
   - Lockfile: *lock*
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.59.0/build/lib/electron.ts#L148)
 
-## [1.60](https://code.visualstudio.com/updates/v1_60)
- ![](https://img.shields.io/badge/-august_2021-informational)
+## Noteworthy changes in **version 1.60**
+ ![](https://img.shields.io/badge/release_date-august_2021-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_60).
 
 - Append new file extension associations.
   - Configuration file: *cfg*
@@ -301,8 +338,10 @@
 
   See the [source code](https://github.com/microsoft/vscode/blob/1.60.0/build/lib/electron.ts#L102-L176)
 
-## [1.71](https://code.visualstudio.com/updates/v1_17)
- ![](https://img.shields.io/badge/-august_2022-informational)
+## Noteworthy changes in **version 1.71**
+ ![](https://img.shields.io/badge/release_date-august_2022-informational)
+
+ See the [release note](https://code.visualstudio.com/updates/v1_17)
 
 - Append new file extension associations.
   - Swift source code: *swift*
