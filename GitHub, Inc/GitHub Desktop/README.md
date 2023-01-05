@@ -7,10 +7,10 @@
  ![](https://img.shields.io/github/license/desktop/desktop)
 
 ### Identifier
- com.github.GitHubClient
+ `com.github.GitHubClient`
 
 ### Categories
- ![](https://img.shields.io/badge/-Development-informational)
+ ![](https://img.shields.io/badge/public.app--category.developer--tools-informational)
 
 ### Platform
  - Windows 64-bit
@@ -22,7 +22,7 @@
  [^1]:https://desktop.github.com/terms/
 
 ### Website
- https://desktop.github.com/
+ Homepage: https://desktop.github.com/
 
 ### Repository
- GitHub: https://github.com/desktop/desktop
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/desktop/desktop)
