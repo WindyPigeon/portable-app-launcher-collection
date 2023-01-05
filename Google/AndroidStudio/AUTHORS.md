@@ -1,3 +1,3 @@
-# Contributors to Androi Studio Portable
+# AUTHORS of Androi Studio Portable
 
 WindyPigeon <windypigeon123@gmail.com>
