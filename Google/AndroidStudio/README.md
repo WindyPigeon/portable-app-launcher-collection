@@ -26,4 +26,4 @@
  **Google Inc.** and **JetBrains s.r.o**.
 
 ### Website
- https://developer.android.com/studio/
+ Homepage: https://developer.android.com/studio/

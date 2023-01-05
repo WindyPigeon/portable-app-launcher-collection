@@ -1,6 +1,68 @@
-# Important changes of Android Studio
+# Android Studio NEWS
 
-## The earliest version
+## Version 2020.3
+- New environment variable.
+  - `ANDROID_USER_HOME`
+    - Determine the root of the *avd* directory and the *debug.keystore* file.
+
+## Version 4.1
+- New application icon.
+
+  ![](IconFiles/AppIcon/4.1/appicon_128.png)
+
+- The locations of the *config* directories, *system* directories, and *log* directories have been moved.
+  - *config* directories:
+    - Mac:
+      `~\Library\Preferences\AndroidStudio<version>` ->
+      `~\Library\Application Support\Google\AndroidStudio<version>`
+    - Windows:
+      `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\config` ->
+      `%APPDATA%\Google\AndroidStudio<version>`
+  - *system* directories:
+    - Mac:
+      `~\Library\Caches\AndroidStudio<version>` ->
+      `~\Library\Caches\Google\AndroidStudio<version>`
+    - Windows:
+      `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\system` ->
+      `%LOCALAPPDATA%\Google\AndroidStudio<version>`
+  - *log* directories:
+    - Mac:
+      `~\Library\Logs\AndroidStudio<version>` ->
+      `~\Library\Logs\Google\AndroidStudio<version>`
+    - Windows:
+      `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\system\log` ->
+      `%LOCALAPPDATA%\Google\AndroidStudio<version>\log`
+
+## Version 3.6
+  - The default project directory started referring to the `defaultProjectDirectory` option in the *ide.general.xml* file instead of the `lastProjectLocation` in the *recentProjects.xml*.
+
+## Version 3.3
+- New files and directory.
+  - New options file *ide.general.xml*
+    - Path:
+      - Mac: 
+        `~\Library\Preferences\AndroidStudio<version>\options\ide.general.xml`
+      - In Windows:
+        `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\config\options\ide.general.xml`
+    - The default directory for project opening is saved in this file.
+      - The `value` attribute of the node whose XPath is:
+        ```
+        /application/component[@name="GeneralSettings"]/option[@name="defaultProjectDirectory"]
+        ```
+      - This directory has not replaced the *lastProjectLocation* directory in *recentProjects.xml*.
+  - A new directory is used to save the user's consent options.
+    - Path:
+      - Mac: `~\Library\Application Support\Google\consentOptions`
+      - Windows: `%APPDATA%\Google\consentOptions`
+    - If the user has accepted the consent, the user's consent options will be saved as an *accepted* file.
+
+## Version 3.0
+
+- Change of registry keys / property list files:
+  - The `/Jet/Brains./User/Id/On/Machine` value of the `HKEY_CURRENT_USER\Software\JavaSoft\Prefs`registry key and `JetBrains.UserIdOnMachine` key in *com.apple.java.util.prefs.plist* property list file is deprecated.
+  - The parent of `user_id_on_machine` registry key value and property list key had been changed from `jetbrains` to `google`
+
+## Earlier version
   ![](IconFiles/AppIcon/2.0/appicon_128.png)
 
 - The default directory of the Android SDK folder can be customized.
@@ -66,68 +128,3 @@
             //plist/dict/key["/com/google/gct/"]/following-sibling::dict/key["login/"]/following-sibling::dict
             ```
           - It is saved as the `login` subkey of the `HKEY_CURRENT_USER\Software\JavaSoft\Prefs\com\google\gct` registry key.
-
-## 3.0
-
-- Change of registry keys / property list files:
-  - The `/Jet/Brains./User/Id/On/Machine` value of the `HKEY_CURRENT_USER\Software\JavaSoft\Prefs`registry key and `JetBrains.UserIdOnMachine` key in *com.apple.java.util.prefs.plist* property list file is deprecated.
-  - The parent of `user_id_on_machine` registry key value and property list key had been changed from `jetbrains` to `google`
-
-## 3.3
-
-- New files and directory.
-  - New options file *ide.general.xml*
-    - Path:
-      - Mac: 
-        `~\Library\Preferences\AndroidStudio<version>\options\ide.general.xml`
-      - In Windows:
-        `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\config\options\ide.general.xml`
-    - The default directory for project opening is saved in this file.
-      - The `value` attribute of the node whose XPath is:
-        ```
-        /application/component[@name="GeneralSettings"]/option[@name="defaultProjectDirectory"]
-        ```
-      - This directory has not replaced the *lastProjectLocation* directory in *recentProjects.xml*.
-  - A new directory is used to save the user's consent options.
-    - Path:
-      - Mac: `~\Library\Application Support\Google\consentOptions`
-      - Windows: `%APPDATA%\Google\consentOptions`
-    - If the user has accepted the consent, the user's consent options will be saved as an *accepted* file.
-
-## 3.6
-  - The default project directory started referring to the `defaultProjectDirectory` option in the *ide.general.xml* file instead of the `lastProjectLocation` in the *recentProjects.xml*.
-
-## 4.1
-
-- New application icon.
-
-  ![](IconFiles/AppIcon/4.1/appicon_128.png)
-
-- The locations of the *config* directories, *system* directories, and *log* directories have been moved.
-  - *config* directories:
-    - Mac:
-      `~\Library\Preferences\AndroidStudio<version>` ->
-      `~\Library\Application Support\Google\AndroidStudio<version>`
-    - Windows:
-      `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\config` ->
-      `%APPDATA%\Google\AndroidStudio<version>`
-  - *system* directories:
-    - Mac:
-      `~\Library\Caches\AndroidStudio<version>` ->
-      `~\Library\Caches\Google\AndroidStudio<version>`
-    - Windows:
-      `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\system` ->
-      `%LOCALAPPDATA%\Google\AndroidStudio<version>`
-  - *log* directories:
-    - Mac:
-      `~\Library\Logs\AndroidStudio<version>` ->
-      `~\Library\Logs\Google\AndroidStudio<version>`
-    - Windows:
-      `<SystemDrive>\Users\<USERNAME>\AndroidStudio<version>\system\log` ->
-      `%LOCALAPPDATA%\Google\AndroidStudio<version>\log`
-
-## 2020.3
-
-- New environment variable.
-  - `ANDROID_USER_HOME`
-    - Determine the root of the *avd* directory and the *debug.keystore* file.
