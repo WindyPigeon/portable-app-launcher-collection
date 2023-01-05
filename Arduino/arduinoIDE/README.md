@@ -1,70 +1,41 @@
-# Arduino IDE Portable
+# Arduino Pro IDE Portable and Arduino IDE 2 Portable
  ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
 
-## Workflow Status
- ![](https://img.shields.io/badge/version-0000-informational)
- ![](https://img.shields.io/badge/build-passed-success)
+## About Arduino Pro IDE
+ ![](https://img.shields.io/badge/-opensource-brightgreen)
 
- ![](https://img.shields.io/badge/version-0020-informational)
- ![](https://img.shields.io/badge/build-passed-success)
+### Identifier
+ - `arduino.PoC` (version 0.0.1)
+ - `arduino.Pro.IDE` (version 0.0.2)
+ - `arduino.ProIDE`
 
- ![](https://img.shields.io/badge/version-1.0.5-informational)
- ![](https://img.shields.io/badge/build-passed-success)
+## About Arduino IDE 2
+ ![](https://img.shields.io/badge/-opensource-brightgreen)
+ [![](https://img.shields.io/github/license/arduino/arduino-ide)](https://github.com/arduino/arduino-ide/blob/main/LICENSE.txt)
 
- ![](https://img.shields.io/badge/version-2.0.0-informational)
- ![](https://img.shields.io/badge/build-passed-success)
-
-## About Arduino
+### Identifier
+ - `cc.arduino.IDE2`
 
 ### Developers
- Arduino Company (**Arduino LLC** or **Arduino SA**)
+ Arduino Company (**Arduino SA**)
 
 ### Categories
- ![](https://img.shields.io/badge/-Development-informational)
- ![](https://img.shields.io/badge/-IDE-informational)
- ![](https://img.shields.io/badge/-Engineering-informational)
- ![](https://img.shields.io/badge/-Electronics-informational)
-
-### Summary
- > Open-source electronics prototyping platform
-
-### Description
- > Arduino is an open-source electronics prototyping platform based
- > on flexible, easy-to-use hardware and software.  It's intended for
- > artists, designers, hobbyists, and anyone interested in creating
- > interactive objects or environments.
- >
- > Included is an integrated development environment that can be used
- > to develop and upload code to compatible microcontrollers.
+ ![](https://img.shields.io/badge/public.app--category.developer--tools-informational)
 
 ### Trademark
  The word Arduino and all official Arduino logos are trademarks of Arduino.[^1]
 
  [^1]: https://www.arduino.cc/trademark
 
+### Contributing
+ - Donate: https://www.arduino.cc/en/donate/
+
 ### Website
- https://www.arduino.cc/
-
-## About Arduino (1.X)
- ![](https://img.shields.io/badge/-opensource-brightgreen)
- [![](https://img.shields.io/badge/license-GPL--2.0_license-informational)](https://github.com/arduino/Arduino/blob/master/license.txt)
- ![](https://img.shields.io/badge/platform-linux_|_macos_|_win--32_|_win--64-informational)
-
-### Identifier
- cc.arduino.Arduino
+ - Home page: https://www.arduino.cc/
 
 ### Repositories
- Google Code (change to GitHub after Arduino v1.5): https://code.google.com/archive/p/arduino/
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/arduino/arduino-ide)
 
- GitHub: https://github.com/arduino/arduino
+ Mirror:
 
-## About Arduino IDE (2.X)
- ![](https://img.shields.io/badge/-opensource-brightgreen)
- [![](https://img.shields.io/github/license/arduino/arduino-ide)](https://github.com/arduino/arduino-ide/blob/main/LICENSE.txt)
- ![](https://img.shields.io/badge/platform-linux_|_macos_|_win--32_|_win--64-informational)
-
-### Identifier
- cc.arduino.IDE2
-
-### Repositories
- GitHub: https://github.com/arduino/arduino-ide
+ [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/arduino-ide.mirror/)
