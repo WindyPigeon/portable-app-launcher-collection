@@ -1,3 +1,3 @@
-# Contributors to Androi Studio Portable
+# Authors of Android Studio Portable.
 
 WindyPigeon <windypigeon123@gmail.com>
