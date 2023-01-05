@@ -1,3 +1,3 @@
-# AUTHORS of Androi Studio Portable
+# Authors of Androi Studio Portable
 
 WindyPigeon <windypigeon123@gmail.com>
