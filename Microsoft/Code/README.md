@@ -39,3 +39,7 @@
 
 ### Repositories
  [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/microsoft/vscode)
+
+ Mirror
+
+ [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/visual-studio-code.mirror/)
