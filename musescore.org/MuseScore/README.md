@@ -74,6 +74,6 @@
 
 ### Repository
 
-Sourceforge (Version 0.X to 2.X): https://sourceforge.net/projects/mscore/
+[![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/mscore/) (Version 0.x to 2.x): 
 
-GitHub (Version 3.0 or higher): https://github.com/musescore/MuseScore
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/musescore/MuseScore)(Version 3.x or higher)
