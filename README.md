@@ -113,12 +113,12 @@
 
  See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to join our development.
 
-## Welcome to the original app developers and PortableApps.com developers
+## Original app developers and PortableApps.com Developers are very welcome
  All original developers of applications are welcome to use our work to distribute portable versions of their applications.
 
  PortableApps.com is also very welcome to add our work to your PortableApps.com Directory or Marketplace.
 
- As a reminder, our coding style and coding conventions are different from PortableApps.com (for example, we use NSIS scripts to generate default files instead of *DefaultData* directory, *Data* directory is managed in Mac folder structure style instead of Windows style). If you care about this, You can customize it yourself. Some information in the *CHANGELOG* and *README* may be useful to you.
+ As a reminder, our coding style and coding conventions are different from PortableApps.com (for example, we use NSIS scripts to generate default files instead of *DefaultData* directory, *Data* directory is managed in Mac folder structure style instead of Windows style). If you care about this, You can customize it yourself. Some information in the *README*, *NEWS* and *CHANGELOG* may be useful to you.
 
 ## License
  [MIT License](LICENSE) (not including icon resources).
