@@ -1,0 +1,687 @@
+﻿UNITY TERMS OF SERVICE
+
+Last updated: June 28, 2016
+
+Unity Technologies ApS (“Unity”, “our” or “we”) provides software to develop games and interactive content (the “Software”), related services (like Unity Analytics (“Developer Services”)), and various Unity communities (like Unity Answers and and the Made with Unity Platform (“Communities”)), provided through or in connection with our website, accessible at unity3d.com (the “Site”). Except to the extent you and Unity have executed a separate agreement governing your use of the Software and/or Developer Services, these terms and conditions exclusively govern your access to and use of the Software, Developer Services, Communities and Site (collectively, the “Services”), and constitute a binding legal agreement between you and Unity (the “Terms”).  These Terms and any Additional Terms are, collectively, the “Agreement.”  
+
+If you accept or agree to the Agreement on behalf of a company, organization or other legal entity (a “Legal Entity”), you represent and warrant that you have the authority to bind that Legal Entity to the Agreement and, in such event, “you” and “your” will refer and apply to that company or other legal entity.
+
+YOU ACKNOWLEDGE AND AGREE THAT, BY ACCESSING, PURCHASING OR USING THE SERVICES, YOU ARE INDICATING THAT YOU HAVE READ, UNDERSTAND AND AGREE TO BE BOUND BY THE AGREEMENT WHETHER OR NOT YOU HAVE CREATED A UNITY ACCOUNT, SUBSCRIBED TO THE UNITY NEWSLETTER OR OTHERWISE REGISTERED WITH THE SITE. IF YOU DO NOT AGREE TO THESE TERMS AND ALL APPLICABLE ADDITIONAL TERMS, THEN YOU HAVE NO RIGHT TO ACCESS OR USE ANY OF THE SERVICES.
+
+1. YOUR USE OF THE SERVICES
+
+1.1 ELIGIBILITY.  The Services are intended solely for persons who are 13 or older. Except as expressly provided otherwise on the Site, the Services are intended for persons 13 and older provided, however, you must be at least 18 to make purchases or submit content to Unity. If you are under the age of 18 or whatever is the age of legal majority where you access the Services, you may purchase access to the Services only with the involvement of your legal guardian, and you represent and warrant that your legal guardian has read, understood and agreed to this Agreement.
+
+1.2 PRIVACY. Your privacy is important to us.  Unity’s Privacy Policy discloses the information we collect and how we use it.  By using any of the the Services, you agree to the terms of the Privacy Policy, so please review the Privacy Policy carefully.  You affirm that you have read and accept the Privacy Policy and its terms.
+
+1.3 ADDITIONAL TERMS.  The Software, Developer Services and Site/Communities are subject to additional terms as shown below (“Additional Terms”).  
+
+Site and Communities
+
+Site and Communities Additional Terms
+
+Software
+
+Unity Personal, Unity Plus and Unity Pro Additional Terms
+
+Unity Certification Materials Additional Terms
+
+Developer Services
+
+Unity Analytics and IAP Additional Terms
+
+Unity Cloud Build Additional Terms
+
+Unity Collaborate Additional Terms
+
+Unity Multiplayer Additional Terms
+
+If there is any conflict between these Terms and the Additional Terms, the Additional Terms govern in relation to the relevant Software, Developer Service or Site/Communities.
+
+Unity Ads is operated by Unity Technologies Finland Oy and has its own terms and conditions for the publishers and advertisers utilizing its services.  
+
+The Unity Asset Store has separate terms and conditions for use of the Asset Store and Asset Store Providers.
+
+1.4 MODIFICATION.  Unity reserves the right, at its sole discretion, to modify, discontinue or terminate the Services.  Unity may also modify the Agreement at any time and without prior notice. If we modify the Agreement, we will post the modification on the Site or otherwise provide you with notice of the modification. We will also update the “Last updated” date at the top of these Terms. By continuing to access or use the Services after we have provided you with notice of a modification, you indicate that you agree to be bound by the modified Terms. If the modified Terms are not acceptable to you, your only recourse is to cease using the Services.
+
+2. YOUR UNITY ACCOUNT
+
+In order to use most Services, you must register for a “Unity Account”.  To create a Unity Account, you will be required to provide certain information and you will establish a username and a password. You agree to provide accurate, current and complete information during the registration process and to update such information to keep it accurate, current and complete. Unity reserves the right to suspend or terminate your account if any information provided during the registration process or thereafter proves to be inaccurate, not current or incomplete. You are responsible for safeguarding your password. You agree not to disclose your password to any third party and to take sole responsibility for any activities or actions under your account, whether or not you have authorized such activities or actions. You will immediately notify Unity of any unauthorized use of your account.
+
+You may cancel your Unity Account at any time by sending an email to support@unity3d.com. Canceling your Unity Account does not relieve you of the obligation to pay any and all remaining amounts owing for your existing Software or Developer Service subscriptions
+
+3. YOUR RESPONSIBILITIES
+
+You represent and warrant that: (a) you have the legal capacity to agree to the Agreement; (b) you are not located in a country embargoed by the United States and that you are not on the U.S. Treasury Department's list of Specially Designated Nationals; and (c) you will comply with all applicable laws and regulations in connection with your use of the Services (including but not limited to applicable Federal Trade Commission rules and COPPA), and in accordance with the terms and conditions specified in the Agreement.
+
+4. INTELLECTUAL PROPERTY RIGHTS
+
+4.1 UNITY’S OWNERSHIP.  The Site, Software, Developer Services, Communities and Website Content (as that term is defined in the Site and Communities Additional Terms) are protected by copyright, trademark, and other laws of the United States and foreign countries. Except as expressly provided in the Agreement, Unity and its licensors exclusively own all right, title and interest in and to the Services, including all associated intellectual property rights. You will not remove, alter or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying the Services.
+
+4.2 YOUR CONTENT.  As between you and Unity, you own all right, title and interest (including, all intellectual property rights) in and to the content you create using the Software, Developer Services and/or any content you post to the Site or in the Communities (collectively, “Your Content”) (other than any components of the Software contained therein or used in connection therewith).
+
+4.3 COPYRIGHT POLICY.  Unity respects copyright law and expects its users to do the same. Unity has adopted and implemented a policy that provides for the termination in appropriate circumstances of registered users or other account holders who repeatedly infringe or are believed to be repeatedly infringing the rights of copyright holders. Please see Unity’s Copyright Policy for further information.
+
+4.4 PROPRIETARY RIGHTS NOTICES.  All trademarks, service marks, logos, trade names and any other proprietary designations of Unity used herein are trademarks or registered trademarks of Unity. Any other trademarks, service marks, logos, trade names and any other proprietary designations are the trademarks or registered trademarks of their respective parties.
+
+5. PAYMENTS
+
+5.1 FEES. Fees for certain Services are set forth on the Site or via the service panel in the Software (the “Service Panel”).  Unity may increase, modify or add new fees and charges for any of the Services from time to time by posting such changes to the Site or within the Services Panel.  Unity will provide you with at least 30 days’ notice of any changes affecting existing Software and/or Developer Services you have already started using, and your continued use of such Software and/or Developer Service after the effective date of any such change means that you accept and agree to such changes, as applicable.
+
+You agree to pay all amounts due for the Services as set forth in the online cart, quote or invoice and in accordance with Unity's payment terms and, if applicable, those of any payment processor.  All fees payable under the Agreement are net amounts and payable in full, without deduction for taxes or duties of any kind.  You will be responsible for, and agree to promptly pay, all taxes or duties of any kind (including but not limited to sales, use and withholding taxes) associated with any purchase or your receipt or use of the Software and/or Developer Services, except for taxes based on Unity’s net income.  In the event that Unity is required to collect any tax for which you are responsible, you will pay such tax directly to Unity or its payment processor. If you pay any withholding taxes that are required to be paid under applicable law, you will promptly furnish Unity with written documentation of all such tax payments, including receipts.  Unity reserves the right to collect any applicable sales, use or value added tax.
+
+All sales are final and there shall be no refunds except as required by law. Further, Unity will not allow changes to your purchase after you complete it. Unity may disable all copies of the Software and/or your access to any Developer Services you have licensed or subscribed to in the event you fail to make all payments when due.
+
+You acknowledge and agree that, in the case of certain Developer Services, any estimates of fees and charges provided to you by Unity (whether based on assumed data consumption or otherwise) are solely estimates based on assumptions and that you are fully responsible for the actual fees and charges that accrue.
+
+5.2 BILLING. If you purchase Services, you will be asked to provide customary billing information such as name, company name, billing address, credit card information and VAT number (for EU residents) either to Unity or its third party payment processor. VAT numbers cannot be added or changed after the purchase is completed. When you provide billing information to Unity or its third party payment processor, you: (i) represent and warrant that you are the authorized user of the card, PIN, key or account associated with such billing information; (ii) agree to pay Unity for all purchases (including all applicable taxes) made via the Site or Services Panel; and (iii) thereby authorize Unity or its third party payment processor to charge your credit card or otherwise process your payment for any purchase, subscription or other fees incurred by you. If you are directed to Unity’s third party payment processor, you may be subject to terms and conditions governing use of that third party’s service and that third party’s privacy policy. Please review such third party’s terms and conditions and privacy policy before using such services.
+
+5.3 SUBSCRIPTION TERMS.  If you purchase a subscription to use the Services, you also agree to the subscription terms set forth on the Site.  Any subscriptions you purchase will remain in effect for the initial subscription period, and thereafter will automatically renew on a month-to-month basis at the then-current list price, unless you renew the subscription for a new subscription term or terminate and cancel it as described on the Site.
+
+6. COMPLIANCE
+
+To ensure compliance with the Agreement, you agree that within ten (10) days from the date of Unity or its authorized representative’s request, you shall provide all pertinent records and information requested in order to verify that your installation and use of any and all Services is in compliance with the Agreement along with a signed verification that all such information is complete and correct. Furthermore, if you are a Legal Entity, Unity or its authorized representatives may upon reasonable prior notice access and inspect your facilities and computer systems to review and verify your compliance with the Agreement.  Any such inspection shall be conducted during regular business hours at your facilities or electronically via remote access. In the event you have impermissibly used Unity Personal (or other products) or have not paid the applicable fees for all Software and/or Developer Services you have deployed or used, you agree to immediately pay for such Software and Developer Services, as well as the reasonable inspection costs, upon Unity’s demand.
+
+7. TERMINATION AND ACCOUNT CANCELLATION  
+
+Unity will have the right in its sole discretion, and without prior notice to you, to suspend or disable your Unity Account or terminate the Agreement and/or your right or ability to access or use any of the Services if: (a) you breach this Agreement; (b) your use of the Services poses a security risk to, or otherwise adversely impacts, the Services or any third party; (c) your use of the Services subjects Unity, our affiliates or any third party to liability; (d) your use of the Services may be fraudulent; (e) you have ceased to operate in the ordinary course, made an assignment for the benefit of creditors or similar disposition of your assets, or become the subject of any bankruptcy, reorganization, liquidation, dissolution or similar proceeding.
+
+In the event of any suspension, disablement or termination, you acknowledge that: (i) Unity will have no further obligation to provide the Services to you; (ii) all rights granted to you under the Agreement will immediately cease; (iii) you may no longer access any of Your Content that was previously submitted via any of the Services or that was related to your Unity Account, and Unity will have no obligation to maintain or forward you Your Content; and (iv) you will remain liable for all fees and charges for all Services ordered.  If Unity suspends, disables or terminates due to your breach, you will also remain liable for any remaining amounts owing for the entire term of your subscriptions. Any suspension, disablement or termination will not affect your obligations to Unity (including, without limitation, proprietary rights and ownership, indemnification and limitation of liability), which by their sense and context are intended to survive such suspension, disablement or termination.
+
+8. DISCLAIMER
+
+THE SERVICES ARE ALL PROVIDED BY UNITY ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITHOUT ANY REPRESENTATIONS, WARRANTIES, COVENANTS OR CONDITIONS OF ANY KIND. UNITY AND ITS LICENSORS DO NOT WARRANT OR REPRESENT THAT THE SERVICES, OR ANY PART THEREOF, WILL OPERATE UNINTERRUPTED OR ERROR-FREE. UNITY AND ITS LICENSORS DISCLAIM ALL WARRANTIES AND REPRESENTATIONS (EXPRESS OR IMPLIED, ORAL OR WRITTEN), WHETHER ALLEGED TO ARISE BY OPERATION OF LAW, BY REASON OF CUSTOM OR USAGE IN THE TRADE, BY COURSE OF DEALING OR OTHERWISE, INCLUDING ANY AND ALL: (I) WARRANTIES OF MERCHANTABILITY; (II) WARRANTIES OF FITNESS OR SUITABILITY FOR ANY PURPOSE (WHETHER OR NOT UNITY KNOWS, HAS REASON TO KNOW, HAS BEEN ADVISED OR IS OTHERWISE AWARE OF ANY SUCH PURPOSE); AND (III) WARRANTIES OF NONINFRINGEMENT OR CONDITION OF TITLE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM UNITY OR ELSEWHERE WILL CREATE ANY WARRANTY OR CONDITION NOT EXPRESSLY STATED IN THE AGREEMENT.
+
+You shall be solely responsible for the accuracy and quality of Your Content, and you understand that you must evaluate and bear all risks associated with your use of the Services, or your reliance on the accuracy, completeness, or usefulness of the Services.
+
+9. INDEMNITY
+
+To the maximum extent permitted by law, you agree to defend, indemnify, and hold Unity, its officers, directors, employees and agents, harmless from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses, including, without limitation, reasonable legal and accounting fees, arising out of or in any way connected with: (i) your access to or use of any of the Services; (ii) Your Content; or (iii) your violation of the Agreement.
+
+10. LIMITATION OF LIABILITY
+
+UNITY AND ITS LICENSORS’ TOTAL AGGREGATE LIABILITY TO YOU FROM ALL CAUSES OF ACTION AND UNDER ALL THEORIES OF LIABILITY RELATED TO THE SERVICES WILL BE LIMITED TO THE GREATER OF: (A) THE AMOUNTS PAID BY YOU IN THE MOST RECENT THREE (3) MONTHS FOR USE OF THE SERVICES; OR (B) ONE HUNDRED U.S. DOLLARS  (US$100). IN NO EVENT WILL UNITY, ITS LICENSORS OR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING OR DELIVERING THE SERVICES BE LIABLE TO YOU FOR ANY SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF DATA, BUSINESS, PROFITS, GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE OR ABILITY TO EXECUTE) OR FOR THE COST OF PROCURING SUBSTITUTE PRODUCTS OR SERVICES ARISING OUT OF OR IN CONNECTION WITH THE AGREEMENT OR THE EXECUTION OR PERFORMANCE OF THE SOFTWARE OR DEVELOPER SERVICES, OR FROM THE USE OR INABILITY TO USE THE SITE, COMMUNITIES OR WEBSITE CONTENT, OR FROM ANY COMMUNICATIONS, INTERACTIONS OR MEETINGS WITH OTHERS AS A RESULT OF YOUR USE OF THE SITE, DEVELOPER SERVICES OR COMMUNITIES, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, AND WHETHER OR NOT UNITY OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE. THE FOREGOING LIMITATIONS WILL SURVIVE AND APPLY EVEN IF ANY LIMITED REMEDY SPECIFIED IN THE AGREEMENT IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
+
+11. CONTROLLING LAW AND JURISDICTION
+
+11.1 CHOICE OF LAW. The Agreement is governed by and construed in accordance with the laws of Denmark, without regard to or application of conflict of laws rules or principles. The United Nations Convention on Contracts for the International Sale of Goods will not apply.
+
+11.2 ARBITRATION.  Except as set forth below in Section 9.3, any dispute arising out of or in connection with the Agreement, including any disputes regarding the existence, validity or termination thereof, shall be settled by arbitration. The parties agree to arbitrate all disputes by simplified arbitration arranged by The Danish Institute of Arbitration in accordance with the rules of simplified arbitration procedure adopted by The Danish Institute of Arbitration and in force at the time when such proceedings are commenced. The parties further agree that any arbitration shall be conducted in their individual capacities only and not as a class action or other representative action, and the parties expressly waive their right to file a class action or seek relief on a class basis. YOU AND UNITY AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. If any court or arbitrator determines that the class action waiver set forth in this paragraph is void or unenforceable for any reason or that an arbitration can proceed on a class basis, then the arbitration provision set forth above shall be deemed null and void in its entirety and the parties shall be deemed to have not agreed to arbitrate disputes.
+
+11.3 ARBITRATION EXCEPTIONS. Notwithstanding the parties’ agreement to resolve all disputes through arbitration, either party may bring an action in court: (a) to enforce its intellectual property rights (“intellectual property rights” means patents, copyrights, moral rights, trademarks, and trade secrets, but not privacy or publicity rights), including without limitation to seek injunctive relief; (b) in cases that do not involve intellectual property rights, to seek temporary, preliminary or other expedited or provisional injunctive relief (but not money damages); or (c) collect fees due pursuant to the Agreement. If you reside (or your principal place of business is) within the United States and the parties have an intellectual property rights dispute, you and Unity agree to submit to the personal and exclusive jurisdiction of and venue in the state and federal courts located in San Francisco County, California. If you reside (or your principal place of business is) outside of the United States and the parties have an intellectual property rights dispute, you and Unity agree to submit to the personal and exclusive jurisdiction of and venue in the courts located in Copenhagen, Denmark. The parties agree to accept service of process by mail, and hereby waive any and all jurisdictional and venue defenses otherwise available.
+
+12. GENERAL
+
+The Agreement is the complete and exclusive understanding and agreement between the parties regarding its subject matter, and supersedes all proposals, understandings or communications between the parties, oral or written, regarding its subject matter, unless you and Unity have executed a separate agreement governing your use of the Software and/or Developer Services, in which case such separate agreement(s) will control in relation to the relevant Software and/or Developer Services. The English language version of the Agreement is legally binding in case of any inconsistencies between the English version and any translations. Any terms or conditions contained in your purchase order or other ordering document that are inconsistent with or in addition to the terms and conditions of the Agreement are hereby rejected by Unity and will be deemed null. You may not assign or transfer the Agreement or any rights granted hereunder, by operation of law or otherwise, without Unity’s prior written consent. Any attempt by you to do so, without such consent, will be void. Unity may assign or transfer the Agreement, at its sole discretion, without restriction. Subject to the foregoing, the Agreement will bind and inure to the benefit of the parties, their successors and permitted assigns.   Except as expressly set forth in the Agreement, the exercise by either party of any of its remedies under the Agreement will be without prejudice to its other remedies under the Agreement or otherwise. Unity will deliver all notices, approvals or other communications required or permitted under the Agreement, including those regarding modifications to the Agreement: (a) via e-mail (in each case to the address that you provide); or (ii) by posting to the Site, the Service Panel or your Unity Account.  For notices made by e-mail, the date of receipt will be deemed the date on which such notice is transmitted. The failure by either party to enforce any provision of the Agreement will not constitute a waiver of future enforcement of that or any other provision. Any waiver, modification or amendment of any provision of the Agreement will be effective only if in writing and signed by authorized representatives of both parties. If any provision of the Agreement is held to be unenforceable or invalid that provision will be enforced to the maximum extent possible and the other provisions will remain in full force and effect.
+
+CONTACTING UNITY
+
+If you have any questions about the Agreement, please e-mail legal@unity3d.com.
+
+UNITY SOFTWARE
+
+ADDITIONAL TERMS
+
+
+
+Last updated: June 28, 2016
+
+Your use of the Unity Software is subject to these Additional Terms (the “Software Terms”), which supplement and incorporate the Unity Terms of Service.  By downloading, installing or using the Unity Software in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Software Terms.  If you do not agree with these Software Terms, you are not authorized to use the Unity Software in any manner.
+
+UNITY PERSONAL AND UNITY PLUS
+
+If you are accepting these Software Terms for use of Unity Personal, you represent and warrant that:
+
+1. if you are accepting the terms on behalf of a Legal Entity which is a Commercial Entity, both (a) its annual gross revenues do not exceed US$100,000, or (b) raised funds (including but not limited to crowdfunding) do not exceed US$100,000, in each case during the most recently completed fiscal year and in any equivalent currency;
+
+2. if you are accepting the terms on behalf of a Legal Entity which is a Non-Commercial Entity, the total annual budget does not exceed US$100,000 (for the entire Non-Commercial Entity (not just a department)) for the most recently completed fiscal year (including in any equivalent currency); and
+
+3. if you are an individual (not acting within a role in a Legal Entity) or if you are accepting the term on behalf of a Legal Entity as a Sole Proprietor, the annual gross revenues from your or its use of the Unity Software do not exceed of US$100,000 during the most recently completed fiscal year (including in any equivalent currency), which does not include any income made which is not related to its use of the Unity Software.
+
+If you are accepting these Software Terms for use of Unity Plus, you agree to pay the applicable subscription fees and you represent and warrant that:
+
+1. if you are accepting the terms on behalf of a Legal Entity which is a Commercial Entity, both (a) its annual gross revenues do not exceed US$200,000, or (b) raised funds (including but not limited to crowdfunding) do not exceed US$200,000, in each case during the most recently completed fiscal year and in any equivalent currency;
+
+2. if you are accepting the terms on behalf of a Legal Entity which is a Non-Commercial Entity, the total annual budget does not exceed US$200,000 (for the entire Non-Commercial Entity (not just a department)) for the most recently completed fiscal year (including in any equivalent currency); and
+
+3. if you are an individual (not acting within a role in a Legal Entity) or if you are accepting the term on behalf of a Legal Entity as a Sole Proprietor, the annual gross revenues from your or its use of the Unity Software do not exceed of US$200,000 during the most recently completed fiscal year (including in any equivalent currency), which does not include any income made which is not related to its use of the Unity Software.
+
+Unity Pro may be used by anyone who pays the applicable subscription fees.
+
+During the term of this Agreement, you expressly acknowledge and agree that if you are a Unity Personal or Unity Plus user and the above thresholds are exceeded, then you may no longer use that tier of the Unity Software, and you must either: (a) purchase Unity Plus (if eligible) or Unity Pro; or (b) destroy all copies of the Unity Software in your possession or control and cease updating Your Project Content. Unity will monitor your compliance with and enforce these restrictions and requirements including but not limited to monitoring the number of downloads of your Your Project Content and any available revenue estimate data.
+
+Unity Personal users may be required to complete a user survey in order to activate the Unity Software.
+
+1. RIGHTS TO USE THE UNITY SOFTWARE.
+
+1. Use Rights. Conditioned upon your compliance with the terms and conditions of this Agreement and payment of all applicable subscription fees, Unity grants you a non-exclusive, non-transferable, royalty-free license during the applicable term: (a) to install and execute the executable form of the Unity Software, solely for internal use by a single person to develop Your Project Content during the applicable term; and (b) if you are using a version of the Unity Software other than an educational version, to distribute the runtime portion of the Unity Software, on a royalty-free basis, solely as embedded or incorporated into Your Project Content and solely to third parties to whom you license or sell Your Project Content pursuant to an agreement that is no less protective of Unity and its licensors as this Agreement. You may not sublicense the rights granted under clause 1.1(a), but you may sublicense the rights granted under 1.1(b) solely to third parties to whom you license or sell Your Project Content to act as distributors thereof pursuant to an agreement no less protective of Unity and its licensors as this Agreement.
+
+2. Copies of Unity Products. You may install the Unity Software on both a primary and a secondary computer or operating system, solely for your convenience, but only for use by a single person. You may make a single copy of the Unity Software solely for backup or archival purposes. For the sake of clarity, you may only use one installation at any given time. We may in our sole discretion authorize you to install the Unity Software on additional computers or operating systems upon deactivation of the Unity Software installed on existing computers.
+
+3. Unity Console Add-on Developer Requirements. Use of the Unity Software with certain console platforms is subject to the Unity Console Add-on Developer Requirements as set forth on the Unity website. The license keys to enable certain Unity Console Add-ons may be distributed by the console manufacturer.
+
+4. Third Party Software. The Unity Software incorporates or is bundled with Third Party Software governed by separate terms, including open source licenses. Such Third Party Software terms are identified in the LICENSE.TXT file bundled with the Unity Software and incorporated into this Agreement by reference. You agree that you have reviewed and accepted those terms and that your use of the Unity Software will be deemed acceptance thereof.
+
+2. RESTRICTIONS.
+
+1. Unity Software Tier Restrictions. You acknowledge and agree that as an express condition to the rights granted under Section 1, you are not permitted to combine or integrate in any manner any of Your Project Content developed with one tier of the Unity Software (e.g., Unity Personal) with any of Your Project Content developed simultaneously with another tier (e.g., Unity Plus or Unity Pro). For the avoidance of doubt: (a) if you are a permitted user of Unity Personal, you may commence a project using only Unity Personal and subsequently upgrade all (but not less than all) of your seats to Unity Plus or Unity Pro, and (b) any user of the Unity Software may use content licensed from third parties regardless of the tier of Unity Software that was used to develop such third party content. You acknowledge and agree that Unity may tag Your Project Content created with Unity Personal and/or Unity Plus with an identifier to prevent such a prohibited combination of Your Project Content.
+
+2. Educational Product Restrictions. If you are using an educational version of the Unity Software, your right to use the Unity Software and distribute the runtime portion of the Unity Software in your Your Project Content is limited to educational, non-commercial purposes.  Unity may include a watermark designating that Your Project Content was created using the education version of the Unity Software.  
+
+3. Embedded Software Restriction. You may not directly or indirectly distribute Your Project Content installed on more than 1,000 electronic devices or systems if such Your Project Content provides the user interface or primary functionality of such electronic device or system without a separate license from Unity. This restriction does not prevent you from distributing Your Project Content pre-installed on personal computers and consumer electronic devices such as mobile phones, tablets, televisions or set top boxes as long as such Your Project Content does not provide the user interface or primary functionality of such device.
+
+4. Streaming and Cloud Gaming Restrictions. You may not directly or indirectly distribute interactive Your Project Content by means of streaming or broadcasting such Your Project Content that is primarily executed on a server and transmitted over the Internet or other network to end user devices without a separate license from Unity. This restriction does not prevent end users from remotely accessing Your Project Content from an end user device that is running on another end user device.
+
+5. Gambling Restriction. You may not distribute or publish any of Your Project Content in connection with any Gambling Activities without a separate license agreement from Unity.
+
+6. General Restrictions. Except as expressly specified in this Agreement, you may not: (a) copy (except in the course of loading or installing) or modify or create derivative works of the Unity Software; (b) distribute, transfer, sublicense, lease, lend, rent or otherwise provide access to the Unity Software to any third party; (c) directly or indirectly make the functionality of the Unity Software available to multiple users or third parties through any means, including but not limited to by uploading the Unity Software to a network or file-sharing service or through any hosting, application services provider, service bureau, software-as-a-service (SaaS) or any other technology or service; (d) use the Unity Software for competitive analysis or to develop a competing product or service; or (e) do anything that could cause or result in the Unity Software (including the runtime portion thereof) being subject to any open source license (or similar license) that requires as a condition of use, modification or distribution that the Unity Software (including the runtime portion thereof) or other software combined or distributed with the Unity Software be: (i) disclosed or distributed in source code form; (ii) licensed for the purpose of making derivative works; or (iii) redistributable at no charge. You acknowledge and agree that portions of the Unity Software, including but not limited to the source code and the specific design and structure of individual modules or programs, are confidential and constitute or contain trade secrets of Unity and its licensors. Accordingly, you agree not to disassemble, decompile or reverse engineer the Unity Software, in whole or in part, or permit or authorize a third party to do so, except to the extent such activities are expressly permitted by this Agreement or by law notwithstanding this prohibition. Notwithstanding the restriction prohibiting decompiling in the immediately preceding sentence, you may decompile the Unity Common Language Infrastructure (CLI) assemblies solely to inspect their functionality for purposes of understanding or improving performance of your Your Project Content or any editor extension to the Unity Software.
+
+3. CONSENT TO DATA COLLECTION; PRIVACY POLICY OBLIGATIONS.
+
+1. You acknowledge and accept Unity's privacy policy. You agree that the Unity Software (including the Unity runtime in Your Project Content) may send data to Unity to: (a) check for Unity Software updates; (b) provide aggregated usage statistics of your use of the Unity Software and the use of Your Project Content by end users; (c) provide optional Developer Services; and (d) validate seats in order to prevent unauthorized use. You acknowledge and agree that Unity may deliver messages and contact you about the Unity Software and other Unity product and service offerings.
+
+2. You agree to distribute Your Project Content with a privacy policy explaining the data you collect through the Your Project Content and how you collect, use, share, and protect it; and to include a disclosure that Unity is your service provider and collects certain data from Your Project Content, along with a link to Unity's privacy policy, which may be updated from time to time.
+
+4. SUPPORT.
+
+You may access the online forums and the Unity Answers knowledge base through the Site. You may also email support@unity3d.com for assistance with your seats. Technical support may be offered by Unity at its sole discretion as described on the Unity website. You acknowledge and agree that Unity has no obligation under this Agreement to provide patches, updates, new releases or new versions of the Unity Software.
+
+5. TERM.
+
+Subscription based seats for Unity Pro and Unity Plus will remain in effect for the initial subscription period, and thereafter such seat will automatically renew on a month to month basis at the then-current list price, unless you renew the subscription for a new subscription term or terminate and cancel it as described on the Site. Paid in full, perpetual seats will remain in effect unless earlier terminated in accordance with the Agreement. Upon termination, you must at Unity’s option either promptly delete and destroy or return to Unity all copies of the Unity Software in your possession or control.
+
+6. U.S. GOVERNMENT RIGHTS.
+
+The Unity Software and computer software documentation (“Documentation”) are “commercial items” as that term is defined in the Federal Acquisition Regulation (“FAR”) 2.101, consisting of “commercial computer software” and “commercial computer software documentation,” respectively, as such terms are used in FAR 12.212 and DFARS 227.7202.If acquired by or on behalf of a civilian agency, the U.S. Government acquires or will acquire the Unity Software and/or Documentation and other technical data subject to the terms of this Agreement as required in 48 C.F.R. 12.212 (Computer Unity Software) and 12.211 (Technical Data) of the FAR and its successors. If acquired by or on behalf of any agency within the Department of Defense (“DOD”), the U.S. Government acquires or will acquire the Unity Software and/or Documentation subject to the terms of this Agreement as specified in 48 C.F.R. 227.7202-3 of the DOD FAR Supplement (“DFARS”) and its successors. This U.S. Government Rights clause is in lieu of, and supersedes, any other FAR, DFARS, or other clause or provision that addresses Government rights in computer software or technical data.
+
+7. EXPORT LAW.
+
+You agree to comply fully with all export laws and regulations to ensure that neither the Unity Software nor any technical data related thereto nor any direct product thereof are exported or re-exported directly or indirectly in violation of, or used for any purposes prohibited by, such laws and regulations.
+
+8. DEFINITIONS.
+
+1. “Commercial Entity” means any company, corporation, limited liability company, general partnership, limited partnership, limited liability partnership, proprietorship, joint venture or other form of business organization, excluding any government, non-profit, educational or academic institution.
+
+2. “Gambling Activities” means any gambling product or service offered in any market or application that is regulated by any local, state or national authority and requires a gambling license.
+
+3. “Legal Entity” means any Commercial Entity, Non-Commercial Entity or Sole Proprietor.
+
+4. “Non-Commercial Entity” means any government, non-profit, educational or academic institution, including but not limited to any primary or secondary school, vocational school, college or university.
+
+5. “Sole Proprietor” means any Commercial Entity that is owned or controlled by a single individual, with no other partners or employees.
+
+6. "Third Party Software" means software developed by third parties that is furnished with or as part of the Unity Software.
+
+7. “Unity Console Add-on Developer Requirements” means the applicable registration process and terms a developer must follow and accept to become a registered developer with the applicable console platform as set forth or linked on the Unity website.
+
+8. “Unity Personal” means Unity Personal Edition, the version of the Unity Software that is available for free to Sole Proprietors and Commercial Entities with annual gross revenues (based on prior fiscal year) of less than US$100,000, and Non-Commercial Entities with a total annual budget (based on prior fiscal year) for the legal entire entity (not department) of less than US$100,000.
+
+9. “Unity Plus” means Unity Plus Edition, a premium version of the Unity Software available to Sole Proprietors and Commercial Entities with annual gross revenues (based on prior fiscal year) of less than US$200,000, and Non-Commercial Entities with a total annual budget (based on prior fiscal year) for the legal entire entity (not department) of less than $200,000.
+
+10. “Unity Pro” means Unity Professional Edition, the premium version of the Unity Software available to commercial entities not eligible to use Unity Personal.
+
+11. “Unity Software” means all 5.x versions and updates of all the Unity software products identified on Unity’s website.
+
+12. “Your Project Content” means games, applications, software or other content that you develop with the Unity Software.
+
+UNITY WEBSITE & COMMUNITIES
+
+ADDITIONAL TERMS
+
+
+
+Last Updated: June 28, 2016
+
+Your use of the Site and/or Communities is subject to these Additional Terms (the “Site Terms”), which supplement and incorporate the Unity Terms of Service. By accessing the Site and/or Communities in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Site Terms.  If you do not agree with these Site Terms, you are not authorized to use the Materials in any manner.
+
+1. RIGHTS TO USE WEBSITE CONTENT.   
+
+Subject to your compliance with the Agreement, Unity grants you a limited, non-exclusive, non-transferable, royalty-free license, without the right to sublicense, to access, view, download and print any Website Content solely for your personal and non-commercial purposes. You will not use, copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display, publicly perform, transmit, stream, broadcast or otherwise exploit the Site, Communities, Website Content or User Content, except as expressly permitted in these Terms. No licenses or rights are granted to you by implication or otherwise under any intellectual property rights owned or controlled by Unity or its licensors, except for the licenses and rights expressly granted in these Terms.
+
+ 
+
+2. USER CONTENT.  
+
+User Content (including Your Site Content) does not include games or other tools that users submit via the Unity Asset Store, or games created with the Unity game development platform. You acknowledge and agree that all information, data, text, or other materials, whether publicly posted or privately transmitted, are the sole responsibility of the person from whom the User Content originated. By making available any User Content through the Site and Communities, you hereby grant to Unity a worldwide, irrevocable, perpetual, non-exclusive, transferable, royalty-free license, with the right to sublicense, to use, copy, adapt, modify, distribute, license, sell, transfer, publicly display, publicly perform, transmit, stream, broadcast, access, view, and otherwise exploit such User Content only on, through or by means of the Site, the Communities and in Unity's social media channels. Unity does not claim any ownership rights in any such User Content and nothing in these Terms will be deemed to restrict any rights that you may have to use and exploit any such User Content. For the purposes of these Terms, Content does not include User Content.
+
+If you elect to post Your Site Content to the Site or in the Communities, you further represent and warrant that: (i) Your Site Content and your use of the Site and Communities will comply with all applicable laws, rules and regulations; (ii) you own or control all rights in Your Site Content or otherwise as necessary to grant the rights and licenses you grant to Unity pursuant to the Agreement; (iii) if applicable, you will properly designate whether or not Your Site Content is directed towards children under the age of 13; (iv) Your Site Content does not include any offensive, defamatory, pornographic hateful, abusive or otherwise objectionable materials; (v) Your Site Content does not infringe or misappropriate the intellectual property or proprietary rights of any person or entity; and (vi) Your Site Content not contain any viruses, malware, spyware, malicious code or other destructive content that could have an adverse impact on any software, data, computer systems, networks, hardware or and devices.
+
+You acknowledge and agree that you are solely responsible for all of Your Site Content and that your user name may be associated with Your Site Content.
+
+3. PRIVATE MESSAGES.  
+
+Certain Communities give users the ability to send each other private messages through the Private Message functionality. While Unity does not normally access or screen private messages, we reserve the right to access private message content in instances of suspected or alleged harassment, offensive behavior, spam or as required by a law enforcement agency. If you use the private message system in a way that violates these Terms, we may ban you from using private messaging or from having access to the Communities.
+
+4. FEEDBACK.  
+
+We welcome and encourage you to provide Feedback. You may submit Feedback via the Site at http://feedback.unity3d.com/. You acknowledge and agree that all Feedback will be the sole and exclusive property of Unity and you hereby irrevocably assign to Unity and agree to irrevocably assign to Unity all of your right, title, and interest in and to all Feedback, including without limitation all worldwide patent, copyright, trade secret, moral and other proprietary or intellectual property rights therein. At Unity’s request and expense, you will execute documents and take such further acts as Unity may reasonably request to assist Unity to acquire, perfect, and maintain its intellectual property rights and other legal protections for the Feedback.
+
+5.  GENERAL PROHIBITIONS.
+
+You agree not to do any of the following:
+
+• Post, upload, publish, submit or transmit any text, graphics, images, software, music, audio, video, information or other material that: (i) infringes, misappropriates or violates a third party’s patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy; (ii) violates, or encourages any conduct that would violate, any applicable law or regulation or would give rise to civil liability; (iii) is fraudulent, false, misleading or deceptive; (iv) is defamatory, obscene, pornographic, vulgar or offensive; (v) promotes discrimination, bigotry, racism, hatred, harassment or harm against any individual or group; (vi) promotes violence or actions that are threatening to any other person; or (vii) promotes illegal or harmful activities or substances.
+
+• Use, display, mirror or frame the Site or any individual element within the Site, Unity’s name, any Unity trademark, logo or other proprietary information, or the layout and design of any page or form contained on a page, without Unity’s express written consent;
+
+• Attempt to probe, scan, or test the vulnerability of any Unity system or network or breach any security or authentication measures;
+
+• Avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by Unity or any of Unity’s providers or any other third party (including another user) to protect the Site, Communities and/or Website Content;
+
+• Access, tamper with, or use non-public areas of the Site, Unity’s computer systems, or the technical delivery systems of Unity’s providers;
+
+• Attempt to access or search the Site, Communities, Website Content or User Content (other than Your Site Content) or download Website Content, User Content (other than Your Site Content) or Software from the Site or Communities through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the software and/or search agents provided by Unity or other generally available third party web browsers;
+
+• Send any unsolicited or unauthorized advertising, promotional materials, email, junk mail, spam, chain letters or other form of solicitation;
+
+• Use any meta tags or other hidden text or metadata utilizing a Unity trademark, logo URL or product name without Unity’s express written consent;
+
+• Use the Site, Communities, Website Content or User Content (other than your own User Content) in any manner not permitted by these Terms;
+
+• Forge any TCP/IP packet header or any part of the header information in any email or newsgroup posting, or in any way use the Site, Communities, Website Content or User Content (other than your own User Content) to send altered, deceptive or false source-identifying information;
+
+• Attempt to decipher, decompile, disassemble or reverse engineer any of the software used to provide the Site, Communities, Website Content or User Content (other than Your Site Content);
+
+• Interfere with, or attempt to interfere with, the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, or mail-bombing the Site;
+
+• Collect or store any personally identifiable information from the Site or Communities from other users of the Site or Communities without their express permission;
+
+• Impersonate or misrepresent your affiliation with any person or entity;
+
+• Violate any applicable law or regulation; or
+
+• Encourage or enable any other individual to do any of the foregoing.
+
+Unity will have the right to investigate and prosecute violations of any of the above to the fullest extent of the law. Unity may involve and cooperate with law enforcement authorities in prosecuting users who violate these Terms.
+
+You acknowledge that Unity has no obligation to monitor your access to or use of the Site, Communities, Website Content or User Content or to review or edit any User Content, but has the right to do so for the purpose of operating the Site and Communities, to ensure your compliance with these Terms, or to comply with applicable law or the order or requirement of a court, administrative agency or other governmental body. You further acknowledge and agree that Unity reserves the right (but does not assume the obligation) in its sole discretion to reject, move, edit or remove any User Content that is contributed to the Communities. Without limiting the foregoing, Unity and its designees shall have the right, at any time and without prior notice, to remove or disable access to any Website Content or User Content that violates these Terms, is otherwise harmful to the Site or Communities, or is otherwise objectionable in Unity's sole discretion. You acknowledge and agree that Unity does not verify, adopt, ratify, or sanction User Content, and you agree that you must evaluate and bear all risks associated with your use of User Content or your reliance on the accuracy, completeness, or usefulness of User Content. You understand that by using the Communities, you may be exposed to User Content that you may consider offensive or objectionable. Furthermore, you acknowledge and agree that if Communities are offered or provided through another entity, including, but limited to, through another entity's website (e.g. Facebook), you agree to abide by that third party's terms of service, and we encourage you to review such terms of service.
+
+6. LINKS.
+
+The Site may contain links to third-party websites or resources. You acknowledge and agree that Unity is not responsible or liable for: (i) the availability or accuracy of such websites or resources; or (ii) the content, products, or services on or available from such websites or resources. Links to such websites or resources do not imply any endorsement by Unity of such websites or resources or the content, products, or services available from such websites or resources. You acknowledge sole responsibility for and assume all risk arising from your use of any such websites or resources.
+
+7. DISCLAIMER.  
+
+UNITY MAKES NO WARRANTY REGARDING THE QUALITY, ACCURACY, TIMELINESS, TRUTHFULNESS, COMPLETENESS OR RELIABILITY OF ANY WEBSITE CONTENT OR USER CONTENT OBTAINED THROUGH THE SITE OR COMMUNITIES
+
+YOU ARE SOLELY RESPONSIBLE FOR ALL OF YOUR COMMUNICATIONS AND INTERACTIONS WITH OTHER USERS OF THE SITE OR COMMUNITIES AND WITH OTHER PERSONS WITH WHOM YOU COMMUNICATE OR INTERACT AS A RESULT OF YOUR USE OF THE SITE OR COMMUNITIES. YOU UNDERSTAND THAT UNITY DOES NOT SCREEN OR INQUIRE INTO THE BACKGROUND OF ANY USERS OF THE SITE OR COMMUNITIES, NOR DOES UNITY MAKE ANY ATTEMPT TO VERIFY THE STATEMENTS OF USERS OF THE SITE OR COMMUNITIES. UNITY MAKES NO REPRESENTATIONS OR WARRANTIES AS TO THE CONDUCT OF USERS OF THE SITE OR COMMUNITIES OR THEIR COMPATIBILITY WITH ANY CURRENT OR FUTURE USERS OF THE SITE OR COMMUNITIES. YOU AGREE TO TAKE REASONABLE PRECAUTIONS IN ALL COMMUNICATIONS AND INTERACTIONS WITH OTHER USERS OF THE SITE OR COMMUNITIES AND WITH OTHER PERSONS WITH WHOM YOU COMMUNICATE OR INTERACT AS A RESULT OF YOUR USE OF THE SITE OR COMMUNITIES, PARTICULARLY IF YOU DECIDE TO MEET OFFLINE OR IN PERSON.
+
+8.  DEFINITIONS.
+
+1. “Feedback” means the feedback, comments and suggestions for improvements to the Site and Communities that you provide to Unity.
+
+2. “User Content” means the text, graphics, images, information or other materials that users post, upload, publish, submit, transmit or otherwise make available through the Site and Communities.  For clarity, User Content includes Your Site Content.
+
+3. “Website Content” means the text, graphics, images, music, audio, video, information or other materials available through the Site and Communities.
+
+4. “Your Site Content” means the materials that you post, upload, publish, submit, transmit or otherwise make available through the Site and Communities.
+
+UNITY CERTIFICATION MATERIALS
+
+ADDITIONAL TERMS
+
+
+
+Last Updated: June 28, 2016
+
+Your use of the Materials (as further described below) is subject to these Additional Terms (the “Certification Terms”), which supplement and incorporate the Unity Terms of Service.  By downloading, installing or using the Materials in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Certification Terms.  If you do not agree with these Certification Terms, you are not authorized to use the Materials in any manner.
+
+1. RIGHTS TO USE THE MATERIALS.
+
+1. Subject to your purchase of access to the Materials, your compliance with the terms and conditions of the Agreement (including the Eligibility Criteria set forth in these Certification Terms), and payment of all applicable fees, Unity grants you a non-exclusive, revocable, non-transferable, non-sublicenseable, royalty-free license for the Term to install the executable form of the Materials under an Order on Authorized Machines for Permitted Uses; provided only that you may distribute those Materials to Authorized Users for Permitted Uses on Authorized Machines. You will be and remain primarily liable to Unity for any unauthorized use of the Materials by Authorized Users.
+
+2. Unity reserves the right entirely at our discretion to terminate your access to Materials without refund or reimbursement and require you to cease using and permanently destroy all Materials, including assets or copies thereof whether in their original form or a modified state, in the event that Unity believes you to be in breach of these Certification Terms.
+
+3. Materials are licensed not sold. Unity and/or its licensors retain ownership of all Materials, including all intellectual property rights therein. Materials are protected by copyright law and international treaties. Unity reserves all rights to Materials not expressly granted to you in these Certification Terms. You will not delete or in any manner alter any Unity, Unity’ licensors, or third-party copyright, trademark or other proprietary rights notices or markings appearing on or in any Materials.
+
+4. Subject to early termination as otherwise provided for in these Certification Terms, your access right(s) to Materials will terminate upon completion of the Term.
+
+5. Except as expressly specified in a separate agreement with Unity, you may not: (a) copy (except in the course of loading or installing) or modify or create derivative works of the Materials; (b) distribute, transfer, sublicense, lease, lend, rent or otherwise provide access to the Materials to any third party; (c) directly or indirectly make the functionality of the Materials available to multiple users or third parties through any means, including but not limited to by uploading the Materials to a network or file-sharing service or through any hosting, application services provider, service bureau, software-as-a-service (SaaS) or any other technology or service; (d) use the Materials for competitive analysis or to develop a competing product or service; or (e) do anything that could cause or result in the Materials being subject to any open source license (or similar license) that requires as a condition of use, modification or distribution that the Materials (including the runtime portion thereof) or other Materials combined or distributed with the Materials be: (i) disclosed or distributed in source code form; (ii) licensed for the purpose of making derivative works; or (iii) redistributable at no charge. You acknowledge and agree that portions of the Materials, including but not limited to the source code and the specific design and structure of individual modules or programs, are confidential and constitute or contain trade secrets of Unity and its licensors. Accordingly, you agree not to disassemble, decompile or reverse engineer the Materials, in whole or in part, or permit or authorize a third party to do so, except to the extent such activities are expressly permitted by these Certification Terms or by law notwithstanding this prohibition. Notwithstanding the restriction prohibiting decompiling in the immediately preceding sentence, you may decompile the Unity Common Language Infrastructure (CLI) assemblies solely to inspect their functionality for purposes of understanding or improving performance of Your Content or any editor extension to the Materials.
+
+6. Subject to your purchase and these Certification Terms, Unity grants you the non-exclusive, revocable, non-transferable, non-sublicenseable, royalty-free license for the Term to use certain Unity Certification Logos and Appellations as may be separately notified to you by Unity appropriate to the purchase you have made and any other Unity authorizations you hold. In this connection, you will abide by any manner of use instructions or guidelines concerning the Unity Certification Logos and Appellations that Unity may provide to you separately, including whether by means of a posting on the Site or in a written communication (including email) to any address provided by you. Further, unless otherwise instructed or agreed in writing by Unity, you will not use the Unity Certification Logos and Appellations in a manner that is inconsistent with the “Unity Brand Usage Guidelines” at the Site or its successor guidelines. Any goodwill arising out of use of Unity Certification Logos and Appellations shall inure to the benefit of Unity, and not you.
+
+7. Unity reserves the right entirely at our discretion to require you to cease using Unity Certification Logos and Appellations, without refund or reimbursement, in the event that Unity believes you to be in breach of these Certification Terms.
+
+8. Neither your use, nor your right to use, Unity Certification Logos and Appellations provides or implies any guarantee whatsoever from Unity of the quality of any work you may perform. Nor is Unity liable in any way for any deficiencies in said work.
+
+9. You understand and agree that (a) you are not an agent of Unity or its licensors, and will not hold yourself out as such; and (b) you are not permitted to make, and will not make, any representations, warranties or guarantees to third parties with respect to Unity or its licensors.
+
+2. TERM.
+
+1. You understand and agree that Unity reserves the right to make changes to and/or discontinue or terminate its “Certification Program” and successor program(s) (collectively, “Certification Program”) at any time without prior notice and at its sole discretion.
+
+2. The rights granted under these Certification Terms upon purchase will remain for the Term, unless earlier terminated in accordance with these Certification Terms. The licenses granted under these Certification Terms will automatically terminate, with or without notice from Unity, if you breach any term of these Certification Terms or fail to pay all fees due. Upon termination, you must at Unity’s option either promptly delete and destroy or return to Unity all copies of the Materials in your possession or control. Unity may also disable the Materials upon expiration of the Term or in the event you breach these Certification Terms.
+
+3. U.S. GOVERNMENT RIGHTS.
+
+The Materials and computer Materials documentation (“Documentation”) are “commercial items” as that term is defined in the Federal Acquisition Regulation (“FAR”) 2.101, consisting of “commercial computer Materials” and “commercial computer Materials documentation,” respectively, as such terms are used in FAR 12.212 and DFARS 227.7202.If acquired by or on behalf of a civilian agency, the U.S. Government acquires or will acquire the Materials and/or Documentation and other technical data subject to the terms of these Certification Terms as required in 48 C.F.R. 12.212 (Computer Materials) and 12.211 (Technical Data) of the FAR and its successors. If acquired by or on behalf of any agency within the Department of Defense (“DOD”), the U.S. Government acquires or will acquire the Materials and/or Documentation subject to the terms of these Certification Terms as specified in 48 C.F.R. 227.7202-3 of the DOD FAR Supplement (“DFARS”) and its successors. This U.S. Government Rights clause is in lieu of, and supersedes, any other FAR, DFARS, or other clause or provision that addresses Government rights in computer Materials or technical data.
+
+4. EXPORT LAW.
+
+You agree to comply fully with all export laws and regulations to ensure that neither the Materials nor any technical data related thereto nor any direct product thereof are exported or re-exported directly or indirectly in violation of, or used for any purposes prohibited by, such laws and regulations.
+
+5. DEFINITIONS.
+
+1. “Eligibility Criteria” means (a) being an individual of at least 13 years of age, and if you are between the ages of 13 and the age of legal majority where you access this site, you represent that your legal guardian has reviewed and agreed to these Certification Terms; (b) not being a citizen or resident of a country subject to any United States embargo; (c) not otherwise prevented from participating under applicable law; and (d) such other criteria as Unity may determine in its sole discretion from time to time.
+
+2. “Authorized Machine” means (a) one (1) computer for each Authorized User (“Terminal”); and/or (b) any local display device physically located at and within an Authorized Site. For greater certainty, no Authorized Machine may cause or permit the display, broadcast, uploading/downloading, copying, transmission, communication, or performance of Materials, in whole or in part, to or at any other machine, device, thing, or place by any means anywhere at anytime.
+
+3. “Authorized Site” means the physical location(s) authorized by Unity for certification-related activities pursuant to a separate agreement with Unity.  
+
+4. “Authorized User” means, for each single quantity of Materials under an Order, either (a) you, the individual who purchased the Order, or, if you accepted these Certification Terms and purchased the Order on behalf of an organization, a single employee of that organization; or (b) any Entitlement Holder.
+
+5. “End User Terms” means the “Unity Certification Program Terms and Conditions” or their successor terms at the Site at any given time.
+
+6. “Entitlement Holder” means one (1) individual to whom you provide Materials you purchased under your Order that have not been accessed by you or any other individual; provided that such Entitlement Holder is not your employee and meets the Eligibility Criteria. As the sole exception to the foregoing, an Entitlement Holder may be a person under 13 years of age ONLY where and for so long as you are a School that can and does authorize the limited collection of personal information from your students as described in the “Unity Educational Products for Schools Privacy Notice” at the Site.
+
+7. “Materials” means examination materials, courseware, and instructional materials in connection with Unity’s Certification Program.
+
+8. “Order” means the transaction concerning your purchase of and access to the Materials.
+
+9. “Permitted Uses” means use of the Materials solely for the educational purposes for which it is intended and, if used on a Terminal, by an Authorized User in accordance with the End User Terms; provided, however, that Permitted Uses does not include proctoring, holding, permitting the taking of by others, or otherwise administering any examination of any kind, including any examination materials included in the Materials, in connection with Unity, Unity’s software, or the use of Unity’s software, including Unity’s Certification Program, unless you have entered into a separate agreement with Unity authorizing any such use. For greater certainty, any Authorized User may take any such examination from any person so authorized by Unity on a Terminal at an Authorized Site.   
+
+10. “School” means any secondary and below school or school district.
+
+11. “Term” means the term indicated in the Order or in the Materials; where no term is specified, however, until terminated pursuant to the End User Terms or termination of Unity’s Certification Program.
+
+12. “Unity Certification Logos and Appellations” means those titles or logos concerning the Program and/or Unity as separately identified by Unity.
+
+UNITY ANALYTICS AND IAP
+
+ADDITIONAL TERMS
+
+ 
+
+Last updated: June 28, 2016
+
+Your use of Unity Analytics and Unity IAP (as further described below and collectively the “Analytics and IAP Services”) is subject to these Additional Terms (the “Analytics and IAP Terms”), which supplement and incorporate the Unity Terms of Service.  
+
+By enabling, accessing, purchasing or utilizing any of the Analytics and IAP Services in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Analytics and IAP Terms.  The Analytics and IAP Services are offered to you conditioned on your agreement to the Analytics and IAP Terms.   If you do not agree with the Analytics and IAP Terms, you are not authorized to use the Analytics and IAP Services in any manner.
+
+1.  UNITY ANALYTICS OFFERINGS.
+
+1. Unity provides a hosted data collection, analysis, export and dashboard reporting platform for player, performance and other data derived from Your Project Content ("Unity Analytics").
+
+2. In order to use and access Unity Analytics for Your Project Content, you will need to enable Unity Analytics within the Services Panel if using version 5.2 or later of the Unity Software or integrate the Analytics SDK into Your Project Content if using a version of the Unity Software that predates version 5.2.  In addition, to enable the collection of certain data items (e.g., specific in-game activities), you will need to implement certain calls or scripts for the Unity Software in the manner provided for in the Documentation.
+
+2. UNITY IAP.  
+
+1. Unity provides a solution that allows you to manage and monitor in-app purchases and related data for Your Project Content across a number of different platforms (“Unity IAP”).
+
+2. Unity IAP is only available for Your Project Content running on version 5.3 and beyond of the Unity Software.  In order to use and access Unity IAP for Your Project Content, you will need to enable Unity IAP within the Services Panel and import the Unity IAP Package into the corresponding Unity Project.  You will also need to implement and configure Unity IAP with Your Project Content and for each applicable platform app store in accordance with the Documentation.  You acknowledge that you automatically enable Unity Analytics and Data collection by Unity Analytics by enabling Unity IAP.
+
+3. USE RIGHTS.  
+
+Subject to your compliance with the terms and conditions of the Agreement, Unity grants to you a limited, worldwide, non-exclusive, non-transferable, non-sublicensable, revocable, royalty-free license for you and your Users to: (i) access and use the Analytics and IAP Services solely in connection with Your Project Content, and not for resale or further distribution; and (ii) use the Analytics and IAP Services Materials in connection with your permitted use of the Analytics and IAP Services.  You acknowledge that any use of the Unity Software requires a separate, valid agreement between you and Unity.
+
+4. RESTRICTIONS.  
+
+You agree not to, directly or indirectly, do any of the following: (i) use any part of the Analytics and IAP Services or Analytics and IAP Services Materials in any manner not provided for in the Documentation or attempt to access any part of the Analytics and IAP Services other than through the normal interface(s) provided by Unity for access to the Analytics and IAP Services; (ii) use any technology to automate the creation of any account or credentials for the Analytics and IAP Services (such as creating accounts in bulk) or to bypass or manipulate any interface for the Analytics and IAP Services; (iii) attempt to probe, scan, test the vulnerability of, interfere with or disrupt any part of the Analytics and IAP Services or any related network or computer system; (iv) adapt, reproduce, modify, copy or create a derivative work or works of any part of the Analytics and IAP Services or Analytics and IAP Services Materials (other than copying the Analytics SDK or importing the Unity IAP Package in connection with your permitted use of the Analytics and IAP Services or as may be permitted under any open source license under which Unity has licensed to you components of any of the Analytics and IAP Services or Service Materials); (v) reverse engineer, disassemble or decompile or otherwise attempt to discover any source code, algorithms or trade secrets underlying the Analytics and IAP Services (except to the extent such restrictions are prohibited by applicable law or as may be permitted under any open source license under which Unity has licensed to you components of any of the Analytics and IAP Services or Service Materials); (vi) use, access or allow access to any of the Analytics and IAP Services or Analytics and IAP Services Materials in any manner to provide service bureau, time-sharing or other similar Analytics and IAP Services; (vii) access or use the Analytics and IAP Services or any of the Analytics and IAP Services Materials in order to develop any product or service using any ideas, features or functionality similar to the Analytics and IAP Services; (viii) attempt to circumvent or disable any technical, security or use restrictions applicable to the Analytics and IAP Services; (ix) sell, resell, rent, sublicense, supply or lease access or use of any part of the Analytics and IAP Services or Analytics and IAP Services Materials; or (x) use the Analytics and IAP Services in a manner that overburdens, or that threatens the integrity, performance or availability of, the Analytics and IAP Services or any related network or computer system.
+
+5. RESPONSIBILITIES.  
+
+You agree to do all of the following: (i) comply with all applicable laws and regulations, including those governing privacy and data protection, in connection with your use of the Analytics and IAP Services and the collection of Data from end-users of Your Project Content; (ii) not to transmit or store any Sensitive Data in connection with the Analytics and IAP Services; (iii) provide an appropriate and legally sufficient notice to the end-users of Your Project Content (e.g., in your privacy policy) regarding, and, to the extent required by applicable laws or regulations, obtain appropriate consents to, the collection, use and sharing of Data as contemplated herein; and (iv) implement the Analytics and IAP Services you enable in accordance with the Documentation.
+
+6. PROPRIETARY RIGHTS.
+
+1. As between you and Unity and subject to the licenses granted to Unity herein, you own all right, title and interest (including, all intellectual property rights) in and to Your Project Content (other than any components of the Unity Software or Analytics and IAP Services Materials contained therein or used in connection therewith) and Data.
+
+2. As between you and Unity, Unity owns all right, title and interest (including, all intellectual property rights) in and to the Analytics and IAP Services, the Analytics and IAP Services Materials and the Unity Software.
+
+7. ENTITLEMENTS; FEES.  
+
+Except as otherwise agreed by Unity in writing, a valid, current Unity Software subscription is required to use the Analytics and IAP Services and the entitlements for the Analytics and IAP Services available to you as part of your subscription will vary according to your subscription level.  Unity reserves the right to change or remove entitlements for the Analytics and IAP Services associated with any Unity Software subscription and to charge fees for all or any part of the Analytics and IAP Services by posting information about such changes or charges to the Site.  
+
+8. DATA LICENSE.   
+
+You grant to Unity a worldwide, nonexclusive, royalty-free, fully paid, irrevocable license to collect, access, transmit, store and use the Data as needed to provide the Analytics and IAP Services to you and in connection with any other lawful business purpose of Unity or its affiliates, both during your use of the Analytics and IAP Services and thereafter.  Unity will not disclose your Data to any third party in a form that would permit the identification of you or Your Project Content or that would identify any individual as a user of any of Your Project Content; provided Unity may disclose Data as required pursuant legal process (of which Unity will endeavor to timely notify you).  Unity will employ commercially reasonable measures to safeguard the collection, transmission and storage of your Data.     
+
+9. COPPA COMPLIANCE.  
+
+You may not use the Analytics and IAP Services in any of Your Project Content “directed to children under the age of 13 in the United States” within the meaning of COPPA unless you designate Your Project Content as such in the manner required by Unity prior to enabling the Analytics and IAP Services in Your Project Content.   You are fully liable for, and will indemnify and hold Unity and its affiliates harmless from and against, all liabilities arising from or relating to COPPA in any of Your Project Content you incorrectly designate.    
+
+10. REPRESENTATIONS.    
+
+You represent and warrant that: (i) you are the legal owner of or have legal control over Your Project Content and all Data for any purposes related to these Analytics and IAP Terms; (ii) you have the legal capacity to agree to these Analytics and IAP Terms; (iii) you are not located in a country embargoed by the United States and that you are not on the U.S. Treasury Department's list of Specially Designated Nationals; (iv) you have all necessary, right, power and authority to enter into these Analytics and IAP Terms, to perform the acts required of you hereunder and to permit Unity to perform the Analytics and IAP Services contemplated under these Analytics and IAP Terms; (v) the use of the Analytics and IAP Services by you and your Users will comply with all applicable laws, rules and regulations; (vi) Unity’s use of your Data will not conflict with or violate any agreement applicable to you or otherwise infringe upon the rights of any third party; and (vii) you and your Users will comply with these Analytics and IAP Terms.
+
+11. SUSPENSION AND TERMINATION.
+
+Any suspension or termination of your Analytics and IAP Services account or these Analytics and IAP Terms will not affect your obligations to Unity or the terms and conditions in the Agreement that by their sense and context are intended to survive such suspension or termination.   Deletion of your Analytics and IAP Services account will not delete your Unity Account or other Unity service accounts.   Furthermore, following any termination of your Analytics and IAP Services account, Unity will have no obligation to maintain any information stored in our database related to your Analytics and IAP Services account (including your Data).
+
+12. FEEDBACK & PUBLIC RELATIONS.
+
+1. You are not required to provide Feedback to us, but in the event you do so, Unity will own the Feedback.   You irrevocably assign to Unity all right, title and interest (including all intellectual property and proprietary rights) in and to any Feedback, which Unity, its affiliates and licensees may exploit without restriction or obligation to you or any other party.
+
+2. You hereby grant to Unity and its affiliates the limited right to use, reproduce and display your company name and the names of Your Project Content, as well as related trademarks, service marks, logos and brand features, in connection with public relations purposes for the Service and identifying you as a customer of Unity in its press releases, marketing materials and websites.
+
+13. DEFINITIONS.
+
+1. “Analytics SDK” as used in the Analytics and IAP Terms  means the software development kit provided by Unity for the implementation of Unity Analytics in specified versions of the Unity Software.
+
+2. “COPPA” as used in the Analytics and IAP Terms  means the Children’s Online Privacy Protection Act.
+
+3. “Data” as used in the Analytics and IAP Terms  means all information and data collected, transmitted or derived from Your Project Content in connection with the Analytics and IAP Services or provided by you via your use of the Analytics and IAP Services (including, any in-app purchase data collected, transmitted or derived in connection with your use of the Analytics and IAP Services).
+
+4. “Documentation” means the instructions, requirements, guidelines and other documentation for the Service made available or otherwise provided by Unity (as such instructions, requirements, guidelines and documentation may be modified and updated from time to time by Unity).
+
+5. “Feedback” as used in the Analytics and IAP Terms  means any suggestions or other feedback you provide to Unity or its affiliates regarding improvements to or additional features or functionality for the Analytics and IAP Services, including, suggestions and feedback you post to the Site or other forums or properties owned or maintained by Unity.
+
+6. “Sensitive Data” as used in the Analytics and IAP Terms  means information in any of the following categories: (i) passwords or authentication/authorization credentials of any kind, (ii) financial account information of any kind (including, credit card numbers), (iii) passport, driver’s license, social security or any other government issued identification numbers, (iv) health data (v) personally identifiable information knowingly collected from children under the age of 13, and (vi) any information under strict regulatory or contractual handling requirements (e.g., PCI, HIPAA and special data security laws).
+
+7. “Analytics and IAP Services Materials” as used in the Analytics and IAP Terms  means the Documentation, the Analytics SDK and the Unity IAP Package.
+
+8. “Unity IAP Package” as used in the Analytics and IAP Terms  means the IAP package made available by Unity in connection with Unity IAP.
+
+9. “Users” as used in the Analytics and IAP Terms  means you, your employees, your contractors and any others you affiliate with any of Your Project Content or permit access to any of the Analytics and IAP Services in connection with Your Project Content.
+
+10. “Your Project Content” means games, applications, software or other content that you develop with the Unity Software.
+
+UNITY CLOUD BUILD
+
+ADDITIONAL TERMS
+
+
+
+Last updated: June 28, 2016
+
+Your use of the Cloud Services (as further described below) is subject to these Additional Terms (the “Cloud Build Terms”), which supplement and incorporate the Unity Terms of Service.  By accessing, purchasing or using the Cloud Services in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Cloud Build Terms.  If you do not agree with these Cloud Build Terms, you are not authorized to use the Cloud Services in any manner.
+
+1. CLOUD SERVICES OFFERINGS.
+
+1. Unity provides cloud-based products and services that allow you and other Users to continuously build and integrate services into Your Project Content for various supported target platforms (collectively, “Cloud Service(s)”).
+
+2. Unity may offer various Cloud Services plans with different features and prices. You can find the terms and conditions of the plans on the current Cloud Services’ plan pages on the Site, including but not limited to any restrictions, number of build limitations, overages and other distinguishable features of the plans. You should review and be aware of these plans and their details when selecting the best Cloud Services plan for you. There may be multiple pages describing different Cloud Services, so Unity recommends that you review all applicable Cloud Services’ plan pages.
+
+3. In the event that the Cloud Services are bundled with other Unity products and services (“Bundled Cloud Services”), these Cloud Build Terms will govern your subscription and use of the Cloud Services. Unless otherwise stated by Unity, the Cloud Services will be activated at the time when you first activate any one of the Bundled Cloud Services. Unity reserves the right to make any changes to the Bundled Cloud Services  at any time without any notice.
+
+2. UNITY CLOUD REGISTRATION.
+
+1. In order to use the Cloud Services, you need a Unity Account (or other accounts as directed by Unity).
+
+2. During the Cloud Services registration process, you will be required to provide certain information in addition to the information you provided when registering for your Unity Account.
+
+3. You shall protect your account information, including logins and passwords, and you shall make sure that any Users of your account: (i) use the log in and password in accordance with these Cloud Build Terms, and (ii) do not share User identifications (“User ID”). A User ID may be reassigned to a User that is replacing a former User who no longer uses the Cloud Services. You shall be solely responsible for (i) maintaining the confidentiality of the password(s) and account, and (ii) for all User activities associated with your account. You shall immediately notify Unity of any unauthorized use of any of your User ID’s or accounts or any other breach of security.
+
+3. USE RIGHTS AND OWNERSHIP.
+
+1. Your rights to use the Cloud Services. Subject to your compliance with the terms and conditions of the Agreement, Unity grants to you a limited, worldwide, non-exclusive, non-transferable, non-sublicenseable, revocable, royalty-free license to access, install, copy, use, reproduce, and otherwise use the Cloud Services and Unity Technology to develop, produce and distribute Your  Project Content. The foregoing shall apply only so long as you have a current subscription to the Cloud Services and remain in compliance with these Cloud Build Terms.
+
+2. Unity’s rights to use Your Project Content. By using the Cloud Service or the Site, you grant to Unity a limited, worldwide, non-exclusive, transferable, sublicenceable, irrevocable right to use, copy, distribute, reproduce and transmit the Your Project Content for the sole purpose of providing the Cloud Services with the Unity Technology. When you provide information about Your  Project Content and any related services, including, but not limited to, server URLs, credentials for source control access, application ID, platform credentials and provision files, you authorize Unity to use such information for the purpose of providing the Service, including but not limited to automated polling of source control files to learn whether code has been updated, to determine if a new build should be initiated, or addressing support inquires as requested by you.
+
+3. Restrictions. You agree that you will not, directly or indirectly, do any of the following: (a) modify, copy, or create a derivative work of any part of the Cloud Services and Unity Technology; (b) reverse engineer, disassemble, or decompile any of the Cloud Services and Unity Technology (except to the extent law mandates such rights); (c) use, access or allow access to the Cloud Services and Unity Technology in any manner to provide service bureau, time-sharing or other computer services to third parties; (d) disclose the results of any benchmarking of the Cloud Services, without the prior written consent of Unity; (e) use “web crawlers”, robots, or other types of software or hardware technology to automatically download materials from the Cloud Services and Unity Technology, (f) access the Cloud Services and Unity Technology in order to develop or build a competitive product using similar ideas, features, functions or graphics of the Cloud Services; (g) create Internet “links” to the Cloud Services and Site that are not associated with, connected and/or related to the Cloud Services and Site, (h) attempt to circumvent any user limits or other license, timing or use restrictions that are built in to the Cloud Services, or (i) sell, resell, rent, sublicense, supply or lease the Cloud Services, Unity Technology or related Content to third parties without Unity's prior written consent. With respect to the foregoing subsection (i), any such activities, if permitted by Unity, may be subject to additional fees.
+
+4. Ownership. (a) As between you and Unity, Unity owns all right, title and interest in and to the Unity Technology and the Cloud Services together with any copies, modifications, and derivatives (other than as allowed under Section 3.2 of these Cloud Build Terms) thereof, including all related intellectual property rights; and (b) As between you, testers and Unity, you own all right, title and interest in and to Your  Project Content and Testers Feedback, if any, together with any copies, modifications, and derivatives (other than as allowed under Section 3.1 of these Cloud Build Terms) thereof, including all related intellectual property rights.
+
+4. TESTING.
+
+1. Unity may offer Cloud Services that allow you to test Your  Project Content. You will be solely responsible for all services, processes and methods associated with testing Your Project Content, including without limitation to engaging all parties, individuals and entities who will provide testing services on the Your Project Content, and all data, materials and information derived, generated and associated with the testing.
+
+2. All testers will be subject to the terms and conditions of these Cloud Build Terms, and you will certify that such testers have previously agreed to be bound by terms and conditions substantially similar to those of these Cloud Build Terms.
+
+5. PROMOTIONS.
+
+Unity reserves the right, at its sole discretion, to modify, suspend, or discontinue any promotions, campaigns, discounts or any other advertisements (collectively and separately, “Promo(s)”)that promote the Cloud Services, Bundled Cloud Services, and/or any of its plans and features. Unity encourages you to review all terms and conditions of the Promos to ensure that you are able to take full advantage of them.
+
+6. CHANGING YOUR PLAN (UPGRADING OR DOWNGRADING YOUR PLAN).
+
+You may have the opportunity to upgrade or downgrade your plan, depending on your plan's billing cycle. Unless otherwise stated by Unity, any change to your plan (upgrading or downgrading) will take effect upon the next billing cycle of your new plan. By way of example, if you select a monthly plan, the change to your plan will take effect the next month billing cycle.
+
+7. YOUR RESPONSIBILITIES.
+
+1. You understand that you must evaluate and bear all risks associated with you and your Users’ use of the Cloud Service.
+
+2. Any third party software combined with the Cloud Services and Unity Technology is solely your responsibility and/or the responsibility of the third party providing such software.
+
+3. You shall be administratively and financially responsible for obtaining any release, consent, license or other right (collectively “Consents”) required for Unity to access, copy, modify and compile the source code or other materials and tools provided by you and Your  Project Content. Any costs associated with obtaining Consents are not included in the fees and are the sole responsibility of you.
+
+8. ACCOUNT CANCELLATION OR PERMANENT DELETION.
+
+You may cancel payments to your subscribed Cloud Service plan by logging into your account in the Unity Asset Store. If you cancel your payments to a Cloud Service plan, your account will be downgraded to the free version of the Cloud Service. See the Cloud Service plans for the features and limitations of the free version. Canceling payments to your Cloud Service plan will not permanently delete your account from the Cloud Service and Site, and it will not suspend, cancel or delete any of your Bundled Cloud Services, if applicable.
+
+If you wish to have your Cloud Services account permanently deleted and have all data and information from your Cloud Service account deleted and destroyed by Unity, you may email Unity at cloudbuild@unity3d.com and request that your account is permanently deleted. Unity will delete your Cloud Service account and data after receipt of your request. You will no longer have access to, nor can your account be reactivated or retrieved, any of the information and data generated and created by the Cloud Services during your subscription to the service. Prior to your request, you may want to download a copy of your information and data from your Cloud Service account.
+
+9. DEFINITIONS.
+
+1. “Content” shall mean all text, graphics, images, music, audio, video, information or other materials available through the Site and Cloud Services.
+
+2. “Tester Feedback” shall mean all feedback, suggestions, ideas, postings, communications, information and data generated through use of the Cloud Services from those persons and/or entities testing Your Project Content.
+
+3. “Unity Technology” shall mean (i) Unity's products and services and all other products and services owned and controlled by Unity Technologies ApS, (ii) the Unity name, the Unity logo, the Unity domain name, the product names and other trademarks associated with the Cloud Services; (iii) all intellectual property rights associated with the Services; and (iv) all material appearing on and related to the Cloud Services (such as site design, text, graphics, icons, interfaces and their arrangements), certain technology, software, hardware, products, processes, algorithms, user interfaces, know-how and other trade secrets, techniques, designs, inventions and other tangible or intangible technical material or information.
+
+4. “User(s)” as used in these Cloud Build Terms shall mean any end user using the Cloud Services and/or Site.
+
+5. “Your Project Content” means games, applications, software or other content that you develop with the Unity Software.
+
+UNITY COLLABORATE
+
+ADDITIONAL TERMS
+
+
+
+Last updated: June 28, 2016
+
+Your use of the Collaborate Services (as further described below) is subject to these Additional Terms (the “Collaborate Terms”), which supplement and incorporate the Unity Terms of Service.  By accessing, purchasing or using the Collaborate Service in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Collaborate.  If you do not agree with these Collaborate Terms, you are not authorized to use the Collaborate Service in any manner.
+
+1. COLLABORATE SERVICE OFFERINGS.
+
+1. Unity provides a cloud-based storage and asset management solution that allows your team to collaboratively work on and manage assets for Your Project Content (the “Collaborate Service”).
+
+2. Unity may offer various Collaborate Service plans with different features and pricing.  The terms and conditions of plans for the Collaborate Service will be made available at the plan pages on the Site or in the Service Panel.  You should review and be aware of these plans and their details when selecting your plan.
+
+3. In the event that the Collaborate Service or Collaborate Service plans are bundled with other Unity products and services (“Bundled Collaborate Services”), these Collaborate Terms will govern your use of the Collaborate Service, unless provided otherwise in writing by Unity.  Unless otherwise stated in writing by Unity, the Collaborate Service will be activated at the time when you first activate any one of the Bundled Collaborate Services.  Unity reserves the right to make any changes to the Bundled Collaborate Services at any time.
+
+2. UNITY COLLABORATE REGISTRATION.
+
+1. In order to use the Collaborate Service, you need a Unity Account (or other accounts as directed by Unity).
+
+2. You are responsible for maintaining the security of all passwords and other credentials issued to or created by you or your Users.  You are also responsible for any and all activities that occur on, through or under any such credentials or otherwise in connection Your Project Content or your accounts (including User accounts), whether undertaken by you or your Users; and you agree Unity is not responsible for any such activities.  You acknowledge that this includes use of the Service Panel and any other interface that allows for configuration, management, monitoring and implementation of the Collaborate Service.  You also agree to immediately notify Unity of any unauthorized use of any such account(s) or credentials, as well as any other security breach related to your account(s) (including User accounts), Unity Projects or use of the Collaborate Service.
+
+3. You agree that neither you nor any of your Users will, either directly or indirectly, encourage or engage in any of the following prohibited activities: (i) the use any technology or other means to automate the creation of any account or credentials for the Collaborate Service (such as creating accounts in bulk) or the downloading or uploading of materials from or to the Collaborate Service; (ii) accessing, searching or attempting to use any part of the Collaborate Service other than via the Collaborate Service’s publicly supported interfaces; (iii) attempting to probe, scan or test the vulnerability of any part of the Collaborate Service; (iv) abusing referrals or promotions or other activity to get more storage space that deserved; (v) attempting to circumvent any storage limits or other license, timing or use restrictions associated with the Collaborate Service; (vi) breaching or attempting to breach any security or authentication measures; (vii) using the Collaborate Service to provide or assist any content delivery network functionality; (viii) selling, reselling, renting, leasing or otherwise supplying any part of the Collaborate Service to third parties; (ix) attempting to modify, copy or create a derivative work of any part of the Collaborate Service; (x) reverse engineering, disassembling or decompiling any part of the Collaborate Service or attempting to derive the software code of any part of the Collaborate Service; (xi) transmitting or storing personal or identifying data or information related to any individual or materials or content unrelated to Your Project Content; (xii) using the Collaborate Service in any manner that would violate any law or any intellectual property or privacy right of any person or party; (xiii) attempting to interfere with or disrupt any network or computer system related to the Collaborate Service (e.g., through a virus or by overloading Unity’s network infrastructure).  You acknowledge that Unity reserves the right to immediately suspend or terminate you and your Users’ ability to access and use the Collaborate Service in the event you or any of your Users violate any of the foregoing restrictions.     
+
+3. USE RIGHTS.  
+
+1. Your rights to use the Collaborate Service. Subject to your compliance with the terms and conditions of the Agreement, Unity grants to you a limited, worldwide, non-exclusive, non-transferable (except as expressly permitted by Unity), non-sublicensable  (except as expressly permitted by Unity), revocable, royalty-free license for you and your Users to access and use the Collaborate Service in connection with the development of Your Project Content.  You acknowledge that any use of the Unity Software requires a separate, valid agreement between you and Unity.
+
+2. Unity’s rights to use Your Collaborate Content. By using the Collaborate Service, you grant Unity a limited, worldwide, non-exclusive, transferable, sublicensable, irrevocable right to use, store, reproduce, distribute and transmit your Collaborate Content for the sole purpose of providing the Collaborate Service.   When you provide information about Your Project Content or Collaborate Content, you authorize Unity to use such information for the purpose of providing the Collaborate Service, including for automated polling of files to learn whether files have been updated and in connection with addressing support inquires.
+
+4. RESPONSIBILITIES.
+
+1. In the event a User is deemed by Unity to have violated these terms or used the Collaborate Service in a manner that creates liability for Unity, you agree to suspend or terminate that User’s access to Your Project Content and the Collaborate Service upon Unity’s request.  You understand that you must evaluate and bear all risks associated with you and your Users’ use of Collaborate Service.
+
+2. You shall be administratively and financially responsible for obtaining any release, consent, license or other right (collectively “Consents”) required for Unity to use, store, reproduce, distribute and transmit your Collaborate Content in connection with the Collaborate Service.  Any costs associated with obtaining Consents are not included in the fees and are the solely your responsibility.
+
+5. ACCOUNT CANCELLATION OR PERMANENT DELETION.
+
+If you wish to have your Collaborate Service account permanently cancelled, you may email Unity at collaborate@unity3d.com and request that your Collaborate Service account be permanently cancelled.   Unity will then delete your Collaborate Service account following such request.  Thereafter you will no longer have access to your Collaborate Service account or any of your Collaborate Content, so you may want to make your own backup files of your Collaborate Content before requesting cancellation of your account.
+
+You understand and acknowledge that you and your Users’ ability to access and use your account, the Collaborate Service and your Collaborate Content will cease once your account is cancelled or suspended and Unity may immediately delete your Collaborate Content at such time.  Unity will not be liable to you or any third party in connection with any such cancellation, termination or the deletion of your Collaborate Content.  Deletion of your Collaborate Service account will not delete your Unity Account or other Unity service accounts.   Furthermore, Unity will have no obligation to maintain any information stored in our database related to your Collaborate Service account.  
+
+6. FEEDBACK.  
+
+You are not required to provide Feedback to us, but in the event you do so, Unity will own the Feedback.   You irrevocably assign to Unity all right, title and interest (including all intellectual property and proprietary rights) in and to any Feedback, which Unity, its affiliates and licensees may exploit without restriction.
+
+7. DISCLAIMER.  
+
+YOU ARE RESPONSIBLE FOR MAINTAINING AND BACKING UP ANY CONTENT OR OTHER DATA YOU STORE VIA THE SERVICE.
+
+8. DEFINITIONS.
+
+1. “Collaborate Content” as used in these Collaborate Terms means all computer files, text, graphics, images, music, audio, video, information, data and other materials or content that you or any of your Users upload, store or transmit to the Collaborate Service in connection with Your Project Content.
+
+2. “Feedback” as used in these Collaborate Terms means any suggestions or other feedback you provide to Unity or its affiliates regarding improvements to or additional features or functionality for the Collaborate Service, including, suggestions and feedback you post to the Site or other forums or properties owned or maintained by Unity.
+
+3. “Users” as used in these Collaborate Terms means you, your employees, your contractors and any others you affiliate with any of Your Project Content.
+
+4. “Your Project Content” means games, applications, software or other content that you develop with the Unity Software.
+
+UNITY MULTIPLAYER
+
+ADDITIONAL TERMS
+
+
+
+Last updated: June 28, 2016
+
+Your use of the Multiplayer Services (as further described below) is subject to these Additional Terms (the “Multiplayer Terms”), which supplement and incorporate the Unity Terms of Service.  By accessing, purchasing or utilizing the Multiplayer Services in any manner, you represent and affirm that you have read, understand and agree to be legally bound by and comply with these Multiplayer Terms, whether or not you have registered for the Services.  If you do not agree with these Multiplayer Terms, you are not authorized to use the Multiplayer Services.
+
+1.  MULTIPLAYER SERVICE OFFERINGS.
+
+1. Unity provides cloud-based solutions that enable customers to implement multiplayer matchmaking, gameplay and related functionality with games made with Unity Software (collectively, the “Multiplayer Services”).  
+
+2. A valid license to use the Unity Software is required to use any of the Multiplayer Services and a valid, current Unity Software subscription and payment plan is required for removal of default limits on the number of Concurrent Users set by Unity.  Information about pricing terms and certain limitations for the Services can be found within the Projects panel at the “Cloud Build Site”.
+
+3. In the event that Services are bundled and sold together with other Unity products and services (“Bundled Services”), these Multiplayer Terms will govern your use of the Multiplayer Services unless otherwise agreed to the contrary in writing by Unity.   Unless otherwise stated by Unity, the Multiplayer Services will be activated at the time when you first activate any one of the Bundled Services.  Unity reserves the right to make any changes to the Bundled Services at any time without any notice.
+
+2.  ACCOUNT; ACCOUNT SECURITY
+
+1. In order to use the Services, you need a Unity Account (or other accounts as directed by Unity).   
+
+2. You are responsible for maintaining the security of all passwords, API keys and other credentials issued to or created by you and your Users.  You are also responsible for any and all activities that occur on, through or under any such credentials or otherwise in connection with Your Project Content or your accounts, whether undertaken by you or your Users; and you agree Unity is not responsible for any such activities.  You acknowledge that this includes use of the administrative interface that allows for configuration, management and monitoring of the Services for the Multiplayer Content.  You also agree to immediately notify Unity of any unauthorized use of any such account or any credentials, as well as any other security breach related to any such your account, Your Project Content or your use of the Service.
+
+3.  USE RIGHTS.
+
+1. Your rights to use the Multiplayer Services. Subject to the terms and conditions of the Agreement, Unity grants you a limited, revocable, non-sublicensable, non-transferable, royalty-free license for you and your Users to (i) access and use the Services as provided in this Agreement; and (ii) use the Service Materials in connection with your permitted use of the Services.  You acknowledge that any use of the Unity Software requires a separate, valid agreement between you and Unity.  
+
+2. Restrictions. You agree not to, directly or indirectly, do any of the following: (i) use any part of the Services or Service Materials in any manner not provided for in the Service Documentation; (ii) use any technology or other means to automate the creation or any account or credentials for the Service (such as creating accounts in bulk) or manipulate the Admin Panel or any other interface for the Service; (iii) attempt to probe, scan, test the vulnerability of, interfere with or disrupt any part of the Service or any related network or computer system, (iii) modify, copy or create a derivative work or works of any part of the Services or Service Materials (other than copying the Service Software in connection with your permitted use of the Services); (iv) reverse engineer, disassemble or decompile any part of the Services or Services Materials; (v) use, access or allow access to the any of the Services or Service Materials in any manner to provide service bureau, time-sharing or other similar services; (vi) disclose the results of any benchmarking of the Services; (vii) access or use the Services or any of the Service Materials in order to develop any product or service using any ideas, features or functionality similar to the Services; (viii) attempt to circumvent any Concurrent User limits or any technical, timing or use restrictions applicable to the Services  (including the Service APIs); or (ix) sell, resell, rent, sublicense, supply or lease any part of the Services or Service Materials
+
+4. CERTAIN PROPRIETARY RIGHTS
+
+Subject to the terms and conditions of these Multiplayer Terms, you grant Unity a license and all necessary rights to make calls and callbacks and transmit data to the Multiplayer Content (including, the client-components of the Multiplayer Content on end-user devices) in connection with providing the Services and to store, use and transmit the data collected from the Multiplayer Content (including, the client-components of the Multiplayer Content on end-user devices) as described in Unity’s Privacy Policy.     
+
+5. RESPONSIBILITIES  
+
+You are solely responsible for the development, operation and maintenance of the Multiplayer Content, including for properly configuring the Multiplayer Content for the Service in accordance with the then-current Service Materials, ensuring that calls made to the Service comply with then-current Service APIs and Service Documentation, complying with any first-party and platform owner technical and other requirements applicable to the Services, providing support to end users of the Multiplayer Content and resolving any legal claims related to the Multiplayer Content.   
+
+6. FEEDBACK   
+
+You are not required to provide Feedback to us, but in the event you do so, Unity will own the Feedback.   You irrevocably assign to Unity all right, title and interest (including all intellectual property and proprietary rights) in and to any Feedback, which Unity, its affiliates and licensees may exploit without restriction.
+
+7.     DEFINITIONS.
+
+1. “Multiplayer Content” as used in these Multiplayer Terms means both the client- and server-side components of entertainment software applications built with a version of the Unity Software supported by the Multiplayer Services and which implement the Multiplayer Services.
+
+2. “Concurrent Users” as used in these Multiplayer Terms mean users of the relevant Multiplayer Content whose use of occurs simultaneously with that of other users.
+
+3. “Feedback” as used in these Multiplayer Terms means any suggestions or other feedback you provide to Unity or its affiliates regarding improvements or additional features or functionality for the Multiplayer Services, including, suggestions or feedback you post to the Site or other forums on properties owned or maintained by Unity.
+
+4. “Service APIs” as used in these Multiplayer Terms means the application programming interfaces referenced in the Service Documentation and made available by Unity for use in connection with the Multiplayer Services.
+
+5. “Service Documentation” as used in these Multiplayer Terms means the instructions, requirements, guidelines and other documentation for the Multiplayer Service made available or otherwise provided by Unity (as such instructions, requirements, guidelines and documentation may be modified and updated from time to time by Unity).
+
+6. “Service Materials” as used in these Multiplayer Terms means Service APIs, Service Software and Service Documentation.  
+
+7. “Service Software” as used in these Multiplayer Terms means any software libraries and sample code provided by Unity to you for use in connection with the Multiplayer Services.
+
+8. “Users” as used in these Multiplayer Terms means you, your employees, your contractors and any others you affiliate with any of the Multiplayer Content, subject to any restrictions that Unity may impose in its sole discretion; provided, however, that if your access is the result of an invitation, “Users” shall be limited to you.
+
+9. “Your Project Content” means games, applications, software or other content that you develop with the Unity Software.
+
+
+
+
+
+
+
+
+
+
