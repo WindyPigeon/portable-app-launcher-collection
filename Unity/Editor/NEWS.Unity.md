@@ -28,7 +28,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/2021.2.0/appicon_32.png)
+  ![](Icons/AppIcon/2021.2.0/appicon_32.png)
 
 ## Version 2021.1.0
  ![](https://img.shields.io/badge/release_date-march_2021-informational)
@@ -43,7 +43,7 @@
 
 - Update application icon.
 
-  ![](IconFiles/AppIcon/2021.1.0/appicon_32.png)
+  ![](Icons/AppIcon/2021.1.0/appicon_32.png)
 
 
 ## Version 2020.3.20
@@ -79,7 +79,7 @@
 
 - Update application icon. Add 128x128 and 64x64 icons.
 
-  ![](IconFiles/AppIcon/2020.1.0/appicon_32.png)
+  ![](Icons/AppIcon/2020.1.0/appicon_32.png)
 
 ## Version 2019.4.40
  ![](https://img.shields.io/badge/release_date-june_2022-informational)
@@ -118,7 +118,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/2019.3.0/appicon_32.png)
+  ![](Icons/AppIcon/2019.3.0/appicon_32.png)
 
 ## Version 2019.1.0
  ![](https://img.shields.io/badge/release_date-april_2019-informational)
@@ -325,7 +325,7 @@
 
  - Windows: new application icon.
 
-   ![](IconFiles/AppIcon/4.3.0/appicon_32.png)
+   ![](Icons/AppIcon/4.3.0/appicon_32.png)
 
 ## Version 4.0.0
  ![](https://img.shields.io/badge/release_date-november_2012-informational)
@@ -369,7 +369,7 @@
 
 - Windows: new application icon.
 
-   ![](IconFiles/AppIcon/2.0.0/appicon_32.png)
+   ![](Icons/AppIcon/2.0.0/appicon_32.png)
 
 - Fix the 16x16 (32-bit) icon in *UnityDocumentIcon.icns*.
 
@@ -401,7 +401,7 @@
 - Windows:
   - Old application icon is used for Windows build.
 
-    ![](IconFiles/AppIcon/2.5.0/appicon_32.png)
+    ![](Icons/AppIcon/2.5.0/appicon_32.png)
 
   - Location of *License Files* directory:
     - By default it is in `%SystemDrive%\ProgramData\PACE Anti-Piracy\License Files` directory.
@@ -426,14 +426,14 @@
 
 - New application icon
 
-  ![](IconFiles/AppIcon/2.0.0/appicon_32.png)
+  ![](Icons/AppIcon/2.0.0/appicon_32.png)
 
 - New version of [EULA](EULA/2/EULA.txt).
 
 ## Version 1.0.0
  The archived of [release notes](https://web.archive.org/web/20121203074210/http://unity3d.com/unity/whats-new/archive#unity10).
 
-  ![](IconFiles/AppIcon/1.5.0/appicon_32.png)
+  ![](Icons/AppIcon/1.5.0/appicon_32.png)
 
   ![](IconFiles/FileTypeIcons/AllOtherIcons_32.png)
 

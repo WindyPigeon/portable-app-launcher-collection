@@ -7,7 +7,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/3.0.0/appicon_32.png)
+  ![](Icons/AppIcon/3.0.0/appicon_32.png)
 
 - The app no longer has an account authentication UI. Account authentication will be done in the browser. In order for account authentication to work, the unity URL type must be associated.
 - The path to the license file (*Unity_lic.ulf*) is determined by `SystemDrive` environment variable instead of `ProgramData` environment variable.
@@ -23,7 +23,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/2.4.0/appicon_32.png)
+  ![](Icons/AppIcon/2.4.0/appicon_32.png)
 
 ## Version 2.3.1
  ![](https://img.shields.io/badge/release_date-april_2020-informational)
@@ -49,7 +49,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/2.3.0/appicon_32.png)
+  ![](Icons/AppIcon/2.3.0/appicon_32.png)
 
 ## Version 2.1.1
  ![](https://img.shields.io/badge/release_date-september_2019-informational)
@@ -90,7 +90,7 @@
 
 - Application icon:
 
-  ![](IconFiles/AppIcon/1.0.0/appicon_32.png)
+  ![](Icons/AppIcon/1.0.0/appicon_32.png)
 
 - Unity Hub will automatically search for all `<secondaryInstallPath>\Editor\<UnityVersion>\Editor\Unity.exe` executables as installed Unity.
 
