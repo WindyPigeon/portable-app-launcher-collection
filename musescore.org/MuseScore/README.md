@@ -1,4 +1,5 @@
-# MuseScore Portable
+# MuseScore (formerly MusE Score) Portable
+ ![](https://img.shields.io/badge/win--32_|_win--64-informational)
 
 ## Workflow Status
  ![](https://img.shields.io/badge/version-v0.2-informational)
@@ -26,19 +27,30 @@
 
 - *Emmentaler* font (for version 0.2)
 
-## About MuseScore
+## About MuseScore (formerly MusE Score)
  ![](https://img.shields.io/badge/-opensource-brightgreen)
  ![](https://img.shields.io/badge/license-GPL_v2_|_GPL_v3-informational)
+ ![](https://img.shields.io/badge/-Qt-informational)
 
 ### Identifier
- - `net.sourceforge.mscore` (deprecated after Musescore v2.0)
- - `org.musescore.MuseScore`
+ - Linux:
+   - `org.musescore.MuseScore` (Musescore v3.1 and later)
+   - `mscore` (old)
+
+ - MacOS
+   - `org.musescore.MuseScore` (Musescore v2.0 and later)
+   - `net.sourceforge.mscore` (old identifier, deprecated after Musescore v2.0)
 
 ### Sumary
  > Create, play and print beautiful sheet music
 
 ### Description
  > MuseScore is cross-platform, multi-lingual, open source music notation software. It features an easy to use WYSIWYG editor with audio score playback for results that look and sound beautiful. It supports unlimited staves with up to four voices each, dynamics, articulations, lyrics, chords, lead sheet notation, import/export of MIDI and MusicXML, export to PDF and WAV, plus online score sharing.
+
+ > MuseScore is a full featured WYSIWYG score editor
+
+ > MuseScore is a "what you see is what you get" score editor for western music
+ > standard scores.
 
 ### Developers
  Originally developed by **Werner Schweer** from the Muse Sequencer development team, **and other** developers. Later, MuseScore company (**MuseScore BVBA**) was established to continue the development.
@@ -50,27 +62,36 @@
  - MacOS
 
 ### Categories
- ![](https://img.shields.io/badge/-AudioVideo-informational)
- ![](https://img.shields.io/badge/-Audio-informational)
- ![](https://img.shields.io/badge/-Graphics-informational)
- ![](https://img.shields.io/badge/-2DGraphics-informational)
- ![](https://img.shields.io/badge/-VectorGraphics-informational)
- ![](https://img.shields.io/badge/-RasterGraphics-informational)
- ![](https://img.shields.io/badge/-Publishing-informational)
- ![](https://img.shields.io/badge/-Midi-informational)
- ![](https://img.shields.io/badge/-Mixer-informational)
- ![](https://img.shields.io/badge/-Sequencer-informational)
- ![](https://img.shields.io/badge/-Music-informational)
- ![](https://img.shields.io/badge/-Qt-informational)
+ ![](https://img.shields.io/badge/Graphics-informational)
+ ![](https://img.shields.io/badge/2DGraphics-informational)
+ ![](https://img.shields.io/badge/VectorGraphics-informational)
+ ![](https://img.shields.io/badge/RasterGraphics-informational)
+ ![](https://img.shields.io/badge/Publishing-informational)
+ ![](https://img.shields.io/badge/Mixer-informational)
 
- ![](https://img.shields.io/badge/-public.app--category.music-informational)
+ ![](https://img.shields.io/badge/Qt-informational)
+ ![](https://img.shields.io/badge/Audio-informational)
+ ![](https://img.shields.io/badge/Sequencer-informational)
+ ![](https://img.shields.io/badge/Midi-informational)
+ ![](https://img.shields.io/badge/AudioVideoEditing-informational)
+ ![](https://img.shields.io/badge/Music-informational)
+
+ 
+ ![](https://img.shields.io/badge/Application-informational)
+ ![](https://img.shields.io/badge/AudioVideo-informational)
+
+
+ ![](https://img.shields.io/badge/public.app--category.music-informational)
 
 ### License
  - GNU General Public License, version 2 (been used until MuseScore v4.0)
  - GNU General Public License, version 3 (MuseScore v4.0 and higher)
 
 ### Website
- https://musescore.org/
+ - Homepage:
+   - https://musescore.org/
+   - http://mscore.sourceforge.net/ (old)
+   - http://muse.seh.de/mscore (old)
 
 ### Repository
 
