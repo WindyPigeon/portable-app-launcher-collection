@@ -1,3 +1,5 @@
+!addplugindir /x86-unicode ".\Plugins"
+
 !ifndef VER_MAJOR
     !define VER_MAJOR "2022"
 !endif
