@@ -18,17 +18,18 @@
 - *ProcFunc.nsh* (Get it from [PortableApps.com](https://portableapps.com/node/12561) or [GitHub](https://raw.githubusercontent.com/PortableApps/Launcher/master/Other/Source/Include/ProcFunc.nsh)).
 - *ReplaceInFileWithTextReplace.nsh* (Get it from [GitHub](https://raw.githubusercontent.com/PortableApps/Launcher/master/Other/Source/Include/ReplaceInFileWithTextReplace.nsh)).
 - *PortableApps.comLauncherLANG_ENGLISH.nsh* (Get it from [GitHub](https://raw.githubusercontent.com/PortableApps/AppConfigs/master/F/Firefox/Langs/PortableApps.comLauncherLANG_ENGLISH.nsh)).
+- Registry plug-in: *Registry.dll* (Get it from [NSIS](https://nsis.sourceforge.io/Registry_plug-in). Users of NSISPortable from PortableApps.com can ignore this, the plugin is included in the standard distribution of NSISPortable.)
 
 ## About Unity Editor
  ![](https://img.shields.io/badge/shareware-yellow)
  ![](https://img.shields.io/badge/proprietary-important)
 
 ### Identifier
- - `dk.otee.UnityEditor` (Unity 1.x)
- - `com.unity3d.UnityEditor` (Unity 2.x)
- - `com.unity3d.UnityEditor3.x` (Unity 3.x)
- - `com.unity3d.UnityEditor4.x` (Unity 4.x)
  - `com.unity3d.UnityEditor5.x` (Unity 5.x and later)
+ - `com.unity3d.UnityEditor4.x` (Unity 4.x)
+ - `com.unity3d.UnityEditor3.x` (Unity 3.x)
+ - `com.unity3d.UnityEditor` (Unity 2.x)
+ - `dk.otee.UnityEditor` (Unity 1.x)
 
 ### Categories
  ![](https://img.shields.io/badge/Development-informational)
