@@ -27,10 +27,12 @@
 
 - *Emmentaler* font (for version 0.2)
 
+> Note that the builds for the standard distribution and the PortableApps distribution are different. The data path of its application can be determined at compile time, but after compilation it will be permanent. This launcher is designed to package the standard build of MuseScore. You can get a build of WIN_PORTABLE from PortableApps.com or compile it yourself.
+
 ## About MuseScore (formerly MusE Score)
- ![](https://img.shields.io/badge/-opensource-brightgreen)
+ ![](https://img.shields.io/badge/opensource-brightgreen)
  ![](https://img.shields.io/badge/license-GPL_v2_|_GPL_v3-informational)
- ![](https://img.shields.io/badge/-Qt-informational)
+ ![](https://img.shields.io/badge/Qt-informational)
 
 ### Identifier
  - Linux:
@@ -94,7 +96,6 @@
    - http://muse.seh.de/mscore (old)
 
 ### Repository
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/musescore/MuseScore)(For Version 3.x and later)
 
-[![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/mscore/) (Version 0.x to 2.x): 
-
- [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/musescore/MuseScore)(Version 3.x or higher)
+ [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/mscore/) (For Version 0.x to 2.x): 

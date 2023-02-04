@@ -1,8 +1,7 @@
 # MuseScore NEWS
 
 ## Version 4.0.0
- ![](https://img.shields.io/badge/-december_2022-informational)
-
+ ![](https://img.shields.io/badge/december_2022-informational)
 
 - New application icon.
 
@@ -15,8 +14,16 @@
 
 - New [EULA](EULA/4/EULA.txt).
 
+## Version 3.5.0
+ ![](https://img.shields.io/badge/august_2020-informational)
+
+- Distribution
+  - make distribution of PortableApps.com Format package.
+
+- There is an option to build the portable version by defining WIN_PORTABLE at compile time, the application's data path will be set to `bin\..\..\Data`.
+
 ## Version 3.0.0
- ![](https://img.shields.io/badge/-december_2018-informational)
+ ![](https://img.shields.io/badge/december_2018-informational)
 
 - New application icon.
 
@@ -35,7 +42,7 @@
   Go to GitHub to view the [original file](https://github.com/musescore/MuseScore/blob/v2.0.3/build/Linux%2BBSD/musescore.xml.in).
 
 ## Version 2.0.0
- ![](https://img.shields.io/badge/-march_2015-informational)
+ ![](https://img.shields.io/badge/march_2015-informational)
 
 - New application icon.
 
@@ -55,7 +62,7 @@
 - Switch to Qt5.
 
 ## Version 1.0.0
- ![](https://img.shields.io/badge/-february_2011-informational)
+ ![](https://img.shields.io/badge/february_2011-informational)
 
 - New application icon.
 
