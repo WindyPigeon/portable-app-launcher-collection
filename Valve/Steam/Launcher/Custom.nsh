@@ -39,4 +39,5 @@ ${SegmentPostPrimary}
     ${registry::DeleteKeyEmpty} "HKEY_CURRENT_USER\Software\PortableApps.com\Keys\HKLM" $0
     ${registry::DeleteKeyEmpty} "HKEY_CURRENT_USER\Software\PortableApps.com\Keys" $0
     ${registry::DeleteKeyEmpty} "HKEY_CURRENT_USER\Software\PortableApps.com" $0
+    ${registry::DeleteKeyEmpty} "HKEY_LOCAL_MACHINE\Software\Valve" $0
 !macroend
