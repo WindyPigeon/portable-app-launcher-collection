@@ -33,10 +33,10 @@
  ![](https://img.shields.io/badge/release_date-december_2014-informational)
 
 - New application icon.
-  - ![](IconFiles/AppIcon/1.0.0/appicon_128.png)
+  - ![](Icons/AppIcon/1.0.0/appicon_128.png)
 
 - With project icon.
-  - ![](IconFiles/FileTypeIcons/1.0.0/AllOtherIcons_32.png)
+  - ![](Icons/FileTypeIcons/1.0.0/AllOtherIcons_32.png)
 
 - Add new file extension association.
   - *nps* (Natron Node Presets)
@@ -55,7 +55,7 @@
 ## Version 0.9.3
  ![](https://img.shields.io/badge/release_date-june_2014-informational)
 
-![](IconFiles/AppIcon/0.9.3/appicon_128.png)
+![](Icons/AppIcon/0.9.3/appicon_128.png)
 
 - Identifier: `fr.inria.Natron`
 

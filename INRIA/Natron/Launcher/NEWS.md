@@ -20,3 +20,5 @@
 - Save all files and directories in `%USERPROFILE%\AppData\Local\INRIA\Natron\cache\DiskCache` directory to `Data\Library\Caches\Natron\DiskCache` directory.
 
 - Save all files and directories in `%USERPROFILE%\AppData\Local\INRIA\Natron\cache\ViewerCache` directory to `Data\Library\Caches\Natron\ViewerCache` directory.
+
+- Qt Version: 4.8 or 5.3
