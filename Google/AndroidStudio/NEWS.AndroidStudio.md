@@ -1,14 +1,18 @@
 # Android Studio NEWS
 
-## Version 2020.3
+## Version 2020.3.1
+ ![](https://img.shields.io/badge/release_date-july_2021-informational)
+
 - New environment variable.
   - `ANDROID_USER_HOME`
     - Determine the root of the *avd* directory and the *debug.keystore* file.
 
 ## Version 4.1
+ ![](https://img.shields.io/badge/release_date-august_2020-informational)
+
 - New application icon.
 
-  ![](IconFiles/AppIcon/4.1/appicon_128.png)
+  ![](Icons/AppIcon/4.1/appicon_128.png)
 
 - The locations of the *config* directories, *system* directories, and *log* directories have been moved.
   - *config* directories:
@@ -34,9 +38,13 @@
       `%LOCALAPPDATA%\Google\AndroidStudio<version>\log`
 
 ## Version 3.6
+ ![](https://img.shields.io/badge/release_date-february_2020-informational)
+
   - The default project directory started referring to the `defaultProjectDirectory` option in the *ide.general.xml* file instead of the `lastProjectLocation` in the *recentProjects.xml*.
 
 ## Version 3.3
+ ![](https://img.shields.io/badge/release_date-january_2019-informational)
+
 - New files and directory.
   - New options file *ide.general.xml*
     - Path:
@@ -57,13 +65,15 @@
     - If the user has accepted the consent, the user's consent options will be saved as an *accepted* file.
 
 ## Version 3.0
+ ![](https://img.shields.io/badge/release_date-october_2017-informational)
+
 
 - Change of registry keys / property list files:
   - The `/Jet/Brains./User/Id/On/Machine` value of the `HKEY_CURRENT_USER\Software\JavaSoft\Prefs`registry key and `JetBrains.UserIdOnMachine` key in *com.apple.java.util.prefs.plist* property list file is deprecated.
   - The parent of `user_id_on_machine` registry key value and property list key had been changed from `jetbrains` to `google`
 
 ## Earlier version
-  ![](IconFiles/AppIcon/2.0/appicon_128.png)
+  ![](Icons/AppIcon/2.0/appicon_128.png)
 
 - The default directory of the Android SDK folder can be customized.
   - Option 1: Customize Android SDK directory with *jdk.table.xml* file
