@@ -1,13 +1,21 @@
 # Natron Portable
 
  ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
- [![](https://img.shields.io/github/license/NatronGitHub/Natron)](https://github.com/NatronGitHub/Natron/blob/RB-2.5/LICENSE.txt)
 
 ## About Natron
- ![](https://img.shields.io/badge/-opensource-brightgreen)
+> Node-graph based compositing software
+
+ ![](https://img.shields.io/badge/opensource-brightgreen)
+ [![](https://img.shields.io/github/license/NatronGitHub/Natron)](https://github.com/NatronGitHub/Natron/blob/RB-2.5/LICENSE.txt)
+ ![](https://img.shields.io/badge/Qt-informational)
 
 ### Identifier
- - *fr.inria.Natron*
+ - MacOS
+   - `fr.inria.Natroan`
+
+ - Linux
+   - `fr.natron.Natron`
+   - `Natron`
 
 ### Summary
  > Open Source Compositing Software.
@@ -17,6 +25,9 @@
    similar in functionality to Adobe After Effects, Nuke by The Foundry, or Blackmagic Fusion.
 
 ### Categories
+ ![](https://img.shields.io/badge/Graphics-informational)
+ ![](https://img.shields.io/badge/2DGraphics-informational)
+ ![](https://img.shields.io/badge/RasterGraphics-informational)
 
 ### Platform
  - Linux
@@ -36,8 +47,11 @@
  - 2013: [MPL-2.0](https://github.com/NatronGitHub/Natron/blob/RB-1.1/LICENSE.txt)
 
 ### Website
- - Homepage (old): http://www.natron.fr
- - Homepage (new): https://natrongithub.github.io
+ - Homepage: 
+   - https://natrongithub.github.io
+   - http://www.natron.fr (old)
+ - Bug Tracker:
+   - https://github.com/NatronGitHub/Natron/issues
 
 ### Social media
  [![](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/groups/NatronNation)
