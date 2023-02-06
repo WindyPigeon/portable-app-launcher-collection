@@ -98,4 +98,4 @@
 ### Repository
  [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/musescore/MuseScore)(For Version 3.x and later)
 
- [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/mscore/) (For Version 0.x to 2.x): 
+ [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/mscore/) (For Version 0.x to 2.x)
