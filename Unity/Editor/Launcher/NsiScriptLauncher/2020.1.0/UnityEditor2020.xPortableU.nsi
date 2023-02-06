@@ -326,7 +326,7 @@ Function .onInit
     SwitchToRunLocally:
         StrCpy $RUNLOCALLY "true"
         ;=== Run locally if needed (aka Live)
-        RMDir /r "$TEMP\${NAME}\"
+        RMDir /r "$TEMP\${NAME}Live\"
         ${If} $RUNLOCALLY == true
             CreateDirectory "$TEMP\${NAME}Live\App\Unity\Editor"
             StrCpy $PROGRAMDIRECTORY "$TEMP\${NAME}Live\App\Unity\Editor"
