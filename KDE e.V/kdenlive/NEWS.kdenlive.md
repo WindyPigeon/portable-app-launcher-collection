@@ -12,20 +12,20 @@
 ## Version 16.07.90
 - New application icon.
 
-  ![](IconFiles/AppIcon/16.07.90/appicon_32.png)
+  ![](Icons/AppIcon/16.07.90/appicon_32.png)
 
   View the original file on [GitLab](https://invent.kde.org/multimedia/kdenlive/-/blob/v16.07.90/data/icons/256-apps-kdenlive.png) or [GitHub](https://raw.githubusercontent.com/KDE/kdenlive/v16.07.90/data/icons/256-apps-kdenlive.png).
 
 ## Version 16.03.70
 - New application icon.
 
-  ![](IconFiles/AppIcon/16.03.70/appicon_32.png)
+  ![](Icons/AppIcon/16.03.70/appicon_32.png)
 
   View the original file on [GitLab](https://invent.kde.org/multimedia/kdenlive/-/blob/v16.03.70/data/icons/64-apps-kdenlive.png) or [GitHub](https://raw.githubusercontent.com/KDE/kdenlive/v16.03.70/data/icons/64-apps-kdenlive.png).
 
 - New icon for Kdenlive Project File.
 
-  ![](IconFiles/FileTypeIcons/16.03.70/kdenlive_32.png)
+  ![](Icons/FileTypeIcons/16.03.70/kdenlive_32.png)
 
 ## Version 0.7.6
 - New mime type:
@@ -34,7 +34,7 @@
 ## Version 0.7.4
 - New application icon.
 
-  ![](IconFiles/AppIcon/0.7.4/appicon_32.png)
+  ![](Icons/AppIcon/0.7.4/appicon_32.png)
 
   View the original file on [GitLab](https://invent.kde.org/multimedia/kdenlive/-/blob/v0.7.4/src/hi64-app-kdenlive.png) or [GitHub](https://raw.githubusercontent.com/KDE/kdenlive/v0.7.4/src/hi64-app-kdenlive.png).
 
@@ -47,13 +47,13 @@
 
 - New icons for associated files.
 
-  ![](IconFiles/FileTypeIcons/0.7.0/AllOtherIcons_32.png)
-  ![](IconFiles/FileTypeIcons/0.7.0/kdenlive_32.png)
+  ![](Icons/FileTypeIcons/0.7.0/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/0.7.0/kdenlive_32.png)
 
 ## Version 0.3.0
 - New application icon.
 
-  ![](IconFiles/AppIcon/0.3.0/appicon_32.png)
+  ![](Icons/AppIcon/0.3.0/appicon_32.png)
 
   View the original file on [GitLab](https://invent.kde.org/multimedia/kdenlive/-/blob/v0.3.0/icons/hicolor/hi64-app-kdenlive.png) or [GitHub](https://raw.githubusercontent.com/KDE/kdenlive/v0.3.0/icons/hicolor/hi64-app-kdenlive.png).
 
