@@ -11,7 +11,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/2.0.0/appicon_32.png)
+  ![](Icons/AppIcon/2.0.0/appicon_32.png)
 
 - New directories:
   - *.arduinoIDE*
@@ -33,7 +33,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/0.0.6/appicon_32.png)
+  ![](Icons/AppIcon/0.0.6/appicon_32.png)
 
 ## Arduino Pro IDE 0.0.3
  ![](https://img.shields.io/badge/release_date-december_2019-informational)
@@ -52,4 +52,4 @@
 
 - Application icon.
 
-  ![](IconFiles/AppIcon/0.0.1/appicon_32.png)
+  ![](Icons/AppIcon/0.0.1/appicon_32.png)
