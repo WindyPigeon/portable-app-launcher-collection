@@ -13,7 +13,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/1.8.13/appicon_32.png)
+  ![](Icons/AppIcon/1.8.13/appicon_32.png)
 
 ## ARDUINO 1.8.10
  ![2019.09.13](https://img.shields.io/badge/release_date-september_2019-informational)
@@ -175,7 +175,7 @@
 
 - New document icon（Mac only).
   
-  ![](IconFiles/FileTypeIcons/1.0/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/1.0/AllOtherIcons_32.png)
 
   View the original file on [GitHub](https://raw.githubusercontent.com/arduino/Arduino/1.0/build/macosx/template.app/Contents/Resources/pde.icns).
 
@@ -184,7 +184,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/0020/appicon_32.png)
+  ![](Icons/AppIcon/0020/appicon_32.png)
 
   View the original file on [GitHub](https://raw.githubusercontent.com/arduino/Arduino/0020/build/windows/launcher/application.ico).
 
@@ -193,13 +193,13 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/0017/appicon_32.png)
+  ![](Icons/AppIcon/0017/appicon_32.png)
 
   View the original file on [GitHub](https://raw.githubusercontent.com/arduino/Arduino/0017/build/windows/launcher/application.ico).
 
 - New document icon（Mac only).
   
-  ![](IconFiles/FileTypeIcons/0017/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/0017/AllOtherIcons_32.png)
 
   View the original file on [GitHub](https://raw.githubusercontent.com/arduino/Arduino/0017/build/macosx/dist/Arduino.app/Contents/Resources/pde.icns).
 
@@ -226,7 +226,7 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/0003/appicon_32.png)
+  ![](Icons/AppIcon/0003/appicon_32.png)
 
 - The bundle identifier is removed.
 
@@ -247,6 +247,6 @@
 
 - Application icon
 
-  ![](IconFiles/AppIcon/0002/appicon_32.png)
+  ![](Icons/AppIcon/0002/appicon_32.png)
 
   View the original file on [GitHub](https://raw.githubusercontent.com/arduino/Arduino/0002/build/windows/launcher/application.ico).
