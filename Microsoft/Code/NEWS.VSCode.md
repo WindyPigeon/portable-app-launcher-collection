@@ -101,36 +101,36 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/1.35/appicon_32.png)
+  ![](Icons/AppIcon/1.35/appicon_32.png)
 
 - New document icons.
     
-  ![](IconFiles/FileTypeIcons/1.35/bat_128.png)
-  ![](IconFiles/FileTypeIcons/1.35/bowerrc_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/c_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/config_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/cpp_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/cs_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/css_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/go_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/html_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/jade_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/java_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/js_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/markdown_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/php_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/ps1_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/py_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/rb_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/scss_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/sh_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/sql_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/ts_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/tsx_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/vue_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/xml_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/yaml_32.png)
-  ![](IconFiles/FileTypeIcons/1.35/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/1.35/bat_128.png)
+  ![](Icons/FileTypeIcons/1.35/bowerrc_32.png)
+  ![](Icons/FileTypeIcons/1.35/c_32.png)
+  ![](Icons/FileTypeIcons/1.35/config_32.png)
+  ![](Icons/FileTypeIcons/1.35/cpp_32.png)
+  ![](Icons/FileTypeIcons/1.35/cs_32.png)
+  ![](Icons/FileTypeIcons/1.35/css_32.png)
+  ![](Icons/FileTypeIcons/1.35/go_32.png)
+  ![](Icons/FileTypeIcons/1.35/html_32.png)
+  ![](Icons/FileTypeIcons/1.35/jade_32.png)
+  ![](Icons/FileTypeIcons/1.35/java_32.png)
+  ![](Icons/FileTypeIcons/1.35/js_32.png)
+  ![](Icons/FileTypeIcons/1.35/markdown_32.png)
+  ![](Icons/FileTypeIcons/1.35/php_32.png)
+  ![](Icons/FileTypeIcons/1.35/ps1_32.png)
+  ![](Icons/FileTypeIcons/1.35/py_32.png)
+  ![](Icons/FileTypeIcons/1.35/rb_32.png)
+  ![](Icons/FileTypeIcons/1.35/scss_32.png)
+  ![](Icons/FileTypeIcons/1.35/sh_32.png)
+  ![](Icons/FileTypeIcons/1.35/sql_32.png)
+  ![](Icons/FileTypeIcons/1.35/ts_32.png)
+  ![](Icons/FileTypeIcons/1.35/tsx_32.png)
+  ![](Icons/FileTypeIcons/1.35/vue_32.png)
+  ![](Icons/FileTypeIcons/1.35/xml_32.png)
+  ![](Icons/FileTypeIcons/1.35/yaml_32.png)
+  ![](Icons/FileTypeIcons/1.35/AllOtherIcons_32.png)
 
 ## Version 1.32
  ![](https://img.shields.io/badge/release_date-february_2019-informational)
@@ -155,32 +155,32 @@
   See the [source code](https://github.com/microsoft/vscode/blob/1.28.0/src/bootstrap.js#L201).
 
 - New document icons.    
-    ![](IconFiles/FileTypeIcons/1.28/bat_128.png)
-    ![](IconFiles/FileTypeIcons/1.28/bowerrc_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/c_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/config_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/cpp_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/cs_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/css_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/go_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/html_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/jade_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/java_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/js_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/markdown_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/php_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/ps1_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/py_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/rb_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/scss_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/sh_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/sql_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/ts_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/tsx_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/vue_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/xml_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/yaml_32.png)
-    ![](IconFiles/FileTypeIcons/1.28/AllOtherIcons_32.png)
+    ![](Icons/FileTypeIcons/1.28/bat_128.png)
+    ![](Icons/FileTypeIcons/1.28/bowerrc_32.png)
+    ![](Icons/FileTypeIcons/1.28/c_32.png)
+    ![](Icons/FileTypeIcons/1.28/config_32.png)
+    ![](Icons/FileTypeIcons/1.28/cpp_32.png)
+    ![](Icons/FileTypeIcons/1.28/cs_32.png)
+    ![](Icons/FileTypeIcons/1.28/css_32.png)
+    ![](Icons/FileTypeIcons/1.28/go_32.png)
+    ![](Icons/FileTypeIcons/1.28/html_32.png)
+    ![](Icons/FileTypeIcons/1.28/jade_32.png)
+    ![](Icons/FileTypeIcons/1.28/java_32.png)
+    ![](Icons/FileTypeIcons/1.28/js_32.png)
+    ![](Icons/FileTypeIcons/1.28/markdown_32.png)
+    ![](Icons/FileTypeIcons/1.28/php_32.png)
+    ![](Icons/FileTypeIcons/1.28/ps1_32.png)
+    ![](Icons/FileTypeIcons/1.28/py_32.png)
+    ![](Icons/FileTypeIcons/1.28/rb_32.png)
+    ![](Icons/FileTypeIcons/1.28/scss_32.png)
+    ![](Icons/FileTypeIcons/1.28/sh_32.png)
+    ![](Icons/FileTypeIcons/1.28/sql_32.png)
+    ![](Icons/FileTypeIcons/1.28/ts_32.png)
+    ![](Icons/FileTypeIcons/1.28/tsx_32.png)
+    ![](Icons/FileTypeIcons/1.28/vue_32.png)
+    ![](Icons/FileTypeIcons/1.28/xml_32.png)
+    ![](Icons/FileTypeIcons/1.28/yaml_32.png)
+    ![](Icons/FileTypeIcons/1.28/AllOtherIcons_32.png)
 
 ## Version 1.25
  ![](https://img.shields.io/badge/release_date-june_2018-informational)
@@ -213,11 +213,11 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/1.18/appicon_32.png)
+  ![](Icons/AppIcon/1.18/appicon_32.png)
 
 - New document icons.
 
-  ![](IconFiles/FileTypeIcons/1.18/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/1.18/AllOtherIcons_32.png)
 
 ## Version 1.17
  ![](https://img.shields.io/badge/release_date-september_2017-informational)
@@ -226,11 +226,11 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/1.17/appicon_32.png)
+  ![](Icons/AppIcon/1.17/appicon_32.png)
 
 - New document icons.
 
-  ![](IconFiles/FileTypeIcons/1.17/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/1.17/AllOtherIcons_32.png)
 
 ## Version 1.15
  ![](https://img.shields.io/badge/release_date-july_2017-informational)
@@ -277,11 +277,11 @@
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/1.0/appicon_32.png)
+  ![](Icons/AppIcon/1.0/appicon_32.png)
 
 - New document icons.
 
-  ![](IconFiles/FileTypeIcons/1.0/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/1.0/AllOtherIcons_32.png)
 
 - Multilingual Support. [^1]
   - Supported language: English (`en-US`), Simplified Chinese (`zh-CN`), Traditional Chinese (`zh-TW`), French (`fr`), German (`de`), Italian (`it`), Spanish (`es`), Japanese (`ja`), Korean (`ko`), Russian (`ru`).
@@ -311,13 +311,13 @@
 
 - New document icons.
 
-  ![](IconFiles/FileTypeIcons/0.8/AllOtherIcons_32.png)
+  ![](Icons/FileTypeIcons/0.8/AllOtherIcons_32.png)
 
 ## version 0.6
 
 - New application icon.
 
-  ![](IconFiles/AppIcon/0.6/appicon_32.png)
+  ![](Icons/AppIcon/0.6/appicon_32.png)
 
 ## version 0.4
 
@@ -326,7 +326,7 @@
 
 ## Earlier version
 
-![](IconFiles/AppIcon/0.1/appicon_32.png)
+![](Icons/AppIcon/0.1/appicon_32.png)
 
 - No document icons.
 
