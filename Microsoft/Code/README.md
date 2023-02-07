@@ -34,6 +34,11 @@
 ### Developers
  Microsoft Corporation.
 
+### Trademarks
+ Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of Microsoft Corporation. All rights reserved. [^1]
+
+ [^1]: https://code.visualstudio.com/brand#brand-legal
+
 ### Website
  Homepage: https://code.visualstudio.com/
 
