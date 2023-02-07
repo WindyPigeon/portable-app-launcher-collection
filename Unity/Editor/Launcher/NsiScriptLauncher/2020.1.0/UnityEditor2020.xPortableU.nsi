@@ -1152,7 +1152,6 @@ Section "Main"
             RMDir /r "$TEMP\${NAME}Live"
         ${EndIf}
 
-
 	; TheEnd:
         ${registry::Unload}
         newadvsplash::stop /WAIT

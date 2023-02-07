@@ -753,4 +753,8 @@ Section "Main"
         ${If} $RUNLOCALLY == true
             RMDir /r "$TEMP\${NAME}Live"
         ${EndIf}
+
+	; TheEnd:
+        ${registry::Unload}
+        newadvsplash::stop /WAIT
 SectionEnd
