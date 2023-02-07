@@ -3,7 +3,7 @@
 ## About Unity Editor Portable Launcher
  For some reason, we wrote another native launcher for Unity Portable using NSIS scripts in addition to Unity Portable powered by PAL.
 
-### Comparison between **native Launcher** and **PAL**
+### Comparison between **native launcher** and **PAL**
 
 | NSIS Script | PAL |
 | ----------- | --- |
@@ -15,10 +15,17 @@
 
 #### Requirement
 - NSIS
-- *ProcFunc.nsh* (Get it from [PortableApps.com](https://portableapps.com/node/12561) or [GitHub](https://raw.githubusercontent.com/PortableApps/Launcher/master/Other/Source/Include/ProcFunc.nsh)).
-- *ReplaceInFileWithTextReplace.nsh* (Get it from [GitHub](https://raw.githubusercontent.com/PortableApps/Launcher/master/Other/Source/Include/ReplaceInFileWithTextReplace.nsh)).
-- *PortableApps.comLauncherLANG_ENGLISH.nsh* (Get it from [GitHub](https://raw.githubusercontent.com/PortableApps/AppConfigs/master/F/Firefox/Langs/PortableApps.comLauncherLANG_ENGLISH.nsh)).
-- Registry plug-in: *Registry.dll* (Get it from [NSIS](https://nsis.sourceforge.io/Registry_plug-in). Users of NSISPortable from PortableApps.com can ignore this, the plugin is included in the standard distribution of NSISPortable.)
+
+- Extra NSIS header script:
+  - *ProcFunc.nsh* (Get it from [PortableApps.com](https://portableapps.com/node/12561) or [GitHub](https://raw.githubusercontent.com/PortableApps/Launcher/master/Other/Source/Include/ProcFunc.nsh)).
+  - *ReplaceInFileWithTextReplace.nsh* (Get it from [GitHub](https://raw.githubusercontent.com/PortableApps/Launcher/master/Other/Source/Include/ReplaceInFileWithTextReplace.nsh)).
+  - **Optional**:
+    - PortableApps.comLauncherLANG_*LauncherLanguage*.nsh.
+      To translate the launcher into other languages.
+
+- Extra plugins:
+  - Registry plug-in: *Registry.dll* (Get it from [NSIS](https://nsis.sourceforge.io/Registry_plug-in). Users of NSISPortable from PortableApps.com can ignore this, the plugin is included in the standard distribution of NSISPortable.)
+
 
 ## About Unity Editor
  ![](https://img.shields.io/badge/shareware-yellow)
