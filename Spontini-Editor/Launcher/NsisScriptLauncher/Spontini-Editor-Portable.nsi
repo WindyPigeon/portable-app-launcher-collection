@@ -90,6 +90,7 @@ Var DISABLESPLASHSCREEN
 Var RUNLOCALLY
 Var SECONDARYLAUNCH
 Var MISSINGFILEORPATH
+Var TEMPDIRECTORY
 Var HTTPSHELLOPENCOMMAND
 
 Section "Main"
@@ -158,8 +159,8 @@ Section "Main"
         Goto FoundProgramEXE
 
     NoProgramEXE:
-		;=== Program executable not where expected
-		StrCpy $MISSINGFILEORPATH $SERVEREXECUTABLE
+        ;=== Program executable not where expected
+        StrCpy $MISSINGFILEORPATH $SERVEREXECUTABLE
         MessageBox MB_OK|MB_ICONEXCLAMATION `$(LauncherFileNotFound)`
         Abort
 
@@ -171,17 +172,25 @@ Section "Main"
             StrCpy $SECONDARYLAUNCH true
         ${EndIf}
 
+        ClearErrors
+        ReadEnvStr $TEMPDIRECTORY "PAL:_TEMP"
+        ${If} ${Errors}
+            StrCpy $TEMPDIRECTORY "$TEMP"
+        ${EndIf}
+
         ;=== Run locally if needed (aka Live)
         ${If} $RUNLOCALLY == true
         ${AndIf} $SECONDARYLAUNCH != true
-            CreateDirectory "$TEMP\${NAME}Live\App\${DEFAULTAPPDIR}"
-            StrCpy $PROGRAMDIRECTORY "$TEMP\${NAME}Live\App\${DEFAULTAPPDIR}"
-            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMP\${NAME}Live\App\${DEFAULTAPPDIR}"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\App\${DEFAULTAPPDIR}"
+            StrCpy $PROGRAMDIRECTORY "$TEMPDIRECTORY\${NAME}Live\App\${DEFAULTAPPDIR}"
+            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\App\${DEFAULTAPPDIR}"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\settings"
-            StrCpy $SETTINGSDIRECTORY "$TEMP\${NAME}Live\Data\settings"
-            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMP\${NAME}Live\Data\settings"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            StrCpy $SETTINGSDIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\settings"
         ${EndIf}
+
+        Rename "$LOCALAPPDATA\fontconfig\cache" "$LOCALAPPDATA\fontconfig\cache.BackupBy${NAME}"
 
         ;=== Create ExecString
         StrCpy $EXECSTRING '"$PROGRAMDIRECTORY\$SERVEREXECUTABLE"'
@@ -192,7 +201,7 @@ Section "Main"
             StrCpy $EXECSTRING "$EXECSTRING $0"
         ${EndIf}
 
-		;=== Additional Parameters
+        ;=== Additional Parameters
         ${If} $ADDITIONALPARAMETERS == ""
             StrCpy $EXECSTRING "$EXECSTRING $ADDITIONALPARAMETERS"
         ${EndIf}
@@ -205,6 +214,11 @@ Section "Main"
             ${EndIf}
 
     SkipSplashScreen:
+        ${If} $SECONDARYLAUNCH != true
+            RMDir /r "$TEMPDIRECTORY\${NAME}Temp"
+        ${EndIf}
+        CreateDirectory "$TEMPDIRECTORY\${NAME}Temp"
+        System::Call 'Kernel32::SetEnvironmentVariable(t, t)i ("TMP", "$TEMPDIRECTORY\${NAME}Temp").r0'
 
     ; LaunchNow:
         ${GetFileName} "$SERVEREXECUTABLE" $0
@@ -225,11 +239,10 @@ Section "Main"
             ExecShell open "http://localhost:8000/spontini-editor"
         ${EndIf}
 
-        ${If} $RUNLOCALLY == true
-        ${AndIf} $SECONDARYLAUNCH != true
-            Goto CheckRunning
-        ${Else}
+        ${If} $SECONDARYLAUNCH == true
             Goto TheEnd
+        ${Else}
+            Goto CheckRunning
         ${EndIf}
 
     CheckRunning:
@@ -238,10 +251,19 @@ Section "Main"
             ${ProcessWaitClose} "$0" -1 $1
         ${LoopWhile} $1 > 0
 
+    ; CleanupCache:
+        RMDir /r "$LOCALAPPDATA\fontconfig\cache"
+        Rename "$LOCALAPPDATA\fontconfig\cache.BackupBy${NAME}" "$LOCALAPPDATA\fontconfig\cache"
+        RMDir "$LOCALAPPDATA\fontconfig\cache"
+        RMDir "$LOCALAPPDATA\fontconfig"
+        RMDir "$LOCALAPPDATA"
+
     ; CleanupRunLocally:
         ${If} $RUNLOCALLY == true
-            RMDir /r "$TEMP\${NAME}Live"
+            RMDir /r "$TEMPDIRECTORY\${NAME}Live"
         ${EndIf}
+
+        RMDir /r "$TEMPDIRECTORY\${NAME}Temp"
 
     TheEnd:
         newadvsplash::stop /WAIT
