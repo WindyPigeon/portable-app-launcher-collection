@@ -115,8 +115,9 @@ Var LASTDIRECTORY
 Var CURRENTDIRECTORY
 Var LASTPORTABLEAPPSBASEDIRECTORY
 Var PORTABLEAPPSBASEDIRECTORY
-Var LOCALAPPDATAPATH
 Var PORTABLEAPPS.COMDOCUMETSPATH
+Var LOCALAPPDATAPATH
+Var TEMPDIRECTORY
 Var RUNLOCALLY
 Var MISSINGFILEORPATH
 Var SKIPOPTIONWINDOWS
@@ -163,9 +164,16 @@ SpaceTexts none
 !endif
 
 Function .onInit
-	;=== Setup variables
+    ;=== Setup variables
         ;=== Get LOCALAPPDATA environment variable
         ReadEnvStr $LOCALAPPDATAPATH "LOCALAPPDATA"
+
+        ;=== Determine TEMP directory
+        ClearErrors
+        ReadEnvStr $TEMPDIRECTORY "PAL:_TEMP"
+        ${If} ${Errors}
+            StrCpy $TEMPDIRECTORY "$TEMP"
+        ${EndIf}
 
         ;=== Determine current drive letter
         ${GetRoot} $EXEDIR $CURRENTDRIVE
@@ -335,19 +343,19 @@ Function .onInit
     SwitchToRunLocally:
         StrCpy $RUNLOCALLY "true"
         ;=== Run locally if needed (aka Live)
-        RMDir /r "$TEMP\${NAME}Live\"
+        RMDir /r "$TEMPDIRECTORY\${NAME}Live\"
         ${If} $RUNLOCALLY == true
-            CreateDirectory "$TEMP\${NAME}Live\App\Unity\Editor"
-            StrCpy $PROGRAMDIRECTORY "$TEMP\${NAME}Live\App\Unity\Editor"
-            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMP\${NAME}Live\App\Unity\Editor"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
+            StrCpy $PROGRAMDIRECTORY "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
+            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\Library"
-            StrCpy $DATADIRECTORY "$TEMP\${NAME}Live\Data\Library"
-            CopyFiles /SILENT "$DATADIRECTORY\Library\*.*" "$TEMP\${NAME}Live\Data\Library"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\Library"
+            StrCpy $DATADIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\Library"
+            CopyFiles /SILENT "$DATADIRECTORY\Library\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\Library"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\settings"
-            StrCpy $SETTINGSDIRECTORY "$TEMP\${NAME}Live\Data\settings"
-            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMP\${NAME}Live\Data\settings"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            StrCpy $SETTINGSDIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\settings"
         ${EndIf}
 
     WriteSuccessful:
@@ -383,7 +391,7 @@ Function .onInit
                             Unity Hub needs to be restarted for changes to take effect."
 
                     ${If} $RUNLOCALLY == true
-                        RMDir /r "$TEMP\${NAME}Live"
+                        RMDir /r "$TEMPDIRECTORY\${NAME}Live"
                     ${EndIf}
 
                     Quit
@@ -1149,10 +1157,10 @@ Section "Main"
 
     ; CleanupRunLocally:
         ${If} $RUNLOCALLY == true
-            RMDir /r "$TEMP\${NAME}Live"
+            RMDir /r "$TEMPDIRECTORY\${NAME}Live"
         ${EndIf}
 
-	; TheEnd:
+    ; TheEnd:
         ${registry::Unload}
         newadvsplash::stop /WAIT
 SectionEnd
