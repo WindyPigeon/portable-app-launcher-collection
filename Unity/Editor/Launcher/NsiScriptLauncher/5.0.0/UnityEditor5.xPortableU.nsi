@@ -107,7 +107,6 @@ BrandingText "WindyPigeon"
     LangString LauncherAskCopyLocal ${LANG_ENGLISH} "${PORTABLEAPPNAME} appears to be running from a location that is read-only. Would you like to Temporarily copy it to the local hard drive and run it from there?$\n$\nPrivacy Note: If you say Yes, your personal data within ${PORTABLEAPPNAME} will be Temporarily copied to a local drive. Although this copy of your data will be deleted when you close ${PORTABLEAPPNAME}, it may be possible for someone else to access your data later."
     LangString LauncherNoReadOnly ${LANG_ENGLISH} "${PORTABLEAPPNAME} can not run directly from a read-only location and will now close."
     LangString LauncherPathTooLong ${LANG_ENGLISH} "The path to ${PORTABLEAPPNAME} is too long.  Please shorten the path by eliminating some parent directories or shortening directory names."
-    LangString LauncherNextButton ${LANG_ENGLISH} "&Next >"
 !endif
 
 ;=== Variables
@@ -270,7 +269,7 @@ Section "Main"
         ;=== Check for read/write
         ClearErrors
         CreateDirectory $SETTINGSDIRECTORY
-        FileOpen $0 "$SETTINGSDIRECTORY\writetest.$TEMPDIRECTORY" w
+        FileOpen $0 "$SETTINGSDIRECTORY\writetest.temp" w
         IfErrors "" WriteSuccessful
             ;== Write failed, so we're read-only
             MessageBox MB_YESNO|MB_ICONQUESTION `$(LauncherAskCopyLocal)` IDYES SwitchToRunLocally
@@ -296,10 +295,12 @@ Section "Main"
         ${EndIf}
 
     WriteSuccessful:
+        FileClose $0
+		Delete "$SETTINGSDIRECTORY\writetest.temp"
+
         RMDir /r "$TEMPDIRECTORY\${AppID}Temp"
         CreateDirectory "$TEMPDIRECTORY\${AppID}Temp"
         System::Call 'Kernel32::SetEnvironmentVariable(t, t)i ("TMP", "$TEMPDIRECTORY\${AppID}Temp").r0'
-        System::Call 'Kernel32::SetEnvironmentVariable(t, t)i ("TEMP", "$TEMPDIRECTORY\${AppID}Temp").r0'
 
     ; CopyDefaultData:
         ;=== Check for data files
