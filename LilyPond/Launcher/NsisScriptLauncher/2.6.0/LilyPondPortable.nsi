@@ -77,7 +77,6 @@ BrandingText "WindyPigeon"
     LangString LauncherAskCopyLocal ${LANG_ENGLISH} "${PORTABLEAPPNAME} appears to be running from a location that is read-only. Would you like to temporarily copy it to the local hard drive and run it from there?$\n$\nPrivacy Note: If you say Yes, your personal data within ${PORTABLEAPPNAME} will be temporarily copied to a local drive. Although this copy of your data will be deleted when you close ${PORTABLEAPPNAME}, it may be possible for someone else to access your data later."
     LangString LauncherNoReadOnly ${LANG_ENGLISH} "${PORTABLEAPPNAME} can not run directly from a read-only location and will now close."
     LangString LauncherPathTooLong ${LANG_ENGLISH} "The path to ${PORTABLEAPPNAME} is too long.  Please shorten the path by eliminating some parent directories or shortening directory names."
-    LangString LauncherNextButton ${LANG_ENGLISH} "&Next >"
 !endif
 
 ;=== Variables
@@ -199,7 +198,8 @@ Section "Main"
 
     FoundProgramEXE:
         ;=== Is launcher already running?
-        System::Call 'kernel32::CreateMutex(i 0, i 0, t "${NAME}-$PROGRAMEXECUTABLE") ?e'
+        ${GetBaseName} "$EXEFILE" $0
+        System::Call 'kernel32::CreateMutex(i 0, i 0, t "${NAME}-$0") ?e'
         Pop $0
         ${IfNot} $0 == 0
             StrCpy $SECONDARYLAUNCH true
