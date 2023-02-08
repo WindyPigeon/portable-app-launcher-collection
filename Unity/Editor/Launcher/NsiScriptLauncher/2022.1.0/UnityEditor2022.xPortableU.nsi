@@ -115,9 +115,10 @@ Var LASTDIRECTORY
 Var CURRENTDIRECTORY
 Var LASTPORTABLEAPPSBASEDIRECTORY
 Var PORTABLEAPPSBASEDIRECTORY
+Var PORTABLEAPPS.COMDOCUMETSPATH
 Var LOCALAPPDATAPATH
 Var USERPROFILEPATH
-Var PORTABLEAPPS.COMDOCUMETSPATH
+Var TEMPDIRECTORY
 Var RUNLOCALLY
 Var MISSINGFILEORPATH
 Var SKIPOPTIONWINDOWS
@@ -157,18 +158,26 @@ SpaceTexts none
     !insertmacro MUI_LANGUAGE "English"
     LangString LauncherFileNotFound ${LANG_ENGLISH} "${PORTABLEAPPNAME} cannot be started. You may wish to re-install to fix this issue. (ERROR: $MISSINGFILEORPATH could not be found)"
     LangString LauncherAlreadyRunning ${LANG_ENGLISH} "Another instance of ${APPNAME} is already running. Please close other instances of ${APPNAME} before launching ${PORTABLEAPPNAME}."
-    LangString LauncherAskCopyLocal ${LANG_ENGLISH} "${PORTABLEAPPNAME} appears to be running from a location that is read-only. Would you like to temporarily copy it to the local hard drive and run it from there?$\n$\nPrivacy Note: If you say Yes, your personal data within ${PORTABLEAPPNAME} will be temporarily copied to a local drive. Although this copy of your data will be deleted when you close ${PORTABLEAPPNAME}, it may be possible for someone else to access your data later."
+    LangString LauncherAskCopyLocal ${LANG_ENGLISH} "${PORTABLEAPPNAME} appears to be running from a location that is read-only. Would you like to Temporarily copy it to the local hard drive and run it from there?$\n$\nPrivacy Note: If you say Yes, your personal data within ${PORTABLEAPPNAME} will be Temporarily copied to a local drive. Although this copy of your data will be deleted when you close ${PORTABLEAPPNAME}, it may be possible for someone else to access your data later."
     LangString LauncherNoReadOnly ${LANG_ENGLISH} "${PORTABLEAPPNAME} can not run directly from a read-only location and will now close."
     LangString LauncherPathTooLong ${LANG_ENGLISH} "The path to ${PORTABLEAPPNAME} is too long.  Please shorten the path by eliminating some parent directories or shortening directory names."
     LangString LauncherNextButton ${LANG_ENGLISH} "&Next >"
 !endif
 
 Function .onInit
-	;=== Setup variables
+    ;=== Setup variables
         ;=== Get LOCALAPPDATA environment variable
         ReadEnvStr $LOCALAPPDATAPATH "LOCALAPPDATA"
+
         ;=== Get USERPROFILE environment variable
         ReadEnvStr $USERPROFILEPATH "USERPROFILE"
+
+        ;=== Determine TEMP directory
+        ClearErrors
+        ReadEnvStr $TEMPDIRECTORY "PAL:_TEMP"
+        ${If} ${Errors}
+            StrCpy $TEMPDIRECTORY "$TEMP"
+        ${EndIf}
 
         ;=== Determine current drive letter
         ${GetRoot} $EXEDIR $CURRENTDRIVE
@@ -328,7 +337,7 @@ Function .onInit
         ;=== Check for read/write
         ClearErrors
         CreateDirectory $SETTINGSDIRECTORY
-        FileOpen $0 "$SETTINGSDIRECTORY\writetest.temp" w
+        FileOpen $0 "$SETTINGSDIRECTORY\writetest.$TEMPDIRECTORY" w
         IfErrors "" WriteSuccessful
             ;== Write failed, so we're read-only
             MessageBox MB_YESNO|MB_ICONQUESTION `$(LauncherAskCopyLocal)` IDYES SwitchToRunLocally
@@ -338,19 +347,19 @@ Function .onInit
     SwitchToRunLocally:
         StrCpy $RUNLOCALLY "true"
         ;=== Run locally if needed (aka Live)
-        RMDir /r "$TEMP\${NAME}Live\"
+        RMDir /r "$TEMPDIRECTORY\${NAME}Live\"
         ${If} $RUNLOCALLY == true
-            CreateDirectory "$TEMP\${NAME}Live\App\Unity\Editor"
-            StrCpy $PROGRAMDIRECTORY "$TEMP\${NAME}Live\App\Unity\Editor"
-            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMP\${NAME}Live\App\Unity\Editor"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
+            StrCpy $PROGRAMDIRECTORY "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
+            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\Library"
-            StrCpy $DATADIRECTORY "$TEMP\${NAME}Live\Data\Library"
-            CopyFiles /SILENT "$DATADIRECTORY\Library\*.*" "$TEMP\${NAME}Live\Data\Library"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\Library"
+            StrCpy $DATADIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\Library"
+            CopyFiles /SILENT "$DATADIRECTORY\Library\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\Library"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\settings"
-            StrCpy $SETTINGSDIRECTORY "$TEMP\${NAME}Live\Data\settings"
-            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMP\${NAME}Live\Data\settings"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            StrCpy $SETTINGSDIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\settings"
         ${EndIf}
 
     WriteSuccessful:
@@ -386,7 +395,7 @@ Function .onInit
                             Unity Hub needs to be restarted for changes to take effect."
 
                     ${If} $RUNLOCALLY == true
-                        RMDir /r "$TEMP\${NAME}Live"
+                        RMDir /r "$TEMPDIRECTORY\${NAME}Live"
                     ${EndIf}
 
                     Quit
@@ -1155,10 +1164,10 @@ Section "Main"
 
     ; CleanupRunLocally:
         ${If} $RUNLOCALLY == true
-            RMDir /r "$TEMP\${NAME}Live"
+            RMDir /r "$TEMPDIRECTORY\${NAME}Live"
         ${EndIf}
 
-	; TheEnd:
+    ; TheEnd:
         ${registry::Unload}
         newadvsplash::stop /WAIT
 SectionEnd

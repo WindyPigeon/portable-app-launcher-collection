@@ -125,10 +125,19 @@ Var LASTDIRECTORY
 Var CURRENTDIRECTORY
 Var LASTPORTABLEAPPSBASEDIRECTORY
 Var PORTABLEAPPSBASEDIRECTORY
+Var TEMPDIRECTORY
 Var RUNLOCALLY
 Var MISSINGFILEORPATH
 
 Section "Main"
+    ;=== Setup variables
+        ;=== Determine TEMP directory
+        ClearErrors
+        ReadEnvStr $TEMPDIRECTORY "PAL:_TEMP"
+        ${If} ${Errors}
+            StrCpy $TEMPDIRECTORY "$TEMP"
+        ${EndIf}
+
     ;=== Find the INI file, if there is one
     IfFileExists "$EXEDIR\${NAME}.ini" "" NoINI
         StrCpy $INIPATH "$EXEDIR"
@@ -270,22 +279,25 @@ Section "Main"
     SwitchToRunLocally:
         StrCpy $RUNLOCALLY "true"
         ;=== Run locally if needed (aka Live)
-        RMDir /r "$TEMP\${NAME}Live\"
+        RMDir /r "$TEMPDIRECTORY\${NAME}Live\"
         ${If} $RUNLOCALLY == true
-            CreateDirectory "$TEMP\${NAME}Live\App\Unity\Editor"
-            StrCpy $PROGRAMDIRECTORY "$TEMP\${NAME}Live\App\Unity\Editor"
-            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMP\${NAME}Live\App\Unity\Editor"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
+            StrCpy $PROGRAMDIRECTORY "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
+            CopyFiles /SILENT "$PROGRAMDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\App\Unity\Editor"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\Library"
-            StrCpy $DATADIRECTORY "$TEMP\${NAME}Live\Data\Library"
-            CopyFiles /SILENT "$DATADIRECTORY\Library\*.*" "$TEMP\${NAME}Live\Data\Library"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\Library"
+            StrCpy $DATADIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\Library"
+            CopyFiles /SILENT "$DATADIRECTORY\Library\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\Library"
 
-            CreateDirectory "$TEMP\${NAME}Live\Data\settings"
-            StrCpy $SETTINGSDIRECTORY "$TEMP\${NAME}Live\Data\settings"
-            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMP\${NAME}Live\Data\settings"
+            CreateDirectory "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            StrCpy $SETTINGSDIRECTORY "$TEMPDIRECTORY\${NAME}Live\Data\settings"
+            CopyFiles /SILENT "$SETTINGSDIRECTORY\*.*" "$TEMPDIRECTORY\${NAME}Live\Data\settings"
         ${EndIf}
 
     WriteSuccessful:
+        RMDir /r "$TEMPDIRECTORY\${AppID}Temp"
+        CreateDirectory "$TEMPDIRECTORY\${AppID}Temp"
+        System::Call 'Kernel32::SetEnvironmentVariable(t, t)i ("TMP", "$TEMPDIRECTORY\${AppID}Temp").r0'
 
     ; CopyDefaultData:
         ;=== Check for data files
@@ -608,10 +620,11 @@ Section "Main"
 
     ; CleanupRunLocally:
         ${If} $RUNLOCALLY == true
-            RMDir /r "$TEMP\${NAME}Live"
+            RMDir /r "$TEMPDIRECTORY\${NAME}Live"
         ${EndIf}
 
-	; TheEnd:
+    ; TheEnd:
+        RMDir /r "$TEMPDIRECTORY\${AppID}Temp"
         ${registry::Unload}
         newadvsplash::stop /WAIT
 SectionEnd
