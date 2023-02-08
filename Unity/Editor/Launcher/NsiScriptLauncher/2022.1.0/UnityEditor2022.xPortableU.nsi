@@ -161,7 +161,14 @@ SpaceTexts none
     LangString LauncherAskCopyLocal ${LANG_ENGLISH} "${PORTABLEAPPNAME} appears to be running from a location that is read-only. Would you like to Temporarily copy it to the local hard drive and run it from there?$\n$\nPrivacy Note: If you say Yes, your personal data within ${PORTABLEAPPNAME} will be Temporarily copied to a local drive. Although this copy of your data will be deleted when you close ${PORTABLEAPPNAME}, it may be possible for someone else to access your data later."
     LangString LauncherNoReadOnly ${LANG_ENGLISH} "${PORTABLEAPPNAME} can not run directly from a read-only location and will now close."
     LangString LauncherPathTooLong ${LANG_ENGLISH} "The path to ${PORTABLEAPPNAME} is too long.  Please shorten the path by eliminating some parent directories or shortening directory names."
-    LangString LauncherNextButton ${LANG_ENGLISH} "&Next >"
+    LangString LauncherNoUnityHub ${LANG_ENGLISH} "We recommend installing the Unity Hub for the best Unity experience.$\r$\nVisit http://unity3d.com/get-unity/download$\r$\n$\r$\nContinue launching Unity"
+    LangString LauncherCreateEmptyProjectButton ${LANG_ENGLISH} "Create empty project"
+    LangString LauncherOpenProjectButton ${LANG_ENGLISH} "Open project"
+    LangString LauncherQuitButton ${LANG_ENGLISH} "Quit"
+    LangString LauncherChooseProjectFolder ${LANG_ENGLISH} "Choose project folder"
+    LangString LauncherSelectFolderButton ${LANG_ENGLISH} "Select Folder"
+    LangString LauncherProjectExistsRow1 ${LANG_ENGLISH} "A project with this name already exists at this"
+    LangString LauncherProjectExistsRow2 ${LANG_ENGLISH} "location"
 !endif
 
 Function .onInit
@@ -337,7 +344,7 @@ Function .onInit
         ;=== Check for read/write
         ClearErrors
         CreateDirectory $SETTINGSDIRECTORY
-        FileOpen $0 "$SETTINGSDIRECTORY\writetest.$TEMPDIRECTORY" w
+        FileOpen $0 "$SETTINGSDIRECTORY\writetest.temp" w
         IfErrors "" WriteSuccessful
             ;== Write failed, so we're read-only
             MessageBox MB_YESNO|MB_ICONQUESTION `$(LauncherAskCopyLocal)` IDYES SwitchToRunLocally
@@ -363,6 +370,8 @@ Function .onInit
         ${EndIf}
 
     WriteSuccessful:
+        FileClose $0
+		Delete "$SETTINGSDIRECTORY\writetest.temp"
 
     ; SetupExecString:
         ;=== Create ExecString
@@ -434,19 +443,16 @@ Function OptionsPageShow
         ShowWindow $0 ${SW_HIDE}
 
         nsDialogs::Create 1018
-        ${NSD_CreateLabel} 0 0 100% 90% "We recommend installing the Unity Hub for the best Unity experience$\r$\n \
-                Visit http://unity3d.com/get-unity/download$\r$\n \
-                $\r$\n \
-                Continue launching Unity"
-        ${NSD_CreateButton} 0 90% 30% 12u "Create empty project"
+        ${NSD_CreateLabel} 0 0 100% 90% "$(LauncherNoUnityHub)"
+        ${NSD_CreateButton} 0 90% 30% 12u "$(LauncherCreateEmptyProjectButton)"
         Pop $0
         ${NSD_OnClick} $0 OnCreateProjectButtonClicked
 
-        ${NSD_CreateButton} 33% 90% 30% 12u "Open project"
+        ${NSD_CreateButton} 33% 90% 30% 12u "$(LauncherOpenProjectButton)"
         Pop $0
         ${NSD_OnClick} $0 OnOpenProjectButtonClicked
 
-        ${NSD_CreateButton} 66% 90% 30% 12u "Quit"
+        ${NSD_CreateButton} 66% 90% 30% 12u "$(LauncherQuitButton)"
         Pop $0
         ${NSD_OnClick} $0 OnQuitButtonClicked
 
@@ -562,8 +568,8 @@ Function ShowDirectory
     SetCtlColors $SPACEREQUIREDHWND 0xFF0000 "transparent"
     SetCtlColors $SPACEAVAILABLEHWND 0xFF0000 "transparent"
 
-    SendMessage $SPACEREQUIREDHWND ${WM_SETTEXT} "" "STR:A project with this name already exists at this"
-    SendMessage $SPACEAVAILABLEHWND ${WM_SETTEXT} "" "STR:location"
+    SendMessage $SPACEREQUIREDHWND ${WM_SETTEXT} "" "STR:$(LauncherProjectExistsRow1)"
+    SendMessage $SPACEAVAILABLEHWND ${WM_SETTEXT} "" "STR:$(LauncherProjectExistsRow2)"
     ShowWindow $SPACEREQUIREDHWND ${SW_SHOW}
     ShowWindow $SPACEAVAILABLEHWND ${SW_SHOW}
 FunctionEnd
