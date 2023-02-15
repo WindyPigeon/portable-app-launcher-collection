@@ -1,0 +1,66 @@
+Bandizip End User License Agreement
+
+Please read carefully before the installation of Bandizip (“Software”). The End User License Agreement (“Agreement”) is a legal agreement on the “Software” concluded between Bandisoft (“Company”) and individual or corporation (“User”). The installation of “Software” means that the “User” reads, understands, and agrees with the “Agreement.”
+
+1. Use permit
+1) This “Software” is divided into two types of editions which is distributed or sold as follows: an edition that can be used without paying a financial price (“Free Edition”) and an edition that can be used after making a purchase (“Paid Edition”).
+2) “Standard Edition” is “Free Edition,” and “Professional Edition” and “Enterprise Edition” are “Paid Editions.”
+3) In the case of “Free Edition,” Advertisements appear on the product and there are certain restrictions on the function of the product. In the case of “Paid Edition,” the advertisements do not appear on the product and there is no restriction on the function of the product.
+4) “Free Edition” can be freely installed and used by individual or corporation regardless of the use of commercial purpose at anywhere including home, company, government and public institution, education institution, military, and Internet cafe. The use of “Free Edition” does not impose any obligations to purchase the “Paid Edition” in the future to the “User.”
+5) In the case of “Paid Edition,” the product can be registered with the product key to use after “User” purchases the product. The number of products that can be installed simultaneously may differ according to the type of “Paid Edition” purchased.
+
+2. Copyright
+1) Rights, ownership, authority, and intellectual property rights on the “Software” and its related documents shall be owned by “Company.” The “Software” is protected by Copyright Act of Republic of Korea and Universal Copyright Convention.
+2) The “User” may use the “Software” and its related documents only in a way to comply with all relevant legislations in the region where the “User” is located, including (not limited to) restrictions related to the copyright and intellectual property rights.
+3) The “User” may not change, reverse engineer, decompile, or disassemble the “Software” out of the limited scope which is specified and permitted by related legislations, and may not duplicate or copy the “Software” and its related prints to distribute without written approval of “Company.” When the copyright of “Company” is infringed by the aforementioned actions, the “Company” may claim the compensation to the “User” regarding all damages incurred from the infringement of copyright.
+4) The “User” may not alter or distribute the “Software” without written approval of “Company.”
+
+3. Purchase and refund
+1) Prior to the purchase of “Paid Edition” of “Software,” please check for any abnormalities of the product with “Free Edition” and then proceed the purchase.
+2) When there are critical problems in relation with the “Software” or there are important update or announcements such as change of “Agreement,” the “Company” may announce its contents to the “User” via email.
+3) When the product key is not registered, the refund is possible within 7 days from the payment date. When the product key has been already registered or it has been more than 7 days after the payment, the refund shall not be possible.
+4) The free technical support related to the “Software” (management of failure and malfunction, inquiry of product key, etc.) shall be provided for one year from the purchase date of the product.
+5) When the “User” take any actions to change the contents or function of “Software” abnormally or to remove, disable, or circumvent the overall security measures included with the “Software” in relation with the registration of product key, (including and not limited to hacking and cracking) the “Company” may confiscate the license of “Paid Edition” from the relevant “User.” The refund on the confiscated license would not be possible.
+
+4. Registration
+1) “Free Edition” does not require any purchase or registration of the product separately.
+2) When the purchase of “Paid Edition” is completed, the “Company” shall send a product key via email, and the “User” may register the product key and use the “Paid Edition.” The email address shall not be changed after the purchase.
+3) In this agreement, “Device” means a physical or virtual hardware system capable of running the “Software.” If multiple OSs are installed on a single hardware, each of the OSs is considered to be a separated “Device.”
+4) A license of “Professional Edition” is a single-user license. One license allows one “User” to use the product, and the “User” may register the product on 5 “Devices.” On up to 5 “Devices” the product can be registered at a time, and registering the product on 6th “Device” deactivates the oldest registration automatically.
+5) A license of “Enterprise Edition” is a single-device license. It is required to purchase as many licenses as the number of “Devices” on which the “User” use the product. For example, making a purchase of 10 licenses allows the “User” to use the product on 10 “Devices” with the same product key. Registering the product on more “Devices” than the number of licenses which have been purchased deactivates the oldest registration automatically.
+6) The Internet connection may be required for the product registration of “Paid Edition.”
+
+5. Product transfer
+1) The license of “Paid Edition” may not be transferred, distributed, rented, or resold to a third party without written approval of “Company.”
+2) However, when the company, which purchased the “Enterprise Edition,” is merged or acquired by another company, the “Software” may be transferred as an asset of the company which is merged or acquired. In this case, the company which acquires the “Software” has to agree with the “Agreement” as well.
+
+6. Communication function and data collection
+The “Software” includes the communication function through the Internet as a part of normal operation. The following contents are included in the information handled by “Software” through the communication function:
+- Version information for the update function of the product
+- Advertisement information to be displayed in the “Free Edition”
+- Information for the authentication, registration and license management of “Paid Edition” (including computer name and IP address)
+- Hardware information encrypted with a one-way hash for the authentication, registration, and license management of “Paid Edition”
+- Anonymous information regarding the contents of error (when it occurs) for the quality improvement of “Software”
+- Anonymous user statistics information by using a third-party analysis tool such as Google Analytics for the quality improvement of “Software”
+
+7. Limitation of responsibility
+1) The installation and use of “Software” shall be performed entirely under the sole discretion of the “User,” and the risk of any possible problems followed by the performance shall also be taken by the “User.”
+2) The “User” shall take proper measures (including and not limited to backup) to protect the important data. The “Company” shall not take any responsibility on the loss of any data which is occurred by any error of “Software” or mistake of the “User” during the process of using the “Software” by the “User.”
+3) The “Company” does not guarantee the security and performance of “Software,” and does not guarantee that all errors which occur on the “Software” in the future would be corrected.
+4) The “Company” shall not take any responsibilities with the “User” or a third party under any circumstances and any legal principles regarding any kinds of losses (including and not limited to indirect, consequential, incidental or exemplary losses and damages) incurred from the use of the “Software” or provision of customer service (or failure of the use and the provision), in the limited scope which is specified and permitted by related legislations. This shall be the same if the “Company” has known or has been notified with the possibility of the occurrence of the aforementioned damages. If the responsibility has to be taken by the “Company” in accordance with legislations, it may not exceed the actual purchase expense paid by the “User” for the purchase of “Software.”
+
+8. Governing Law and jurisdiction
+The dispute occurred between the “Company” and the “User” shall be governed in accordance with the law of Republic of Korea, and the jurisdiction of legal proceedings regarding all legal disputes related to the use right of “Software” and this contract, shall comply with the related regulations in the Civil Procedure Act.
+
+9. Termination of Contract
+1) When the “User” fails to comply with “Agreement,” the contract regarding the use of this product shall be terminated automatically. This termination may not require any kinds of notification to take effect.
+2) When the contract is terminated, the “User” shall cease the use of all or parts of “Software,” and shall completely discard the original copy and all duplicated copies of “Software.”
+3) The “User” may terminate the contract regarding the use of this product through the removal of the “Software” (program uninstallation) at any time.
+
+10. Others
+1) Any unspecified matters in this “Agreement” shall comply with the regulation of related legislations such as the Copyright Act, Act on the Consumer Protection in Electronic Commerce, Etc.
+2) Even if any provision of this “Agreement” is proved to be invalid, illegitimate, or impossible to be enforced, the rest of the provisions shall not be affected or damaged therefrom.
+3) If there are any objections on the interpretation of this “Agreement,” the opinion of “Company” shall be complied with.
+4) When this “Agreement” is prepared in various languages, the document prepared in Korean language shall have a binding force, and the document prepared in other languages is simply for the provision of information only. When the contents of the document prepared in different languages differ from or conflict with each other, the contents of the document in Korean language shall prevail.
+
+Copyright(C) 2011-2021 Bandisoft International Inc. All rights reserved.
