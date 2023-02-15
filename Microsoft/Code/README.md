@@ -1,12 +1,12 @@
 # Visual Studio Code Portable
- ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
+ ![platform: win-32 / win-64](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
 
 ### Requirements
 - [NsJSON plug-in](https://nsis.sourceforge.io/NsJSON_plug-in)
   - Put ***nsJSON.dll*** (x86-unicode) into *Other\Source\Plugins* directory.
 
 ## About Visual Studio Code
- ![](https://img.shields.io/badge/-opensource-brightgreen)
+ ![opensource](https://img.shields.io/badge/opensource-brightgreen)
  [![](https://img.shields.io/github/license/microsoft/vscode)](https://github.com/microsoft/vscode/blob/main/LICENSE.txt)
 
 ### Identifier
@@ -14,11 +14,11 @@
  - `com.microsoft.VSCode` (Officially used from **v0.3**)
 
 ### Categories
- ![](https://img.shields.io/badge/-Text_Editor-informational)
- ![](https://img.shields.io/badge/-Development-informational)
- ![](https://img.shields.io/badge/-IDE-informational)
+ ![Text Editor](https://img.shields.io/badge/Text_Editor-informational)
+ ![Development](https://img.shields.io/badge/Development-informational)
+ ![IDE](https://img.shields.io/badge/IDE-informational)
 
- ![](https://img.shields.io/badge/-public.app--category.developer--tools-informational)
+ ![public.app-category.developer-tools](https://img.shields.io/badge/public.app--category.developer--tools-informational)
 
 ### Summary
  > Visual Studio Code. Code editing. Redefined.
@@ -40,11 +40,12 @@
  [^1]: https://code.visualstudio.com/brand#brand-legal
 
 ### Website
- Homepage: https://code.visualstudio.com/
+ - Homepage
+   - https://code.visualstudio.com/
 
 ### Repositories
- [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/microsoft/vscode)
+ Major
+ - [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/microsoft/vscode)
 
  Mirror
-
- [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/visual-studio-code.mirror/)
+ - [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/visual-studio-code.mirror/)
