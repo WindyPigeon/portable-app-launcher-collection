@@ -4,7 +4,7 @@
 ## About LilyPond
  > Music notation for everyone
 
- ![](https://img.shields.io/badge/opensource-brightgreen)
+ ![opensource](https://img.shields.io/badge/opensource-brightgreen)
  [![](https://img.shields.io/gitlab/license/lilypond/lilypond)](https://gitlab.com/lilypond/lilypond/-/blob/master/LICENSE)
 
 ### Identifier
