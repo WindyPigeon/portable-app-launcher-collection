@@ -1,9 +1,9 @@
 # Android Studio Portable
 
- ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
+ ![platform: win-32/win-64](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
 
 ## About Android Studio
- ![](https://img.shields.io/badge/freeware-yellow)
+ ![freeware](https://img.shields.io/badge/freeware-yellow)
  ![](https://img.shields.io/badge/license-Apache-brightgreen)
 
 ### Identifier
@@ -18,7 +18,7 @@
  > Official Integrated Development Environment (IDE) for developing Android applications. The IDE is based on IntelliJ IDEA, and provides additional features on top of its powerful code editor and developer tools designed to enhance the productivity of the Android application developers.
 
 ### Categories
- ![](https://img.shields.io/badge/public.app--category.developer--tools-informational)
+ ![public.app-category.developer-tools](https://img.shields.io/badge/public.app--category.developer--tools-informational)
 
 ### Platform
  - Linux
