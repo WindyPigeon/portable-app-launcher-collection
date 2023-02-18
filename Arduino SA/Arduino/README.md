@@ -1,10 +1,10 @@
 # Arduino / Arduino IDE Portable
- ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
+ ![platform: win-32, win-64](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
 
 ## About Arduino / Arduino IDE
- ![](https://img.shields.io/badge/opensource-brightgreen)
- [![](https://img.shields.io/badge/license-GPL--2.0_license-informational)](https://github.com/arduino/Arduino/blob/master/license.txt)
- ![](https://img.shields.io/badge/platform-linux_|_macos_|_win--32_|_win--64-informational)
+ ![opensource](https://img.shields.io/badge/opensource-brightgreen)
+ [![license.txt](https://img.shields.io/badge/license-GPL--2.0_license-informational)](https://github.com/arduino/Arduino/blob/master/license.txt)
+ ![platform: linux, macos, win-32, win-64](https://img.shields.io/badge/platform-linux_|_macos_|_win--32_|_win--64-informational)
 
 ### Identifier
  - `de.berlios.arduino` (temporary for Arduino 0001 and 0002)
@@ -15,13 +15,13 @@
  Arduino Company (**Arduino LLC**)
 
 ### Categories
- ![](https://img.shields.io/badge/Development-informational)
- ![](https://img.shields.io/badge/IDE-informational)
- ![](https://img.shields.io/badge/Electronics-informational)
+ ![Development](https://img.shields.io/badge/Development-informational)
+ ![IDE](https://img.shields.io/badge/IDE-informational)
+ ![Electronics](https://img.shields.io/badge/Electronics-informational)
 
- ![](https://img.shields.io/badge/Engineering-informational)
+ ![Engineering](https://img.shields.io/badge/Engineering-informational)
 
- ![](https://img.shields.io/badge/public.app--category.education-informational)
+ ![public.app-category.education](https://img.shields.io/badge/public.app--category.education-informational)
 
 ### Summary
  > Open-source electronics prototyping platform
