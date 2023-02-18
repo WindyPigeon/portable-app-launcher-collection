@@ -1,0 +1,23 @@
+IcoFX v1.5.01
+
+Disclaimer
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. The author
+   of this program can not be made responsible for any, direct or 
+   indirect, damage caused by the program.  
+
+License and costs
+
+Permission is granted to anyone (including commercial applications) to use and redistribure this software free of charge, provided that the following conditions are met:
+
+1. All redistributions in binary form must retain all occurrences of the above copyright notice and web site addresses that are currently in place (for example, in the About boxes).
+
+2. The origin of this software must not be misrepresented. If you use this software to distribute a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+3. If you want to include IcoFX on any distribution media, any Internet site I would like to know. 
+
+4. Distribution of the Program is prohibited if any payment is made in connection with such distribution. (You may not sell the software)
+
+
