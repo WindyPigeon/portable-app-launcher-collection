@@ -1,4 +1,5 @@
 # VSCodium Portable
+ ![platform: win-32/win-64](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
 
 ## About VSCodium
  > Code Editing. Redefined.
@@ -25,6 +26,14 @@
 
  ![public.app-category.developer-tools](https://img.shields.io/badge/public.app--category.developer--tools-informational)
 
+### Platform
+ - Linux
+ - MacOS
+ - Windows
+
 ### Website 
  - Homepage
    - https://vscodium.com
+
+### Repositories
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/VSCodium/vscodium)
