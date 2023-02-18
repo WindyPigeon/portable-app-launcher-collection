@@ -1,8 +1,8 @@
 # Arduino Pro IDE Portable and Arduino IDE 2 Portable
- ![](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
+ ![platform: win-32, win-64](https://img.shields.io/badge/platform-win--32_|_win--64-informational)
 
 ## About Arduino Pro IDE
- ![](https://img.shields.io/badge/opensource-brightgreen)
+ ![opensource](https://img.shields.io/badge/opensource-brightgreen)
 
 ### Identifier
  - `arduino.PoC` (version 0.0.1)
@@ -10,8 +10,8 @@
  - `arduino.ProIDE`
 
 ## About Arduino IDE 2
- ![](https://img.shields.io/badge/opensource-brightgreen)
- [![](https://img.shields.io/github/license/arduino/arduino-ide)](https://github.com/arduino/arduino-ide/blob/main/LICENSE.txt)
+ ![opensource](https://img.shields.io/badge/opensource-brightgreen)
+ [![LICENSE.txt](https://img.shields.io/github/license/arduino/arduino-ide)](https://github.com/arduino/arduino-ide/blob/main/LICENSE.txt)
 
 ### Identifier
  - `cc.arduino.IDE2`
@@ -20,13 +20,13 @@
  Arduino Company (**Arduino SA**)
 
 ### Categories
- ![](https://img.shields.io/badge/IDE-informational)
+ ![IDE](https://img.shields.io/badge/IDE-informational)
 
- ![](https://img.shields.io/badge/Development-informational)
- ![](https://img.shields.io/badge/Engineering-informational)
- ![](https://img.shields.io/badge/Electronics-informational)
+ ![Development](https://img.shields.io/badge/Development-informational)
+ ![Engineering](https://img.shields.io/badge/Engineering-informational)
+ ![Electronics](https://img.shields.io/badge/Electronics-informational)
 
- ![](https://img.shields.io/badge/public.app--category.developer--tools-informational)
+ ![public.app-category.developer-tools](https://img.shields.io/badge/public.app--category.developer--tools-informational)
 
 ### Trademark
  The word Arduino and all official Arduino logos are trademarks of Arduino.[^1]
