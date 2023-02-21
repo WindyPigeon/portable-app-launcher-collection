@@ -21,7 +21,7 @@ ${SegmentPostPrimary}
     ${IfNot} $0 == 0
         SimpleSC::StopService "Steam Client Service" 1 30
         SimpleSC::RemoveService "Steam Client Service"
-    ${EndIf}   
+    ${EndIf}
     ${registry::DeleteKey} "HKEY_CURRENT_USER\Software\PortableApps.com\Keys\HKLM\System\CurrentControlSet\Services\Steam Client Service" $0
 
     ${registry::SaveKey} "HKEY_LOCAL_MACHINE\Software\Valve\Steam" "$DataDirectory\settings\registry.reg" "/A=1" $0

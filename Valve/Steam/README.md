@@ -1,5 +1,5 @@
 # Steam Portable
- ![](https://img.shields.io/badge/platform-win--32-informational)
+ ![platform: win-32](https://img.shields.io/badge/platform-win--32-informational)
 
 ## About Steam Portable Launcher
 
@@ -12,8 +12,8 @@
 ## About Steam
  > Application for managing and playing games on Steam
 
- ![](https://img.shields.io/badge/proprietary-important)
- ![](https://img.shields.io/badge/shareware-yellow)
+ ![proprietary](https://img.shields.io/badge/proprietary-important)
+ ![shareware](https://img.shields.io/badge/shareware-yellow)
 
 ### Identifier
  - MacOS
@@ -30,11 +30,11 @@
  > savegame and screenshot functionality, and many social features.
 
 ### Categories
- ![](https://img.shields.io/badge/Network-informational)
- ![](https://img.shields.io/badge/FileTransfer-informational)
- ![](https://img.shields.io/badge/Game-informational)
+ ![Network](https://img.shields.io/badge/Network-informational)
+ ![FileTransfer](https://img.shields.io/badge/FileTransfer-informational)
+ ![Game](https://img.shields.io/badge/Game-informational)
 
- ![](https://img.shields.io/badge/PackageManager-informational)
+ ![PackageManager](https://img.shields.io/badge/PackageManager-informational)
 
 ### Platform
  - Windows 32-bit
