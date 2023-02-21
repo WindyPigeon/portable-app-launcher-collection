@@ -3,6 +3,22 @@
 ${SegmentFile}
 
 ${SegmentPrePrimary}
+    Rename "$LOCALAPPDATA\Steam" "$LOCALAPPDATA\Steam.BackupBy$AppID"
+
+    ClearErrors
+    Rename "$DataDirectory\Library\Application Support\Steam\config\htmlcache" "$LOCALAPPDATA\Steam\htmlcache"
+    ${If} ${Errors}
+        CreateDirectory "$LOCALAPPDATA\Steam\htmlcache"
+        CopyFiles /SILENT "$DataDirectory\Library\Application Support\Steam\config\htmlcache\*.*" "$LOCALAPPDATA\Steam\htmlcache"
+    ${EndIf}
+
+    ClearErrors
+    Rename "$DataDirectory\Library\Application Support\Steam\config\widevine" "$LOCALAPPDATA\Steam\widevine"
+    ${If} ${Errors}
+        CreateDirectory "$LOCALAPPDATA\Steam\widevine"
+        CopyFiles /SILENT "$DataDirectory\Library\Application Support\Steam\config\widevine\*.*" "$LOCALAPPDATA\Steam\widevine"
+    ${EndIf}
+
     ${registry::MoveKey} "HKEY_LOCAL_MACHINE\Software\Valve\Steam" "HKEY_CURRENT_USER\Software\PortableApps.com\Keys\HKLM\Software\Valve\Steam" $0
     ${registry::MoveKey} "HKEY_LOCAL_MACHINE\Software\Valve\SteamService" "HKEY_CURRENT_USER\Software\PortableApps.com\Keys\HKLM\Software\Valve\SteamService" $0
 
@@ -17,6 +33,20 @@ ${SegmentPrePrimary}
 !macroend
 
 ${SegmentPostPrimary}
+    ClearErrors
+    Rename "$LOCALAPPDATA\Steam" "$DataDirectory\Library\Application Support\Steam\config"
+    ${If} ${Errors}
+        RMDir /r "$DataDirectory\Library\Application Support\Steam\config\htmlcache"
+        RMDir /r "$DataDirectory\Library\Application Support\Steam\config\widevine"
+        CreateDirectory "$DataDirectory\Library\Application Support\Steam\config"
+        CopyFiles /SILENT "$LOCALAPPDATA\Steam\*.*" "$DataDirectory\Library\Application Support\Steam\config"
+    ${EndIf}
+    RMDir /r "$LOCALAPPDATA\Steam"
+
+    Rename "$LOCALAPPDATA\Steam.BackupBy$AppID" "$LOCALAPPDATA\Steam"
+    RMDir "$LOCALAPPDATA\Steam"
+    RMDir "$LOCALAPPDATA"
+
     ${registry::KeyExists} "HKEY_CURRENT_USER\Software\PortableApps.com\Keys\HKLM\System\CurrentControlSet\Services\Steam Client Service" $0
     ${IfNot} $0 == 0
         SimpleSC::StopService "Steam Client Service" 1 30
