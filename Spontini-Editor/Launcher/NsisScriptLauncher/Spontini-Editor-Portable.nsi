@@ -83,8 +83,8 @@ Var INIPATH
 Var MISSINGFILEORPATH
 Var SERVEREXECUTABLE
 Var TEMPDIRECTORY
-Var PROGRAMDIRECTORY
 Var SETTINGSDIRECTORY
+Var PROGRAMDIRECTORY
 Var RUNLOCALLY
 Var SECONDARYLAUNCH
 Var DISABLESPLASHSCREEN
@@ -93,7 +93,8 @@ Var ADDITIONALPARAMETERS
 Var HTTPSHELLOPENCOMMAND
 
 Section "Main"
-    ;=== Find the INI file, if there is one
+	;CheckINI:
+        ;=== Find the INI file, if there is one
         IfFileExists "$EXEDIR\${NAME}.ini" "" NoINI
             StrCpy "$INIPATH" "$EXEDIR"
 
@@ -107,16 +108,6 @@ Section "Main"
         StrCpy $PROGRAMDIRECTORY "$EXEDIR\$0"
 
         ClearErrors
-        ReadINIStr $0 "$INIPATH\${NAME}.ini" "${NAME}" "SettingsDirectory"
-        ${If} ${Errors}
-        ${OrIf} $SETTINGSDIRECTORY == ""
-            StrCpy $0 "Data\settings"
-        ${EndIf}
-        StrCpy $SETTINGSDIRECTORY "$EXEDIR\$0"
-
-        ReadINIStr $ADDITIONALPARAMETERS "$INIPATH\${NAME}.ini" "${NAME}" "AdditionalParameters"
-
-        ClearErrors
         ReadINIStr $SERVEREXECUTABLE "$INIPATH\${NAME}.ini" "${NAME}" "SpontiniServerExecutable"
         ${If} ${Errors}
         ${OrIf} $SERVEREXECUTABLE == ""
@@ -125,6 +116,16 @@ Section "Main"
 
         ClearErrors
         ReadINIStr $HTTPSHELLOPENCOMMAND "$INIPATH\${NAME}.ini" "${NAME}" "HttpShellOpenCommand"
+
+        ClearErrors
+        ReadINIStr $0 "$INIPATH\${NAME}.ini" "${NAME}" "SettingsDirectory"
+        ${If} ${Errors}
+        ${OrIf} $SETTINGSDIRECTORY == ""
+            StrCpy $0 "Data\settings"
+        ${EndIf}
+        StrCpy $SETTINGSDIRECTORY "$EXEDIR\$0"
+
+        ReadINIStr $ADDITIONALPARAMETERS "$INIPATH\${NAME}.ini" "${NAME}" "AdditionalParameters"
 
         ClearErrors
         ReadINIStr $DISABLESPLASHSCREEN "$INIPATH\${NAME}.ini" "${NAME}" "DisableSplashScreen"
@@ -159,8 +160,8 @@ Section "Main"
 
     NoProgramEXE:
         ;=== Program executable not where expected
-        StrCpy $MISSINGFILEORPATH $SERVEREXECUTABLE
-        MessageBox MB_OK|MB_ICONEXCLAMATION `$(LauncherFileNotFound)`
+        StrCpy $MISSINGFILEORPATH "$SERVEREXECUTABLE"
+        MessageBox MB_OK|MB_ICONEXCLAMATION "$(LauncherFileNotFound)"
         Abort
 
     FoundProgramEXE:
@@ -246,7 +247,7 @@ Section "Main"
         ${EndIf}
 
     CheckRunning:
-        ${GetFileName} $SERVEREXECUTABLE $0
+        ${GetFileName} $SERVEREXECUTABLE "$0"
         ${Do}
             ${ProcessWaitClose} "$0" -1 $1
         ${LoopWhile} $1 > 0

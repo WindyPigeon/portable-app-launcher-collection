@@ -3,7 +3,7 @@
 
 ## About Spontini-Editor
  ![opensource](https://img.shields.io/badge/opensource-brightgreen)
- [![](https://img.shields.io/github/license/paopre/Spontini)](https://github.com/paopre/Spontini/blob/master/LICENSE)
+ [![LICENSE](https://img.shields.io/github/license/paopre/Spontini)](https://github.com/paopre/Spontini/blob/master/LICENSE)
 
 ### Description
  > Spontini-Editor is a text-combined-with-graphic music editor that strongly speeds up the creation and fine graphic tuning of complex scores edited with **[LilyPond](https://lilypond.org)** through two main features:
