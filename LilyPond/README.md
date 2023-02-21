@@ -1,11 +1,11 @@
 ## LilyPond Portable
- ![](https://img.shields.io/badge/platform-win--32-informational)
+ ![platform: win-32](https://img.shields.io/badge/platform-win--32-informational)
 
 ## About LilyPond
  > Music notation for everyone
 
  ![opensource](https://img.shields.io/badge/opensource-brightgreen)
- [![](https://img.shields.io/gitlab/license/lilypond/lilypond)](https://gitlab.com/lilypond/lilypond/-/blob/master/LICENSE)
+ [![LICENSE](https://img.shields.io/gitlab/license/lilypond/lilypond)](https://gitlab.com/lilypond/lilypond/-/blob/master/LICENSE)
 
 ### Identifier
  - `org.lilypond.lilypond`
@@ -17,7 +17,7 @@
  > software and part of the [GNU Project](https://gnu.org).
 
 ### Categories
- ![](https://img.shields.io/badge/Editor-informational)
+ ![Editor](https://img.shields.io/badge/Editor-informational)
 
 ### Platform
  - Linux

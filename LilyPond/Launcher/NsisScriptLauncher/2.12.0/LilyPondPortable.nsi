@@ -80,25 +80,26 @@ BrandingText "WindyPigeon"
 !endif
 
 ;=== Variables
-Var PROGRAMDIRECTORY
-Var SETTINGSDIRECTORY
-Var ADDITIONALPARAMETERS
-Var EXECSTRING
-Var PROGRAMEXECUTABLE
 Var INIPATH
-Var DISABLESPLASHSCREEN
-Var RUNLOCALLY
-Var DATADIRECTORY
-Var PACKAGEDIR
-Var USERPROFILEPATH
-Var SECONDARYLAUNCH
 Var MISSINGFILEORPATH
+Var PROGRAMEXECUTABLE
+Var SETTINGSDIRECTORY
+Var PACKAGEDIR
+Var PROGRAMDIRECTORY
+Var DATADIRECTORY
+Var RUNLOCALLY
+Var SECONDARYLAUNCH
+Var DISABLESPLASHSCREEN
+Var USERPROFILEPATH
+Var EXECSTRING
+Var ADDITIONALPARAMETERS
 
 Section "Main"
-	;=== Setup variables
+	    ;=== Setup variables
         ReadEnvStr $USERPROFILEPATH "USERPROFILE"
 
-    ;=== Find the INI file, if there is one
+	;CheckINI:
+        ;=== Find the INI file, if there is one
         IfFileExists "$EXEDIR\${NAME}.ini" "" NoINI
             StrCpy "$INIPATH" "$EXEDIR"
 
@@ -106,7 +107,7 @@ Section "Main"
         ClearErrors
         ReadINIStr $0 "$INIPATH\${NAME}.ini" "${NAME}" "${APPNAME}Directory"
         ${If} ${Errors}
-        ${OrIf} $PROGRAMDIRECTORY == ""
+        ${OrIf} $0 == ""
             StrCpy $0 "App\${DEFAULTAPPDIR}"
         ${EndIf}
         StrCpy $PROGRAMDIRECTORY "$EXEDIR\$0"
@@ -135,14 +136,14 @@ Section "Main"
             ${Loop}
         ${EndIf}
 
-        ReadINIStr $ADDITIONALPARAMETERS "$INIPATH\${NAME}.ini" "${NAME}" "AdditionalParameters"
-
         ClearErrors
         ReadINIStr $PROGRAMEXECUTABLE "$INIPATH\${NAME}.ini" "${NAME}" "${APPNAME}Executable"
         ${If} ${Errors}
         ${OrIf} $PROGRAMEXECUTABLE == ""
             StrCpy $PROGRAMEXECUTABLE "${DEFAULTEXE}"
         ${EndIf}
+
+        ReadINIStr $ADDITIONALPARAMETERS "$INIPATH\${NAME}.ini" "${NAME}" "AdditionalParameters"
 
         ClearErrors
         ReadINIStr $DISABLESPLASHSCREEN "$INIPATH\${NAME}.ini" "${NAME}" "DisableSplashScreen"
@@ -192,8 +193,8 @@ Section "Main"
 
     NoProgramEXE:
 		;=== Program executable not where expected
-		StrCpy $MISSINGFILEORPATH $PROGRAMEXECUTABLE
-        MessageBox MB_OK|MB_ICONEXCLAMATION `$(LauncherFileNotFound)`
+		StrCpy $MISSINGFILEORPATH "$PROGRAMEXECUTABLE"
+        MessageBox MB_OK|MB_ICONEXCLAMATION "$(LauncherFileNotFound)"
         Abort
 
     FoundProgramEXE:
