@@ -12,7 +12,7 @@
   ![](Icons/FileTypeIcons/4.0/mscx_32.png)
   ![](Icons/FileTypeIcons/4.0/mscz_32.png)
 
-- New [EULA](EULA/4/EULA.txt).
+- New version of [EULA](EULA/4/EULA.txt).
 
 ## Version 3.5.0
  ![](https://img.shields.io/badge/release_date-august_2020-informational)
@@ -29,7 +29,7 @@
 
   ![](Icons/AppIcon/3.0/appicon_32.png)
 
-- New [EULA](EULA/3/EULA.txt).
+- New version of [EULA](EULA/3/EULA.txt).
 
 - Add upstream metadata for Linux.
 
@@ -74,7 +74,7 @@
 
   ![](Icons/FileTypeIcons/1.0/mscz_32.png)
 
-- New [EULA](EULA/2/EULA.txt).
+- New version of [EULA](EULA/2/EULA.txt).
 
 - Update homepage URL to http://www.musescore.org/
 

@@ -30,9 +30,9 @@
 > Note that the builds for the standard distribution and the PortableApps distribution are different. The data path of its application can be determined at compile time, but after compilation it will be permanent. This launcher is designed to package the standard build of MuseScore. You can get a build of WIN_PORTABLE from PortableApps.com or compile it yourself.
 
 ## About MuseScore (formerly MusE Score)
- ![](https://img.shields.io/badge/opensource-brightgreen)
- ![](https://img.shields.io/badge/license-GPL_v2_|_GPL_v3-informational)
- ![](https://img.shields.io/badge/Qt-informational)
+ ![opensource](https://img.shields.io/badge/opensource-brightgreen)
+ ![license: GPL v2, GPL v3](https://img.shields.io/badge/license-GPL_v2_|_GPL_v3-informational)
+ ![Qt](https://img.shields.io/badge/Qt-informational)
 
 ### Identifier
  - Linux:
@@ -64,26 +64,24 @@
  - MacOS
 
 ### Categories
- ![](https://img.shields.io/badge/Graphics-informational)
- ![](https://img.shields.io/badge/2DGraphics-informational)
- ![](https://img.shields.io/badge/VectorGraphics-informational)
- ![](https://img.shields.io/badge/RasterGraphics-informational)
- ![](https://img.shields.io/badge/Publishing-informational)
- ![](https://img.shields.io/badge/Mixer-informational)
+ ![Graphics](https://img.shields.io/badge/Graphics-informational)
+ ![2DGraphics](https://img.shields.io/badge/2DGraphics-informational)
+ ![VectorGraphics](https://img.shields.io/badge/VectorGraphics-informational)
+ ![RasterGraphics](https://img.shields.io/badge/RasterGraphics-informational)
+ ![Publishing](https://img.shields.io/badge/Publishing-informational)
+ ![Mixer](https://img.shields.io/badge/Mixer-informational)
 
- ![](https://img.shields.io/badge/Qt-informational)
- ![](https://img.shields.io/badge/Audio-informational)
- ![](https://img.shields.io/badge/Sequencer-informational)
- ![](https://img.shields.io/badge/Midi-informational)
- ![](https://img.shields.io/badge/AudioVideoEditing-informational)
- ![](https://img.shields.io/badge/Music-informational)
+ ![Qt](https://img.shields.io/badge/Qt-informational)
+ ![Audio](https://img.shields.io/badge/Audio-informational)
+ ![Sequencer](https://img.shields.io/badge/Sequencer-informational)
+ ![Midi](https://img.shields.io/badge/Midi-informational)
+ ![AudioVideoEditing](https://img.shields.io/badge/AudioVideoEditing-informational)
+ ![Music](https://img.shields.io/badge/Music-informational)
 
- 
- ![](https://img.shields.io/badge/Application-informational)
- ![](https://img.shields.io/badge/AudioVideo-informational)
+ ![Application](https://img.shields.io/badge/Application-informational)
+ ![AudioVideo](https://img.shields.io/badge/AudioVideo-informational)
 
-
- ![](https://img.shields.io/badge/public.app--category.music-informational)
+ ![public.app-category.music](https://img.shields.io/badge/public.app--category.music-informational)
 
 ### License
  - GNU General Public License, version 2 (been used until MuseScore v4.0)
