@@ -1,0 +1,78 @@
+Metasequoia 4 End User License Agreement
+This is a legal Agreement between you, the end user, and tetraface Inc. (tetraface). By using the Software, you are agreeing to be bound by the terms of this Agreement.
+
+1. Definitions. 
+1.1 "Software" means all computer programs, data and documents including this product but not limited to them. 
+1.2 "Charged License" means a license with License key issued by tetraface after you purchased or you requested for a trial purpose.
+1.3 "License Key" means a serial id that is given together with Charged License and is used for running and using Software or a part of it.
+1.4 "Server" means that Software is installed in it, and you may run use Software by accessing from other multiple computers.
+1.5 "Client PC" means a computer that you may use Software by accessing to the Server.
+
+2 Use
+2.1 You may install and use Software in your own computer. 
+
+3 Duplication
+3.1 You may create a copy of Software for a backup or a distribution to a particular person.
+3.2 You shall obtain the prior consent of tetraface when you create a copy of Software for a purpose of a distribution to the unspecified target.
+3.3 You shall not create a copy of Software for a purpose except purposes in the previous sections.
+
+4 Prohibitions 
+4.1 You shall not lend Software including similar rental act or not make an used item transaction of Software.
+
+5 Period
+5.1 The Agreement becomes effective when you use Software.
+5.2 You may terminate the Agreement at the time you uninstall Software and erases all copies of Software.
+
+6 Version up
+6.1 Tetraface may modify Software without a notice.
+6.2 Tetraface may offer a version up Software to you with or without a charge.
+ 
+7 Exemption
+7.1 Tetraface is not responsible for any damage from your use of this Software.
+
+8 Modification
+8.1 You shall not make a modification, an adaptation, reverse engineering, reverse compiling or reverse assembling and so on for Software even if you have any reason.
+8.2 You shall not try to remove restrictions of functions, can be unlocked by the License Key, without the Charged License.
+
+9 Intellectual property ownership
+9.1 All intellectual property rights of Software, including a copyright, are owned by tetraface.
+
+10 Open source software
+10.1 Regardless of this provision, open source software listed separately are licensed to you based on each license term.
+
+11 Revoking
+11.1 Tetraface may have a right of revoking your right to use Software when you violate the Agreement.
+11.2 When tetraface revoke your right to use Software, you shall stop using Software and erase Software and the copies rapidly.
+
+12 Damages
+12.1 Tetraface may claim for damages or pursue legal action when you violate this Agreement or damage to tetraface because of you.
+
+13 Governing Law
+13.1 The existence, validity, construction, operation and effect of this Agreement shall be determined in accordance with and governed by the laws of Japan.
+
+14 Jurisdiction
+14.1 Tokyo District Court shall have the exclusive jurisdiction of the first instance over all disputes arising in connection with this Agreement.
+
+Additions for Charged License
+You shall agree the following additional license to use Charged License.
+1 Use
+1.1 You may input License Key on your own computer(s) that does not be accessed by other multiple computers in any of the following conditions:
+     (a) On two or lesser computers used by you (a particular person if you are a corporation) only
+     (b) On one computer used by you and other persons
+1.2 You may input License Key on your own Server in the following condition:
+     (a) You have the same number of Charged Licenses as the number of Client PCs allowed to access the Server.
+ 
+2 Period
+2.1 You may not exceed a time limit to use Charged License for a trial purpose with the time limit.
+ 
+3 Prohibitions
+3.1 You shall not duplicate the Charged License information except for a backup purpose.
+3.2 You shall not provide, not release, or not lend Charged License including similar rental act or not make used item transaction of Charged License.
+ 
+4 Transferring
+4.1 You may transfer Charged License to others on condition that you lose Charged License completely.
+4.2 The transferee shall agree this Agreement and additions of this Software.
+4.3 The right to use Charge license is not permitted to divide version up Software or upgrade Software.
+
+5 Losing
+5.1 Tetraface does not ensure to issue the Charged License again when you lose it because of you.
