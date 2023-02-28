@@ -1,0 +1,41 @@
+You must agree the following license to use Metasequoia 
+Ver3.1. Please push the [Disagree] button to exit setup 
+if you can not agree it.
+
+
+------------------------------------------------------------
+
+* You can distribute this software to a specific person. 
+  You must get a permission by the copyright holder to 
+  distribute to the public.
+
+* THE AUTHOR MAKE NO WARRANTY OR REPRESENTATION, EITHER 
+  EXPRESS OR IMPLIED, WITH RESPECT TO THIS SOFTWARE, ITS 
+  QUALITY, ACCURACY. THIS SOFTWARE IS PROVIDED "AS IS", 
+  AND YOU, ITS USER, ASSUME THE ENTIRE RISK AS TO ITS 
+  QUALITY AND ACCYRACY. YOU MUST USE AT YOUR OWN RISK.
+
+* You can not make modifications or reverse engineering 
+  for this software. 
+
+* You can use data made by this software for any purposes 
+  including commercial use with public order and good 
+  morals.
+
+* This software can not be completely guaranteed that the 
+  virus has not been contaminated although the virus check 
+  had been processed. Please use upon defense measures 
+  taken under the responsibility of the user.
+
+------------------------------------------------------------
+
+Metasequoia is a shareware. A part of functions are not 
+available, for example exporting to various file formats 
+except MQO, when the serial ID is not input.
+
+You must purchase serial-ID to cancel this restriction. 
+You can send money to me with PayPal. Please see details 
+in the Metasequoia official web site.
+
+   http://metaseq.net/english/
+
