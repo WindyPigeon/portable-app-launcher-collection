@@ -5,7 +5,6 @@
 !define NAME "LilyPondPortable"
 !define VER "0.0.0.0"
 !define WEBSITE "https://github.com/WindyPigeon/portable-app-launcher-collection"
-!define DEFAULTEXE "lilypond-windows.exe"
 !define DEFAULTAPPDIR "LilyPond\usr\bin"
 ; !define LAUNCHERLANGUAGE "English"
 
@@ -140,7 +139,11 @@ Section "Main"
         ReadINIStr $PROGRAMEXECUTABLE "$INIPATH\${NAME}.ini" "${NAME}" "${APPNAME}Executable"
         ${If} ${Errors}
         ${OrIf} $PROGRAMEXECUTABLE == ""
-            StrCpy $PROGRAMEXECUTABLE "${DEFAULTEXE}"
+            ${If} ${FileExists} "$EXEDIR\App\${DEFAULTAPPDIR}\lilypond-windows.exe"
+                StrCpy $PROGRAMEXECUTABLE "lilypond-windows.exe"
+            ${ElseIf} ${FileExists} "$EXEDIR\App\${DEFAULTAPPDIR}\lilypond.exe"
+                StrCpy $PROGRAMEXECUTABLE "lilypond.exe"
+            ${EndIf}
         ${EndIf}
 
         ReadINIStr $ADDITIONALPARAMETERS "$INIPATH\${NAME}.ini" "${NAME}" "AdditionalParameters"
@@ -165,14 +168,25 @@ Section "Main"
     NoINI:
         ;=== No INI file, so we'll use the defaults
         StrCpy $ADDITIONALPARAMETERS ""
-        StrCpy $PROGRAMEXECUTABLE "${DEFAULTEXE}"
         StrCpy $DISABLESPLASHSCREEN "false"
 
-        ${If} ${FileExists} "$EXEDIR\App\${DEFAULTAPPDIR}\$PROGRAMEXECUTABLE"
+        ${If} ${FileExists} "$EXEDIR\App\${DEFAULTAPPDIR}\lilypond-windows.exe"
+            StrCpy $PROGRAMEXECUTABLE "lilypond-windows.exe"
             StrCpy $PROGRAMDIRECTORY "$EXEDIR\App\${DEFAULTAPPDIR}"
-            StrCpy $SETTINGSDIRECTORY "$EXEDIR\Data\settings"
-        ${ElseIf} ${FileExists} "$EXEDIR\$PROGRAMEXECUTABLE"
+        ${ElseIf} ${FileExists} "$EXEDIR\App\${DEFAULTAPPDIR}\lilypond.exe"
+            StrCpy $PROGRAMEXECUTABLE "lilypond.exe"
+            StrCpy $PROGRAMDIRECTORY "$EXEDIR\App\${DEFAULTAPPDIR}"
+        ${ElseIf} ${FileExists} "$EXEDIR\lilypond-windows.exe"
+            StrCpy $PROGRAMEXECUTABLE "lilypond-windows"
             StrCpy $PROGRAMDIRECTORY "$EXEDIR"
+        ${ElseIf} ${FileExists} "$EXEDIR\lilypond.exe"
+            StrCpy $PROGRAMEXECUTABLE "lilypond"
+            StrCpy $PROGRAMDIRECTORY "$EXEDIR"
+        ${Else}
+            Goto NoProgramEXE
+        ${EndIf}
+
+        ${If} $PROGRAMDIRECTORY == "$EXEDIR"
             ${GetParent} "$PROGRAMDIRECTORY" $0
             ${GetBaseName} "$0" $1
             ${DoUntil} $0 == ""
@@ -187,8 +201,9 @@ Section "Main"
                 ${EndIf}
             ${Loop}
         ${Else}
-            Goto NoProgramEXE
+            StrCpy $SETTINGSDIRECTORY "$EXEDIR\Data\settings"
         ${EndIf}
+
         Goto FoundProgramEXE
 
     NoProgramEXE:
