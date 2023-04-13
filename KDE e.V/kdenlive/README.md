@@ -1,10 +1,9 @@
 
 # Kdenlive Portable
-
  ![](https://img.shields.io/badge/platform-win--64-informational)
 
 ## About Kdenlive
- [![](https://img.shields.io/gitlab/license/multimedia/kdenlive?gitlab_url=https%3A%2F%2Finvent.kde.org)](https://invent.kde.org/multimedia/kdenlive/-/blob/master/COPYING)
+ [![License](https://img.shields.io/gitlab/license/multimedia/kdenlive?gitlab_url=https%3A%2F%2Finvent.kde.org)](https://invent.kde.org/multimedia/kdenlive/-/blob/master/COPYING)
 
 
 ### Identifier
@@ -54,3 +53,11 @@
  [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)](https://github.com/KDE/kdenlive)
 
  [![SourceForge](https://img.shields.io/badge/SourceForge-F60?logo=sourceforge&logoColor=fff&style=for-the-badge)](https://sourceforge.net/projects/kdenlive/)
+
+## Trademarks
+
+KDE&reg; is a registered trademark of KDE e.V.
+
+Kdenlive™, Kde&apos;n&apos;live™ and the playhead logo are trademarks of KDE e.V.[^1]
+
+[^1]: https://kdenlive.org/en/trademark-logo/
