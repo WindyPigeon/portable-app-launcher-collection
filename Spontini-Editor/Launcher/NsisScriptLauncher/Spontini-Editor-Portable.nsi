@@ -198,12 +198,12 @@ Section "Main"
 
         ;=== Get any passed parameters
         ${GetParameters} $0
-        ${If} $0 == ""
+        ${If} $0 != ""
             StrCpy $EXECSTRING "$EXECSTRING $0"
         ${EndIf}
 
         ;=== Additional Parameters
-        ${If} $ADDITIONALPARAMETERS == ""
+        ${If} $ADDITIONALPARAMETERS != ""
             StrCpy $EXECSTRING "$EXECSTRING $ADDITIONALPARAMETERS"
         ${EndIf}
 
