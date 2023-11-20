@@ -30,3 +30,7 @@ ${SegmentPre}
                 "$0/MuseScore2/Templates"
     ${EndIf}
 !macroend
+
+${SegmentPrePrimary}
+    CreateDirectory "$DataDirectory\Library\Application Support\MuseScore\MuseScore2"
+!macroend
