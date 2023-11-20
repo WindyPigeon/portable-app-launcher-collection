@@ -12,21 +12,30 @@ ${SegmentPre}
         FileClose $0
 
         ReadEnvStr $0 "PortableApps.comDocuments:ForwardSlash"
+
         WriteINIStr "$DataDirectory\Library\Preferences\MuseScore4.ini" \
                 "application" \
-                "paths\myPlugins" \
-                "$0/MuseScore4/Plugins"
-        WriteINIStr "$DataDirectory\Library\Preferences\MuseScore4.ini" \
-                "application" \
-                "paths\mySoundfonts" \
-                "$0/MuseScore4/SoundFonts"
+                "paths\defaultProjectsPath" \
+                "$0/MuseScore4/Scores"
+
         WriteINIStr "$DataDirectory\Library\Preferences\MuseScore4.ini" \
                 "application" \
                 "paths\myStyles" \
                 "$0/MuseScore4/Styles"
+
         WriteINIStr "$DataDirectory\Library\Preferences\MuseScore4.ini" \
                 "application" \
                 "paths\myTemplates" \
                 "$0/MuseScore4/Templates"
+
+        WriteINIStr "$DataDirectory\Library\Preferences\MuseScore4.ini" \
+                "application" \
+                "paths\myPlugins" \
+                "$0/MuseScore4/Plugins"
+
+        WriteINIStr "$DataDirectory\Library\Preferences\MuseScore4.ini" \
+                "application" \
+                "paths\mySoundfonts" \
+                "$0/MuseScore4/SoundFonts"
     ${EndIf}
 !macroend
