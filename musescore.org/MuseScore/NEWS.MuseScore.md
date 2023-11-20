@@ -1,5 +1,18 @@
 # MuseScore NEWS
 
+## Version 4.1.0
+ ![2022-07-12](https://img.shields.io/badge/release_date-july_2022-informational)
+
+- Change the location of Cloud Scores
+  - Old Location:
+    - Linux: `$HOME/MuseScore4/Cloud Scores`
+    - Windows: `%USERPROFILE%\Documents\MuseScore4\Cloud Scores`
+    - MacOS: `~/Documents/MuseScore4/Cloud Scores`
+  - New Location:
+    - Linux: 
+    - Windows: `%USERPROFILE%\AppData\Local\MuseScore\MuseScore4\cloud_scores`
+    - MacOS: `~/Library/Application Support/MuseScore/MuseScore4/cloud_scores`
+
 ## Version 4.0.0
  ![](https://img.shields.io/badge/release_date-december_2022-informational)
 
@@ -13,6 +26,8 @@
   ![](Icons/FileTypeIcons/4.0/mscz_32.png)
 
 - New version of [EULA](EULA/4/EULA.txt).
+
+- Remove `--config-folder` (or `-c`) option.
 
 ## Version 3.5.0
  ![](https://img.shields.io/badge/release_date-august_2020-informational)
@@ -41,6 +56,36 @@
 - Add Shared MIME-info Database source XML files for Linux.
 
   Go to GitHub to view the [original file](https://github.com/musescore/MuseScore/blob/v2.0.3/build/Linux%2BBSD/musescore.xml.in).
+
+## Version 2.0.2
+ ![](https://img.shields.io/badge/release_date-july_2017-informational)
+
+- Add long options:
+  - `-?`, `-h`: `--help`
+  - `-v`: `--version`
+  - `-d`: `--debug`
+  - `-L`: `--layout-debug`
+  - `-s`: `--no-synthesizer`
+  - `-m`: `--no-midi`
+  - `-a`: `--use-audio`
+  - `-n`: `--new-score`
+  - `-I`: `--dump-midi-in`
+  - `-O`: `--dump-midi-out`
+  - `-o`: `--export-to`
+  - `-r`: `--image-resolution`
+  - `-T`: `--trim-image`
+  - `-x`: `--gui-scaling`
+  - `-S`: `--style`
+  - `-p`: `--plugin`
+  - `-F`: `--factory-settings`
+  - `-R`: `--revert-settings`
+  - `-i`: `--load-icons`
+  - `-e`: `--experimental`
+  - `-c`: `--config-folder`
+  - `-t`: `--test-mode`
+  - `-M`: `--midi-operations`
+  - `-w`: `--no-webview`
+  - `-P`: `--export-score-parts`
 
 ## Version 2.0.0
  ![](https://img.shields.io/badge/release_date-march_2015-informational)
@@ -79,6 +124,8 @@
 - Update homepage URL to http://www.musescore.org/
 
 - Add donation link in about box: http://www.musescore.org/en/donate
+
+- MuseScore can now override config/settings folder directory with the `-c` option.
 
 ## Version 0.9.6
  ![](https://img.shields.io/badge/release_date-june_2010-informational)
